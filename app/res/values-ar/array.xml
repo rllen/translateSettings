@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- مستخدم في محدد اللغة -->
+    <!--واجهة الإعدادات-->
+    <string-array name="mode_entries">
+        <item>تلقائي</item>
+        <item>يدوي</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >ذكر</item>
+        <item >أنثى</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>سريع</item>
+        <item>عادي</item>
+        <item>أبطأ قليلاً</item>
+        <item>بطيء</item>
+    </string-array>
+
+    <string-array name="language_desc">
+        <item>四川话</item>
+        <item>东北话</item>
+        <item>河南话</item>
+        <item>湖南话</item>
+        <item>陕西话</item>
+
+        <item>الكلمات الصينية</item>
+        <item>الكلمات التايوانية</item>
+        <item>في الكانتونية</item>
+        <item>الإنجليزية (الولايات المتحدة)</item>
+        <item>الإنجليزية (أستراليا)</item>
+
+        <item>الإنجليزية (كندا)</item>
+        <item>الإنجليزية (المملكة المتحدة)</item>
+        <item>الإنجليزية (غانا)</item>
+        <item>الإنجليزية (أيرلندا)</item>
+        <item>الإنجليزية (كينيا)</item>
+
+        <item>الإنجليزية (نيجيريا)</item>
+        <item>الإنجليزية (الفلبين)</item>
+        <item>الإنجليزية (جنوب أفريقيا)</item>
+        <item>الإنجليزية (تنزانيا)</item>
+        <item>الإنجليزية (الهند)</item>
+
+        <item>الإنجليزية (نيوزيلندا)</item>
+        <item>العربية (مصر)</item>
+        <item>العربية</item>
+        <item>العربية (إسرائيل)</item>
+        <item>العربية (الأردن)</item>
+
+        <item>العربية (الإمارات العربية المتحدة)</item>
+        <item>العربية (البحرين)</item>
+        <item>العربية (الجزائر)</item>
+        <item>العربية (العراق)</item>
+        <item>العربية (الكويت)</item>
+
+        <item>العربية (المغرب)</item>
+        <item>العربية (تونس)</item>
+        <item>العربية (عمان)</item>
+        <item>العربية (الدولة الفلسطينية)</item>
+        <item>العربية (قطر)</item>
+
+        <item>العربية (لبنان)</item>
+        <item>دانماركي</item>
+        <item>ألماني</item>
+        <item>التشيكية</item>
+        <item>الإسبانية (المكسيك)</item>
+
+        <item>الإسبانية (الأرجنتين)</item>
+        <item>الإسبانية (بوليفيا)</item>
+        <item>الإسبانية (شيلي)</item>
+        <item>الإسبانية (كولومبيا)</item>
+        <item>الإسبانية (كوستاريكا)</item>
+
+        <item>الإسبانية (إكوادور)</item>
+        <item>الإسبانية (السلفادور)</item>
+        <item>الإسبانية (الولايات المتحدة)</item>
+        <item>الإسبانية (غواتيمالا)</item>
+        <item>الإسبانية (هندوراس)</item>
+
+        <item>الإسبانية (نيكاراغوا)</item>
+        <item>الإسبانية (باراغواي)</item>
+        <item>الإسبانية (بيرو)</item>
+        <item>الإسبانية (بورتوريكو)</item>
+        <item>الإسبانية (الجمهورية الدومينيكية)</item>
+
+        <item>الإسبانية (أوروغواي)</item>
+        <item>الإسبانية (فنزويلا)</item>
+        <item>الباسك (الباسك)</item>
+        <item>الفلبينية (الفلبين)</item>
+        <item>الجاليكية (إسبانيا)</item>
+
+        <item>البرتغالية (البرازيل)</item>
+        <item>البرتغالية</item>
+        <item>الروسية</item>
+        <item>اللغة السويدية</item>
+        <item>تشيكي</item>
+
+        <item>الهنغارية</item>
+        <item>الرومانية</item>
+        <item>التايلاندية</item>
+        <item>اللغة الفيتنامية</item>
+        <item>اللغة اليونانية</item>
+
+        <item>البلغارية</item>
+        <item>الإستونية</item>
+        <item>سلوفيني</item>
+        <item>الأسبانية</item>
+        <item>اللغة النرويجية</item>
+
+        <item>الهندية</item>
+        <item>اللغة السلوفاكية</item>
+        <item>اللغة الكورية</item>
+        <item>اليابانية</item>
+        <item>الألمانية (النمسا)</item>
+
+        <item>الألمانية (سويسرا)</item>
+        <item>اللغة الفرنسية</item>
+        <item>الفرنسية (سويسرا)</item>
+        <item>الفرنسية (كندا)</item>
+        <item>العبرية (إسرائيل)</item>
+
+        <item>الأندونيسية</item>
+        <item>اللغة التركية</item>
+        <item>الأوكراني</item>
+        <item>اللغة البنغالية</item>
+        <item>بنغالي (الهند)</item>
+
+        <item>لغة الملايو</item>
+        <item>اللغة الفارسية</item>
+        <item>اللغة الصربية</item>
+        <item>اللغة الأردية</item>
+        <item>الأردية (الهند)</item>
+
+        <item>الأفريكانية</item>
+        <item>الأمهرية</item>
+        <item>الأرميني</item>
+        <item>أذربيجان</item>
+        <item>الجورجية</item>
+
+        <item>غوجاراتي (الهند)</item>
+        <item>اللغة الكرواتية (كرواتيا)</item>
+        <item>جنوب أفريقيا زولو (جنوب أفريقيا)</item>
+        <item>الأيسلاندية (الأيسلندية)</item>
+        <item>اللغة الإيطالية</item>
+
+        <item>جافانيز (إندونيسيا)</item>
+        <item>الكانادا (الهند)</item>
+        <item>الخمير (كمبوديا)</item>
+        <item>لاو (لاوس)</item>
+        <item>اللاتفية (لاتفيا)</item>
+
+        <item>الليتوانية (ليتوانيا)</item>
+        <item>المالايالامية (الهند)</item>
+        <item>الماراثي (الهند)</item>
+        <item>هولندي</item>
+        <item>نيبال</item>
+
+        <item>البولندية</item>
+        <item>السنهالية (سريلانكا)</item>
+        <item>巽 اللغة (إندونيسيا)</item>
+        <item>السواحيلية (تنزانيا)</item>
+        <item>السواحيلية (كينيا)</item>
+
+        <item>اللغة الفنلندية</item>
+        <item>تاميل (الهند)</item>
+        <item>تاميل (سنغافورة)</item>
+        <item>تاميل (سريلانكا)</item>
+        <item>تاميل (ماليزيا)</item>
+
+        <item>تيلوغو (الهند)</item>
+        <item>البورمية</item>
+        <item>اللغة اوس</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"لا شيء"</item>
+        <item msgid="5756844015743664882">"بروتوكول مصادقة كلمات المرور"</item>
+        <item msgid="535934025797984365">"‏بروتوكول CHAP"</item>
+        <item msgid="8383098660619805783">"‏بروتوكول مصادقة كلمات المرور أو بروتوكول CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"غير محدد"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"None"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30 ثانية"</item>
+        <item msgid="7589406073232279088">"دقيقة واحدة"</item>
+        <item msgid="7001195990902244174">"3 دقائق"</item>
+        <!--<item msgid="7489864775127957179">"5 دقائق"</item>-->
+        <!--<item msgid="2314124409517439288">"10 دقائق"</item>-->
+        <!--<item msgid="6864027152847611413">"30 دقيقة"</item>-->
+        <item msgid="6864027152847611413">"أبدا"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>China</item>
+        <item>Others(google)</item>
+    </string-array>
+</resources>

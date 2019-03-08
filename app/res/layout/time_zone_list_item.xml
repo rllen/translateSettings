@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/rl_item_select"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?attr/layout_marginLeft"
+            android:layout_marginStart="?attr/layout_marginLeft"
+            android:text="@string/activity_lg_title"
+            android:textSize="20dp" />
+
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?attr/layout_marginLeft"
+            android:layout_marginStart="?attr/layout_marginLeft"
+            android:text="@string/activity_lg_title"
+            android:textColor="@color/color_user_choice"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv_item_tick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="?attr/layout_marginRight"
+        android:layout_marginEnd="?attr/layout_marginRight"
+        android:tint="?attr/imageview_color"
+        android:layout_gravity="center_vertical"
+        android:src="@drawable/tick" />
+
+</LinearLayout>

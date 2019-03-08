@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Utilisé dans LocalePicker -->
+    <!--Interface de paramètres-->
+    <string-array name="mode_entries">
+        <item>Automatique</item>
+        <item>Manuel</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >Masculin</item>
+        <item >Féminin</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>Rapide</item>
+        <item>Normal</item>
+        <item>Un peu plus lent</item>
+        <item>Lent</item>
+    </string-array>
+    <string-array name="language_desc">
+        <item>四川话</item>
+        <item>东北话</item>
+        <item>河南话</item>
+        <item>湖南话</item>
+        <item>陕西话</item>
+
+        <item>Mots chinois</item>
+        <item>Mots taïwanais</item>
+        <item>Cantonais</item>
+        <item>Anglais (États-Unis)</item>
+        <item>Anglais (Australie)</item>
+
+        <item>Anglais (Canada)</item>
+        <item>Anglais (UK)</item>
+        <item>Anglais (Ghana)</item>
+        <item>Anglais (Irlande)</item>
+        <item>Anglais (Kenya)</item>
+
+        <item>Anglais (Nigeria)</item>
+        <item>Anglais (Philippines)</item>
+        <item>Anglais (Afrique du Sud)</item>
+        <item>Anglais (Tanzanie)</item>
+        <item>Anglais (Inde)</item>
+
+        <item>Anglais (Nouvelle Zélande)</item>
+        <item>Arabe (Egypte)</item>
+        <item>Arabe (Arabe)</item>
+        <item>Arabe (Israël)</item>
+        <item>Arabe (Jordanie)</item>
+
+        <item>Arabe (Emirats Arabes Unis)</item>
+        <item>Arabe (Bahreïn)</item>
+        <item>Arabe (Algérie)</item>
+        <item>Arabe (Irak)</item>
+        <item>Arabe (Koweït)</item>
+
+        <item>Arabe (Maroc)</item>
+        <item>Arabe (Tunisie)</item>
+        <item>Arabe (Oman)</item>
+        <item>Arabe (Etat palestinien)</item>
+        <item>Arabe (Qatar)</item>
+
+        <item>Arabe (Liban)</item>
+        <item>Danois</item>
+        <item>Allemand</item>
+        <item>Catalan</item>
+        <item>Espagnol (Mexique)</item>
+
+        <item>Espagnol (Argentine)</item>
+        <item>Espagnol (Bolivie)</item>
+        <item>Espagnol (Chili)</item>
+        <item>Espagnol (Colombie)</item>
+        <item>Espagnol (Costa Rica)</item>
+
+        <item>Espagnol (Equateur)</item>
+        <item>Espagnol (El Salvador)</item>
+        <item>Espagnol (États-Unis)</item>
+        <item>Espagnol (Guatemala)</item>
+        <item>Espagnol (Honduras)</item>
+
+        <item>Espagnol (Nicaragua)</item>
+        <item>Espagnol (Paraguay)</item>
+        <item>Espagnol (Pérou)</item>
+        <item>Espagnol (Porto Rico)</item>
+        <item>Espagnol (République Dominicaine)</item>
+
+        <item>Espagnol (Uruguay)</item>
+        <item>Espagnol (Venezuela)</item>
+        <item>Basque (Basque)</item>
+        <item>Philippin</item>
+        <item>Galicien (Espagne)</item>
+
+        <item>Portugais (Brésil)</item>
+        <item>Portugais</item>
+        <item>Russe</item>
+        <item>Suédois</item>
+        <item>Tchèque</item>
+
+        <item>Hongrie</item>
+        <item>Roumain</item>
+        <item>Thai</item>
+        <item>Vietnamien</item>
+        <item>Grec</item>
+
+        <item>Bulgare</item>
+        <item>Estonien</item>
+        <item>Slovène</item>
+        <item>Espagnol</item>
+        <item>Norwegian</item>
+
+        <item>Hindi</item>
+        <item>Slovak</item>
+        <item>Coréen</item>
+        <item>Japonais</item>
+        <item>Allemand (Autriche)</item>
+
+        <item>Allemand (Suisse)</item>
+        <item>Français</item>
+        <item>Français (Suisse)</item>
+        <item>Français (Canada)</item>
+        <item>Hébreu (Israël)</item>
+
+        <item>Indonésien</item>
+        <item>Turc</item>
+        <item>Ukrainien</item>
+        <item>Bengali</item>
+        <item>Bengali (Inde)</item>
+
+        <item>Malais</item>
+        <item>Persan</item>
+        <item>Serbe</item>
+        <item>Urdu</item>
+        <item>Ourdou (Inde)</item>
+
+        <item>Afrikaans</item>
+        <item>Amharique</item>
+        <item>Arménien</item>
+        <item>Azerbaïdjanais</item>
+        <item>Géorgien</item>
+
+        <item>Gujarati (Inde)</item>
+        <item>Langue croate (Croatie)</item>
+        <item>Afrique du Sud Zulu (Afrique du Sud)</item>
+        <item>Islandais</item>
+        <item>Italien</item>
+
+        <item>Javanais (Indonésie)</item>
+        <item>Kannada (Inde)</item>
+        <item>Khmer (Cambodge)</item>
+        <item>Lao (Laos)</item>
+        <item>Letton (Lettonie)</item>
+
+        <item>Lituanien (Lituanie)</item>
+        <item>Malayalam (Inde)</item>
+        <item>Marathi (Inde)</item>
+        <item>Néerlandais</item>
+        <item>Nepal</item>
+
+        <item>Polonais</item>
+        <item>Cinghalais (Sri Lanka)</item>
+        <item>巽 langue (Indonésie)</item>
+        <item>Swahili (Tanzanie)</item>
+        <item>Swahili (Kenya)</item>
+
+        <item>Finlandais</item>
+        <item>Tamoul (Inde)</item>
+        <item>Tamoul (Singapour)</item>
+        <item>Tamoul (Sri Lanka)</item>
+        <item>Tamoul (Malaisie)</item>
+
+        <item>Telugu (Inde)</item>
+        <item>Birman</item>
+        <item>Laotien</item>
+        <item>""</item>
+    </string-array>
+
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"Aucune"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAP ou CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"Non spécifié"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"3G+"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"Aucun"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30 secondes"</item>
+        <item msgid="7589406073232279088">"1 minute"</item>
+        <item msgid="7001195990902244174">"3 minutes"</item>
+        <!--<item msgid="7489864775127957179">"5 minutes"</item>-->
+        <!--<item msgid="2314124409517439288">"10 minutes"</item>-->
+        <item msgid="6864027152847611413">"Jamais"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>Chine</item>
+        <item>Autre(google)</item>
+    </string-array>
+</resources>

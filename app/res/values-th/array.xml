@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in LocalePicker -->
+    <!--กำหนดอินเทอร์เฟซ-->
+    <string-array name="mode_entries">
+        <item>อัตโนมัติ</item>
+        <item>ด้วยมือ</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >ชาย</item>
+        <item >หญิง</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>เร็ว</item>
+        <item>ปกติ</item>
+        <item>ช้านิดหน่อย</item>
+        <item>ช้า</item>
+    </string-array>
+    <string-array name="language_desc">
+        <!--1-->
+        <item>ภาษาสีฉวน</item>
+        <item>ภาษาตุงเป๋ย</item>
+        <item>ภาษาเหอหนาน</item>
+        <item>ภาษาหูหนาน</item>
+        <item>ภาษาสันซี</item>
+<!--2-->
+        <item>ภาษาจีนกลาง</item>
+        <item>ภาษาไต้หวัน</item>
+        <item>ภาษากวางตุ้ง</item>
+        <item>ภาษาอักฤษ(อาเมริกา)</item>
+        <item>ภาษาอักฤษ (ออสเตรเลีย)</item>
+<!--3-->
+        <item>ภาษาอักฤษ(แคนาดา)</item>
+        <item>ภาษาอักฤษ(อักฤษ)</item>
+        <item>ภาษาอักฤษ(กานา)</item>
+        <item>ภาษาอักฤษ(ไอร์แลนด์)</item>
+        <item>ภาษาอักฤษ(คีนยา)</item>
+<!--4-->
+        <item>ภาษาอักฤษ(ไนจีเรีย)</item>
+        <item>ภาษาอักฤษ(ฟิลิปปินส์)</item>
+        <item>ภาษาอักฤษ(แอฟริกาใต้)</item>
+        <item>ภาษาอักฤษ(เเทนซาเนีย)</item>
+        <item>ภาษาอักฤษ(อินเดีย)</item>
+<!--5-->
+        <item>ภาษาอักฤษ(นิวซีแลนด์)</item>
+        <item>ภาษาอาหรับ(อียิปต์)</item>
+        <item>ภาษาอาหรับ(อาหรับ)</item>
+        <item>ภาษาอาหรับ(อิสราเอล)</item>
+        <item>ภาษาอาหรับ(จอร์แดน)</item>
+<!--6-->
+        <item>ภาษาอาหรับ(สหรัฐอาหรับเอมมิเรตส์)</item>
+        <item>ภาษาอาหรับ(บาห็เรน)</item>
+        <item>ภาษาอาหรับ(แอลจีเรีย)</item>
+        <item>ภาษาอาหรับ(อิรัก)</item>
+        <item>ภาษาอาหรับ(คูเวต)</item>
+<!--7-->
+        <item>ภาษาอาหรับ(โมร็อกโก)</item>
+        <item>ภาษาอาหรับ(ตูนีเซีย)</item>
+        <item>ภาษาอาหรับ(โอมาน)</item>
+        <item>ภาษาอาหรับ(ปาร์เลสไตน์)</item>
+        <item>ภาษาอาหรับ(การ์ตา)</item>
+<!--8-->
+        <item>ภาษาอาหรับ(เลบานอน)</item>
+        <item>ภาษาเดนมาร์ก</item>
+        <item>ภาษาเยอรมัน</item>
+        <item>คาตาลอเนีย</item>
+        <item>ภาษาสเปน(เม็กซิโก)</item>
+<!--9-->
+        <item>ภาษาสเปน(อาร์เจนตินา)</item>
+        <item>ภาษาสเปน(โบลิเวีย)</item>
+        <item>ภาษาสเปน(ชิลี)</item>
+        <item>ภาษาสเปน(โคลอมเปีย)</item>
+        <item>ภาษาสเปน(คอสตาริกา)</item>
+<!--10-->
+        <item>ภาษาสเปน(เอกวาดอร์)</item>
+        <item>ภาษาสเปน(ซัลวาดอร์)</item>
+        <item>ภาษาสเปน(สหรัฐอเมริกา)</item>
+        <item>ภาษาสเปน(กัวเตมาลา)</item>
+        <item>ภาษาสเปน(ฉอนดูรัส)</item>
+<!--11-->
+        <item>ภาษาสเปน(นิคารากัว)</item>
+        <item>ภาษาสเปน(ปารากวัย)</item>
+        <item>ภาษาสเปน(เปรู)</item>
+        <item>ภาษาสเปน(เปอร์โตริโก)</item>
+        <item>ภาษาสเปน(โดมินิกา)</item>
+<!--12-->
+        <item>ภาษาสเปน(อูรุกวัย)</item>
+        <item>ภาษาสเปน(เวเนซุเอลา)</item>
+        <item>ภาษาบาส์ก(บาส์ก)</item>
+        <item>ภาษาฟิลิปปินส์(ฟิลิปปินส์)</item>
+        <item>กาลิเซีย(สเปน)</item>
+<!--13-->
+        <item>ภาษาโปรตุเกส(บราซิล)</item>
+        <item>ภาษาโปรตุเกส</item>
+        <item>ภาษารัฐเซีย</item>
+        <item>ภาษาสวีเดน</item>
+        <item>ภาษาเชก</item>
+<!--14-->
+        <item>ภาษาฮังการี</item>
+        <item>ภาษาโรมาเนีย</item>
+        <item>ภาษาไทย</item>
+        <item>ภาษาเวียดนาม</item>
+        <item>ภาษากรีซ</item>
+<!--15-->
+        <item>ภาษาบัลเเกเรีย</item>
+        <item>ภาษาเอสโทเนีย</item>
+        <item>ภาษาสโลวีเนีย</item>
+        <item>ภาษาสเปน</item>
+        <item>ภาษานอรเว</item>
+<!--16-->
+        <item>ภาษาฮินดี</item>
+        <item>ภาษาสโลวาเกีย</item>
+        <item>ภาษาเกาหลี</item>
+        <item>ภาษาญี่ปุ่น</item>
+        <item>ภาษาเยอรมัน(ออสเตรีย)</item>
+<!--17-->
+        <item>ภาษาเยอรมัน(สวิส)</item>
+        <item>ภาษาฝรั่งเศส</item>
+        <item>ภาษาฝรั่งเศส(สวิส)</item>
+        <item>ภาษาฝรั่งเศส(แคนาดา)</item>
+        <item>ภาษาเฮบรู(อิสราเอล)</item>
+<!--18-->
+        <item>ภาษาอินโดนีเซีย</item>
+        <item>ภาษาตุรกี</item>
+        <item>ภาษายูเครน</item>
+        <item>ภาษาบังคลาเทศ</item>
+        <item>ภาษาบังคลาเทศ(อินเดีย)</item>
+<!--19-->
+        <item>ภาษามาเลเซีย</item>
+        <item>ภาษาเปอร์เซีย</item>
+        <item>ภาษาเซอร์เบีย</item>
+        <item>ภาษาเออร์ดู</item>
+        <item>ภาษาเออร์ดู(อินเดีย)</item>
+<!--20-->
+        <item>ภาษาแอฟริกาใต้</item>
+        <item>ภาษาอำฮาลา</item>
+        <item>ภาษาอาร์เมเนีย</item>
+        <item>ภาษาอาเซอร์ไบจัน</item>
+        <item>ภาษาจอร์เจีย</item>
+<!--21-->
+        <item>ภาษากูเจลัท(อินเดีย)</item>
+        <item>ภาษาโครเอเชีย(โครเอเชีย)</item>
+        <item>ภาษาซูลูแอฟริกาใต้(แอฟริกาใต้)</item>
+        <item>ภาษาไอซแลนด์(ไอซแลนด์)</item>
+        <item>ภาษาอิตารี</item>
+<!--22-->
+        <item>ภาษาจาวา(อินโดนีเซีย)</item>
+        <item>ภาษาคานาดา(อินเดีย)</item>
+        <item>ภาษาเขมร(กำพูชา)</item>
+        <item>ภาษาลาว(ลาว)</item>
+        <item>ภาษาลัตเวีย(ลัตเวีย)</item>
+<!--23-->
+        <item>ภาษาลิธัวเนีย(ลิธัวเนีย)</item>
+        <item>ภาษามาลายาลัม(อินเดีย)</item>
+        <item>ภาษามาลา(อินเดีย)</item>
+        <item>ภาษาเนเธอร์แลนด์</item>
+        <item>ภาษาเนปาล</item>
+<!--24-->
+        <item>ภาษาโปแลนด์</item>
+        <item>ภาษาสิงหล(ศรีลังกา)</item>
+        <item>ภาษาซัน(อินโดนีเซีย)</item>
+        <item>ภาษาสะวาฮิลี่(แทนซาเนีย)</item>
+        <item>ภาษาสะวาฮิลี่((เคนย่า)</item>
+<!--25-->
+        <item>ภาษาฟิลแลนด์</item>
+        <item>ภาษาทมิฬ(อินเดีย)</item>
+        <item>ภาษาทมิฬ(สิงค์โปร์)</item>
+        <item>ภาษาทมิฬ(ศรีลังกา)</item>
+        <item>ภาษาทมิฬ(มาเลเซีย)</item>
+<!--26-->
+        <item>ภาษาไทยลูกู(อินเดีย)</item>
+        <item>พม่า</item>
+        <item>ภาษาลาว</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"ไม่มี"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAP หรือ CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"ไม่ได้ระบุ"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"ไม่มี"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30วินาที"</item>
+        <item msgid="7589406073232279088">"1นาที"</item>
+        <item msgid="7001195990902244174">"3นาที"</item>
+        <!--<item msgid="7489864775127957179">"5นาที"</item>-->
+        <!--<item msgid="2314124409517439288">"10นาที"</item>-->
+        <!--<item msgid="6864027152847611413">"30นาที"</item>-->
+        <item msgid="6864027152847611413">"จอไม่ตับตลอดไป"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>จีน</item>
+        <item>อื่นๆ(google)</item>
+    </string-array>
+</resources>

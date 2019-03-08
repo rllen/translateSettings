@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include layout="@layout/common_action_bar" />
+
+    <LinearLayout
+        android:id="@+id/ll_keyboard_head"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/common_action_bar"
+        android:paddingBottom="9.5dp"
+        android:paddingEnd="9dp"
+        android:paddingStart="9dp"
+        android:paddingTop="9dp">
+
+        <EditText
+            android:id="@+id/et_input"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/edit_bg"
+            android:cursorVisible="true"
+            android:focusable="true"
+            android:inputType="text|textMultiLine"
+            android:nextFocusRight="@id/tv_confirm"
+            android:paddingLeft="2dp"
+            android:singleLine="true" />
+
+        <TextView
+            android:id="@+id/tv_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/button_selector"
+            android:ellipsize="end"
+            android:focusable="true"
+            android:gravity="center"
+            android:maxEms="4"
+            android:nextFocusLeft="@id/et_input"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:singleLine="true"
+            android:text="@string/confirm"
+            android:textSize="15dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/ll_keybord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <link.zhidou.translator.ui.view.InputMethodRecyclerView
+            android:id="@+id/rv_keyboard_button_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:nextFocusUp="@id/et_input"
+            android:orientation="vertical" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/black"
+            android:clickable="false"
+            android:focusable="false" />
+    </LinearLayout>
+</RelativeLayout>

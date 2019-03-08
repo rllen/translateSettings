@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">App Updates</string>
+    <string name="version_found">Found new version </string>
+
+    <string name="confirm">OK</string>
+    <string name="cancel">Cancel </string>
+    <string name="sorry">Sorry! </string>
+    <string name="tip">tip </string>
+    <string name="update">update </string>
+    <string name="ready_to_download"> ready to download </string>
+    <string name="insufficient_space_content">Insufficient space, please release at least %1$s space to continue this installation. </string>
+    <string name="sdcard_not_usable">Storage space is not available, please try again after restarting</string>
+    <string name="download_fail_check_net">Download failed, please check if the network status is good </string>
+    <string name="installing">Installing is being performed</string>
+    <string name="download_progress">Downloading the upgrade package: \n %1$d %%</string>
+    <string name="install_success">Installation completed</string>
+    <string name="install_fail">Installation failed</string>
+    <string name="need_more_space">Insufficient storage space! </string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+</resources>

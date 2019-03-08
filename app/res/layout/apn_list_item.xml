@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="0dip"
+        android:layout_weight="1"
+        android:clickable="true"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:minHeight="60dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:singleLine="true"
+            android:text="@string/activity_lg_title"
+            android:textColor="?attr/textColorMain"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/summary"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="6dp"
+            android:layout_marginStart="6dp"
+            android:singleLine="true"
+            android:text="简体中文"
+            android:textColor="@color/color_user_choice"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/select"
+        android:minWidth="60dp"
+        android:clickable="true"
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/tick"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginEnd="?attr/layout_marginRight"
+            android:layout_marginRight="?attr/layout_marginRight"
+            android:tint="?attr/imageview_color"
+            android:layout_gravity="center_vertical|right|end"
+            android:scaleType="center"
+            android:src="@drawable/tick" />
+
+    </FrameLayout>
+
+</LinearLayout>

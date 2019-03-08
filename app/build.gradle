@@ -1,0 +1,135 @@
+apply plugin: 'com.android.application'
+
+android {
+
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+
+    defaultConfig {
+        applicationId "com.teksun.settings"
+        minSdkVersion 19
+        targetSdkVersion 26
+        versionCode 30
+        versionName "3.0.0"
+        vectorDrawables.useSupportLibrary = true
+        flavorDimensions "1"
+        /** java.lang.RuntimeException: java.lang.RuntimeException: com.android.builder.dexing.DexArchiveMergerException: Unable to merge dex */
+        multiDexEnabled true
+        ndk {
+            abiFilters "armeabi"
+        }
+    }
+    dexOptions{
+        preDexLibraries = false
+    }
+
+    sourceSets {
+        main {
+            manifest.srcFile 'AndroidManifest.xml'
+            java.srcDirs = ['src']
+            resources.srcDirs = ['src']
+            aidl.srcDirs = ['aidl']
+            renderscript.srcDirs = ['src']
+            res.srcDirs = ['res']
+            assets.srcDirs = ['assets']
+            jniLibs.srcDirs = ['jniLibs']
+        }
+
+        debug.setRoot('build-types/debug')
+        release.setRoot('build-types/release')
+    }
+
+    signingConfigs {
+        debug {
+
+        }
+
+        platform {
+            storeFile file('../keystore/platform.jks')
+            storePassword 'platform'
+            keyAlias 'platform'
+            keyPassword 'platform'
+        }
+    }
+
+    lintOptions {
+        abortOnError false
+    }
+
+    packagingOptions {
+        exclude 'META-INF/rxjava.properties'
+        /** Fix issue: More than one file was found with OS independent path 'project.properties' */
+        exclude 'project.properties'
+        exclude 'META-INF/INDEX.LIST'
+    }
+
+    buildTypes {
+
+        debug {
+            minifyEnabled false
+            zipAlignEnabled false
+            shrinkResources false
+            signingConfig signingConfigs.platform
+        }
+
+        release {
+            minifyEnabled true
+            zipAlignEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.platform
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    productFlavors {
+        small {
+            buildConfigField "Boolean", "SMALL", "true"
+            buildConfigField "Boolean", "BAIDU_TRANS", "false"
+            buildConfigField "Boolean", "BING_TRANS", "false"
+            buildConfigField "Boolean", "YOUDAO_TRANS", "false"
+        }
+        normal {
+            buildConfigField "Boolean", "SMALL", "false"
+            buildConfigField "Boolean", "BAIDU_TRANS", "false"
+            buildConfigField "Boolean", "BING_TRANS", "false"
+            buildConfigField "Boolean", "YOUDAO_TRANS", "false"
+        }
+    }
+
+    android.applicationVariants.all { variant ->
+        variant.outputs.all { output ->
+            def sourceApkFile = output.outputFile
+            def targetApkFile
+            if (sourceApkFile != null && sourceApkFile.name.endsWith('.apk')) {
+                targetApkFile = "Settings-" + productFlavors[0].name + "-" + buildType.name + "-v" + defaultConfig.versionName + "-" + defaultConfig.versionCode + ".apk"
+            }
+            outputFileName = new File("../../", targetApkFile)
+        }
+    }
+    buildToolsVersion '27.0.3'
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    // retrofit2
+    implementation 'com.squareup.retrofit2:retrofit:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-gson:2.3.0'
+    implementation 'com.squareup.retrofit2:converter-scalars:2.0.2'
+    implementation 'com.squareup.retrofit2:adapter-rxjava:2.3.0'
+    implementation 'com.android.support.constraint:constraint-layout:1.0.2'
+    implementation 'com.android.support:recyclerview-v7:26.1.0'
+    implementation 'io.reactivex.rxjava2:rxjava:2.1.3'
+    implementation 'io.reactivex.rxjava2:rxandroid:2.0.1'
+    implementation 'com.android.support:appcompat-v7:26.1.0'
+    implementation 'com.android.support:support-v4:26.1.0'
+    implementation 'com.jakewharton.retrofit:retrofit2-rxjava2-adapter:1.0.0'
+    // Leak canary to find memory leak issue
+    debugImplementation 'com.squareup.leakcanary:leakcanary-android:1.5.4'
+    releaseImplementation 'com.squareup.leakcanary:leakcanary-android-no-op:1.5.4'
+    implementation project(':hotspotmanager')
+    implementation 'com.android.support:support-annotations:22.0.0'
+    /** Annotation processors must be explicitly declared now */
+    annotationProcessor 'com.google.auto.value:auto-value:1.2'
+    implementation project(':appupdate')
+    implementation 'javax.annotation:javax.annotation-api:1.2'
+}

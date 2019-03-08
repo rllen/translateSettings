@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="link.zhidou.translator.ui.activity.DateTimeSettings">
+
+    <include layout="@layout/common_action_bar" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="0dip"
+        android:layout_weight="1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/date_time_auto"
+                style="?attr/wifiSwitch"
+                android:text="@string/date_time_auto"
+                app:track="@drawable/track" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#EBEBEB" />
+
+            <link.zhidou.translator.ui.view.SmallListView
+                android:id="@+id/list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_divider"
+                android:dividerHeight="@dimen/settings_list_item_divider_height" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="24dp"
+                android:background="?attr/colorWifiDitch" />
+
+            <android.support.v7.widget.SwitchCompat
+                android:id="@+id/time_zone_auto"
+                style="?attr/wifiSwitch"
+                android:text="@string/zone_auto"
+                app:track="@drawable/track" />
+            <!-- Add zone sync -->
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#EBEBEB" />
+
+            <link.zhidou.translator.ui.view.SmallListView
+                android:id="@+id/time_zone_list_view"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="@drawable/list_divider"
+                android:dividerHeight="@dimen/settings_list_item_divider_height" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/ll_time_splash"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:visibility="gone">
+
+        <TextView
+            android:id="@+id/tv_time_last"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/button_selector"
+            android:gravity="center"
+            android:text="@string/last" />
+
+        <TextView
+            android:id="@+id/tv_time_next"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:background="@drawable/splash_next"
+            android:gravity="center"
+            android:text="@string/next"
+            android:textColor="@color/white" />
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="link.zhidou.translator.ui.activity.NetworkSettingsActivity">
+
+    <include layout="@layout/common_action_bar" />
+
+    <Switch
+        android:id="@+id/roaming_switch"
+        style="?attr/wifiSwitch"
+        android:text="@string/roaming"/>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="?attr/colorWifiDitch" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="@dimen/settings_list_item_divider_height"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

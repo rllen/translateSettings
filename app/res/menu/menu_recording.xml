@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/settings_language"
+        android:title="@string/record_language_settings"/>
+    <item android:id="@+id/record_history"
+        android:title="@string/record_history"/>
+</menu>

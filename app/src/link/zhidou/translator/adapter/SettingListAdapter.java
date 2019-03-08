@@ -1,0 +1,157 @@
+package link.zhidou.translator.adapter;
+
+import android.content.Context;
+import android.os.Build;
+import android.util.TypedValue;
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.BaseAdapter;
+import android.widget.ImageView;
+import android.widget.TextView;
+
+import java.util.ArrayList;
+
+import link.zhidou.translator.R;
+import link.zhidou.translator.SpeechApp;
+import link.zhidou.translator.model.bean.SettingBean;
+import link.zhidou.translator.utils.ViewUtil;
+
+
+/**
+ * Wifi扫描列表Adapter
+ * Created by czm on 17-10-21.
+ */
+
+public class SettingListAdapter extends BaseAdapter {
+    private Context mContext;
+    private ArrayList<SettingBean> mResults;
+    private static final String TAG = SettingListAdapter.class.getSimpleName();
+    public static final int CONTENT = 0;
+    public static final int DIVIDER = 1;
+    private float mDisabledAlpha;
+    public SettingListAdapter(Context context, ArrayList<SettingBean> results) {
+        mContext = context;
+        mResults = results;
+        TypedValue typedValue = new TypedValue();
+        mContext.getTheme().resolveAttribute(android.R.attr.disabledAlpha, typedValue, true);
+        mDisabledAlpha = typedValue.getFloat();
+    }
+
+    @Override
+    public int getCount() {
+        if (mResults != null) {
+            return mResults.size();
+        }
+        return 0;
+    }
+
+    @Override
+    public SettingBean getItem(int i) {
+        if (mResults != null && i >= 0 && i < mResults.size()) {
+            return mResults.get(i);
+        }
+        return null;
+    }
+
+    @Override
+    public long getItemId(int i) {
+        return i;
+    }
+
+//    @Override
+//    public boolean isEnabled(int position) {
+//        return mResults.get(position).isEnable();
+//    }
+
+    @Override
+    public int getViewTypeCount() {
+        return 2;
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        return mResults.get(position).getType();
+    }
+
+    @Override
+    public View getView(int position, View convertView, ViewGroup parent) {
+        ViewHolder viewHolder;
+        SettingBean settingBean = mResults.get(position);
+        if (CONTENT == getItemViewType(position)) {
+            if (convertView == null) {
+                LayoutInflater layoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                convertView = layoutInflater.inflate(R.layout.lv_setting_list_item, null);
+                viewHolder = new ViewHolder();
+                viewHolder.iv_setting_item_head = convertView.findViewById(R.id.iv_setting_item_head);
+                viewHolder.tv_setting_function = convertView.findViewById(R.id.tv_setting_function);
+                viewHolder.tv_user_select = convertView.findViewById(R.id.tv_user_select);
+                viewHolder.iv_arrow = convertView.findViewById(R.id.iv_arrow);
+                viewHolder.iv_update_red_small = convertView.findViewById(R.id.iv_update_red_small);
+                convertView.setTag(viewHolder);
+            } else {
+                viewHolder = (ViewHolder) convertView.getTag();
+            }
+            viewHolder.iv_update_red_small.setVisibility(settingBean.showRedLabel() ? View.VISIBLE : View.GONE);
+            if (settingBean.getmImageViewId() == 0) {
+                viewHolder.iv_setting_item_head.setVisibility(View.GONE);
+            }
+            viewHolder.iv_setting_item_head.setImageResource(settingBean.getmImageViewId());
+            viewHolder.tv_setting_function.setText(settingBean.getSettingName());
+            viewHolder.tv_user_select.setText(settingBean.getUserChoice());
+            boolean isRtl = false;
+            if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.JELLY_BEAN_MR1) {
+                isRtl = ViewUtil.isRtl(SpeechApp.getContext().getResources());
+            } else {
+                isRtl = ViewUtil.isViewLayoutRtl(convertView);
+            }
+            if (isRtl) {
+                viewHolder.iv_arrow.setImageResource(R.drawable.arrow_left);
+                if (settingBean.isShow()) {
+                    viewHolder.iv_arrow.setVisibility(View.VISIBLE);
+                } else {
+                    viewHolder.iv_arrow.setVisibility(View.GONE);
+                }
+            } else {
+                viewHolder.iv_arrow.setImageResource(R.drawable.arrow);
+                if (settingBean.isShow()) {
+                    viewHolder.iv_arrow.setVisibility(View.VISIBLE);
+                } else {
+                    viewHolder.iv_arrow.setVisibility(View.GONE);
+                }
+            }
+            if (settingBean.isEnable()) {
+                convertView.setAlpha(1.0f);
+            } else {
+                convertView.setAlpha(mDisabledAlpha);
+            }
+            return convertView;
+        }  else {
+            if (convertView == null) {
+                LayoutInflater layoutInflater = (LayoutInflater) mContext.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                convertView = layoutInflater.inflate(R.layout.lv_setting_list_item_divider, null);
+            }
+            return convertView;
+        }
+    }
+
+    static class ViewHolder {
+        ImageView iv_setting_item_head;
+        TextView tv_setting_function;
+        TextView tv_user_select;
+        ImageView iv_arrow;
+        ImageView iv_update_red_small;
+
+    }
+
+    public ArrayList<SettingBean> getResults() {
+        return mResults;
+    }
+
+    public void setResults(ArrayList<SettingBean> results) {
+        mResults = results;
+        this.notifyDataSetChanged();
+    }
+
+
+}

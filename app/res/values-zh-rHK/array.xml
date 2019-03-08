@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in LocalePicker -->
+    <!--设置界面-->
+    <string-array name="mode_entries">
+        <item>自動</item>
+        <item>手動</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >男</item>
+        <item >女</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>快</item>
+        <item>正常</item>
+        <item>稍慢</item>
+        <item>慢</item>
+    </string-array>
+    <string-array name="language_desc">
+        <!--1-->
+        <item>四川話</item>
+        <item>東北話</item>
+        <item>河南話</item>
+        <item>湖南話</item>
+        <item>陝西話</item>
+<!--2-->
+        <item>普通話</item>
+        <item>台灣話</item>
+        <item>粵語</item>
+        <item>英語(美國)</item>
+        <item>英語(澳大利亞)</item>
+<!--3-->
+        <item>英語(加拿大)</item>
+        <item>英語(英國)</item>
+        <item>英語(加納)</item>
+        <item>英語(愛爾蘭)</item>
+        <item>英語(肯尼亞)</item>
+<!--4-->
+        <item>英語(尼日利亞)</item>
+        <item>英語(菲律賓)</item>
+        <item>英語(南非)</item>
+        <item>英語(坦桑尼亞)</item>
+        <item>英語(印度)</item>
+<!--5-->
+        <item>英語(新西蘭)</item>
+        <item>阿拉伯語(埃及)</item>
+        <item>阿拉伯語(阿拉伯)</item>
+        <item>阿拉伯語(以色列)</item>
+        <item>阿拉伯語(約旦)</item>
+<!--6-->
+        <item>阿拉伯語(阿拉伯聯合酋長國)</item>
+        <item>阿拉伯語(巴林)</item>
+        <item>阿拉伯語(阿爾及利亞)</item>
+        <item>阿拉伯語(伊拉克)</item>
+        <item>阿拉伯語(科威特)</item>
+<!--7-->
+        <item>阿拉伯語(摩洛哥)</item>
+        <item>阿拉伯語(突尼斯)</item>
+        <item>阿拉伯語(阿曼)</item>
+        <item>阿拉伯語(巴勒斯坦國)</item>
+        <item>阿拉伯語(卡塔爾)</item>
+<!--8-->
+        <item>阿拉伯語(黎巴嫩)</item>
+        <item>丹麥語</item>
+        <item>德語</item>
+        <item>加泰羅尼亞文</item>
+        <item>西班牙語(墨西哥)</item>
+<!--9-->
+        <item>西班牙語(阿根廷)</item>
+        <item>西班牙語(玻利維亞)</item>
+        <item>西班牙語(智利)</item>
+        <item>西班牙語(哥倫比亞)</item>
+        <item>西班牙語(哥斯達黎加)</item>
+<!--10-->
+        <item>西班牙語(厄瓜多爾)</item>
+        <item>西班牙語(薩爾瓦多)</item>
+        <item>西班牙語(美國)</item>
+        <item>西班牙語(危地馬拉)</item>
+        <item>西班牙語(洪都拉斯)</item>
+<!--11-->
+        <item>西班牙語(尼加拉瓜)</item>
+        <item>西班牙語(巴拉圭)</item>
+        <item>西班牙語(秘魯)</item>
+        <item>西班牙語(波多黎各)</item>
+        <item>西班牙語(多明尼加共和國)</item>
+<!--12-->
+        <item>西班牙語(烏拉圭)</item>
+        <item>西班牙語(委內瑞拉)</item>
+        <item>巴斯克語</item>
+        <item>菲律賓語(菲律賓)</item>
+        <item>加利西亞語(西班牙)</item>
+<!--13-->
+        <item>葡萄牙語(巴西)</item>
+        <item>葡萄牙語</item>
+        <item>俄語</item>
+        <item>瑞典語</item>
+        <item>捷克語</item>
+<!--14-->
+        <item>匈牙利語</item>
+        <item>羅馬尼亞語</item>
+        <item>泰語</item>
+        <item>越南語</item>
+        <item>希臘語</item>
+<!--15-->
+        <item>保加利亞文</item>
+        <item>愛沙尼亞文</item>
+        <item>斯洛文尼亞文</item>
+        <item>西班牙語</item>
+        <item>挪威語</item>
+<!--16-->
+        <item>印地語</item>
+        <item>斯洛伐克語</item>
+        <item>韓語</item>
+        <item>日語</item>
+        <item>德語(奧地利)</item>
+<!--17-->
+        <item>德語(瑞士)</item>
+        <item>法語</item>
+        <item>法語(瑞士)</item>
+        <item>法語(加拿大)</item>
+        <item>希伯來語(以色列)</item>
+<!--18-->
+        <item>印尼語</item>
+        <item>土耳其語</item>
+        <item>烏克蘭語</item>
+        <item>孟加拉語</item>
+        <item>孟加拉語(印度)</item>
+<!--19-->
+        <item>馬來語</item>
+        <item>波斯語</item>
+        <item>塞爾維亞語</item>
+        <item>烏爾都語</item>
+        <item>烏爾都語(印度)</item>
+<!--20-->
+        <item>南非語</item>
+        <item>阿姆哈拉語</item>
+        <item>亞美尼亞語</item>
+        <item>阿塞拜疆語</item>
+        <item>格魯吉亞語</item>
+<!--21-->
+        <item>古吉拉特語(印度)</item>
+        <item>克羅地亞語文(克羅地亞)</item>
+        <item>南非祖魯語(南非)</item>
+        <item>冰島語(冰島)</item>
+        <item>意大利語</item>
+<!--22-->
+        <item>爪哇語(印度尼西亞)</item>
+        <item>卡納達語(印度)</item>
+        <item>高棉語(柬埔寨)</item>
+        <item>老撾語(老撾)</item>
+        <item>拉脫維亞語(拉脫維亞)</item>
+<!--23-->
+        <item>立陶宛語(立陶宛)</item>
+        <item>馬拉雅拉姆語(印度)</item>
+        <item>馬拉語(印度)</item>
+        <item>荷蘭語</item>
+        <item>尼泊爾</item>
+<!--24-->
+        <item>波蘭語</item>
+        <item>僧伽羅語(斯里蘭卡)</item>
+        <item>巽語(印度尼西亞)</item>
+        <item>斯瓦希里語(坦桑尼亞)</item>
+        <item>斯瓦希里語(肯尼亞)</item>
+<!--25-->
+        <item>芬蘭語</item>
+        <item>泰米爾語(印度)</item>
+        <item>泰米爾語(新加坡)</item>
+        <item>泰米爾語(斯里蘭卡)</item>
+        <item>泰米爾語(馬來西亞)</item>
+<!--26-->
+        <item>泰盧固語(印度)</item>
+        <item>緬甸語</item>
+        <item>老撾語</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"沒有"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAP 或 CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"未指定"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"None"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30 秒"</item>
+        <item msgid="7589406073232279088">"1 分鐘"</item>
+        <item msgid="7001195990902244174">"3 分鐘"</item>
+        <!--<item msgid="7489864775127957179">"5 分鐘"</item>-->
+        <!--<item msgid="2314124409517439288">"10 分鐘"</item>-->
+        <!--<item msgid="6864027152847611413">"30 分鐘"</item>-->
+        <item msgid="6864027152847611413">"永不滅屏"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>中國</item>
+        <item>其他(google)</item>
+    </string-array>
+</resources>

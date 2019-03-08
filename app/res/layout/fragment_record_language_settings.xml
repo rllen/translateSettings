@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_action_bar" />
+
+    <RelativeLayout
+        android:id="@+id/from"
+        android:layout_width="match_parent"
+        android:background="@drawable/list_item_background_record_language"
+        android:minHeight="75dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/from_flag"
+            android:layout_width="60dp"
+            android:layout_height="44dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="8dp" />
+
+        <LinearLayout
+            android:layout_toRightOf="@id/from_flag"
+            android:layout_toEndOf="@id/from_flag"
+            android:layout_toLeftOf="@+id/from_arrow"
+            android:layout_toStartOf="@+id/from_arrow"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/from_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22px" />
+
+            <TextView
+                android:id="@+id/from_desc"
+                android:layout_alignStart="@+id/from_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20px"
+                android:textColor="@color/negative" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/from_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:src="@drawable/arrow_2"/>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/v"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/from"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_left"
+        android:background="#E6E6E6"
+        />
+
+    <RelativeLayout
+        android:id="@+id/to"
+        android:background="@drawable/list_item_background_record_language"
+        android:layout_width="match_parent"
+        android:minHeight="75dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/v">
+
+        <ImageView
+            android:id="@+id/to_flag"
+            android:layout_width="60dp"
+            android:layout_height="44dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="@dimen/margin_right_wifi_item"
+            android:layout_marginLeft="@dimen/margin_right_wifi_item"
+            android:layout_centerVertical="true"
+            android:src="@mipmap/add"/>
+
+        <LinearLayout
+            android:layout_toRightOf="@id/to_flag"
+            android:layout_toEndOf="@id/to_flag"
+            android:layout_toLeftOf="@+id/to_arrow"
+            android:layout_toStartOf="@+id/to_arrow"
+            android:layout_marginStart="18dp"
+            android:layout_marginLeft="18dp"
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/to_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="22px"/>
+
+            <TextView
+                android:id="@+id/to_desc"
+                android:layout_alignStart="@+id/to_title"
+                android:layout_width="wrap_content"
+                android:textSize="20px"
+                android:textColor="@color/negative"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/to_arrow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="@dimen/margin_right"
+            android:layout_marginRight="@dimen/margin_right"
+            android:src="@drawable/arrow_2"/>
+
+    </RelativeLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_below="@+id/from"
+        android:layout_marginLeft="@dimen/margin_left"
+        android:layout_marginRight="@dimen/margin_left"
+        android:background="#E6E6E6"
+        />
+</LinearLayout>

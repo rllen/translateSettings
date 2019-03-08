@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/tv_shoucang"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:minHeight="45dp"-->
+        <!--android:background="?attr/setting_title_color"-->
+        <!--android:gravity="center"-->
+        <!--android:text="@string/setting"-->
+        <!--android:textColor="?attr/textColorMain"-->
+        <!--android:textSize="25dp" />-->
+
+    <include layout="@layout/common_action_bar"/>
+
+    <!--<ImageView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="@dimen/settings_list_item_divider_height"-->
+        <!--android:background="#e6e6e6" />-->
+
+    <ListView
+        android:id="@+id/lv_setting"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dividerHeight="@dimen/settings_list_item_divider_height"
+        android:divider="@drawable/list_divider" />
+</LinearLayout>

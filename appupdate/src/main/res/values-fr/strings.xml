@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name"> "Mises à jour de l'application"</string>
+    <string name="version_found">​​"Nouvelle version trouvée" </string>
+
+    <string name="confirm">OK</string>
+    <string name="cancel">Annuler</string>
+    <string name="sorry">Désolé! </string>
+    <string name="tip">conseil</string>
+    <string name="update">mise à jour</string>
+    <string name="ready_to_download">prêt à télécharger</string>
+    <string name="insufficient_space_content">Espace insuffisant, veuillez libérer au moins %1$s espace pour continuer cette installation</string>
+    <string name="sdcard_not_usable">"L'espace de stockage n'est pas disponible, veuillez réessayer après le redémarrage"</string>
+    <string name="download_fail_check_net">"Échec du téléchargement, veuillez vérifier si l'état du réseau est bon"</string>
+    <string name="installing">"L'installation est en cours"</string>
+    <string name="download_progress">Téléchargement du package de mise à niveau:\n %1$d %%</string>
+    <string name="install_success">Installation terminée</string>
+    <string name="install_fail">"L'installation a échoué" </string>
+    <string name="need_more_space">Espace de stockage insuffisant! </string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+</resources>

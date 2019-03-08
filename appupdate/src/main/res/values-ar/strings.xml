@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name"> تحديثات التطبيق</string>
+    <string name="version_found">تم العثور على إصدار جديد</string>
+    <string name="confirm">موافق</string>
+    <string name="cancel"> إلغاء</string>
+    <string name="sorry">عذرا！</string>
+    <string name="tip"> طرف</string>
+    <string name="update">التحديث</string>
+    <string name="ready_to_download">جاهز للتنزيل</string>
+    <string name="insufficient_space_content">  لا توجد مساحة كافية ، الرجاء تحرير مسافة %1$s على الأقل لمتابعة هذا التثبيت.</string>
+    <string name="sdcard_not_usable">مساحة التخزين غير متاحة ، يرجى المحاولة مرة أخرى بعد إعادة التشغيل</string>
+    <string name="download_fail_check_net"> فشل التنزيل ، يرجى التحقق مما إذا كانت حالة الشبكة جيدة</string>
+    <string name="installing">يتم تنفيذ التثبيت</string>
+    <string name="download_progress">تنزيل حزمة الترقية: %1$d %%</string>
+    <string name="install_success">اكتمل التثبيت</string>
+    <string name="install_fail">فشل التثبيت</string>
+    <string name="need_more_space">مساحة التخزين غير كافية!</string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+</resources>

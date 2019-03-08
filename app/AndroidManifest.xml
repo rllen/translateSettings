@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="link.zhidou.translator" android:sharedUserId="android.uid.system">
+
+    <!-- android:sharedUserId="android.uid.system"  android:configChanges="locale" -->
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_SECURE_SETTINGS"/>
+    <uses-permission android:name="android.permission.WRITE_APN_SETTINGS"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_MULTICAST_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.MASTER_CLEAR"/>
+    <uses-permission android:name="android.permission.OEM_UNLOCK_STATE"/>
+    <uses-permission android:name="android.permission.INSTALL_PACKAGES"/>
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_PRIVILEGED" />
+
+    <application
+        android:name=".SpeechApp"
+        android:allowBackup="true"
+        android:icon="@drawable/setting_nor"
+        android:label="@string/setting"
+        android:supportsRtl="true"
+        android:theme="@style/Light">
+
+        <activity
+            android:name=".utils.PermissionsActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.WifiListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.KeyboardActivity"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".ui.activity.WifiInfoActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SettingModeActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.SettingLgActivity"
+            android:configChanges="locale|layoutDirection"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.WifiShareActivity"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".ui.activity.SettingsActivity"
+            android:screenOrientation="portrait" >
+
+            <intent-filter android:priority="99">
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <!--<category android:name="android.intent.category.HOME" />-->
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.MONKEY" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".ui.activity.FactoryResetActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.AboutActivity" android:screenOrientation="portrait"/>
+        <receiver
+            android:name=".service.FirmwareNewVersionReceiver"
+            android:enabled="true"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="link.zhidou.intent.action.FIRMWARE_UPDATED" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".ui.activity.DateTimeSettings" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.TimeZoneSelectActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.NetworkOverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.NetworkSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.ApnOverviewActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.ApnSettingsActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.SingleOrMultipleChoiceActivity" android:screenOrientation="portrait"/>
+        <activity android:name=".ui.activity.ApnEditorActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="link.zhidou.intent.action.VIEW" />
+                <action android:name="link.zhidou.intent.action.EDIT" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.item/telephony-carrier" />
+            </intent-filter>
+
+            <intent-filter>
+                <action android:name="link.zhidou.intent.action.INSERT" />
+                <category android:name="android.intent.category.DEFAULT" />
+                <data android:mimeType="vnd.android.cursor.dir/telephony-carrier" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.activity.BluetoothSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.DisplaySettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.StorageSettingsActivity" android:screenOrientation="portrait" />
+        <activity android:name=".ui.activity.AddWifiActivity" android:screenOrientation="portrait" />
+        <service android:name="link.zhidou.appupdate.service.AppUpdateService"/>
+
+    </application>
+
+</manifest>

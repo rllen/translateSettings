@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">翻訳機</string>
+    <!--———————-->
+    <!--ブートインターフェース-->
+    <!--———————-->
+    <string name="help">ヘルプ</string>
+    <string name="string_help_text">現在のアプリケーションには必要なパーミッションが見つかりません</string>
+    <string name="quit">退出</string>
+    <string name="init_error">初期化エラー</string>
+    <string name="unauthorized">権限なし</string>
+    <string name="rule_init_fail">ルール初期化失敗</string>
+    <!--———————-->
+    <!--設定インターフェース-->
+    <!--———————-->
+    <string name="setting">設定</string>
+    <!--再生モード-->
+    <string name="mode">再生モード</string>
+    <!--再生性別-->
+    <string name="sex">再生性別</string>
+    <!--再生速度-->
+    <string name="activity_speed_title">再生速度</string>
+    <string name="speed">再生速度</string>
+    <!--WI-FI-->
+    <string name="wifi">WIFI</string>
+    <string name="activity_wifi_title">WI-FIに接続してください</string>
+    <string name="wifi_connected">接続済み</string>
+    <string name="confirm">完了</string>
+    <string name="wifi_login_del">戻る</string>
+    <string name="wifi_login_changeAa">大文字・小文字</string>
+    <string name="wifi_switch">WIFI</string>
+    <string name="del_network">ネットワークを保存しない</string>
+    <string name="error_password">パスワードエラー</string>
+    <string name="last">戻る</string>
+    <string name="next">次へ</string>
+    <string name="empty">なし</string>
+    <string name="wifi_connecting">接続中</string>
+    <!--モバイルホットスポット-->
+    <string name="share_name">MIFI</string>
+    <string name="wifi_share">モバイルホットスポット</string>
+    <string name="wifi_share_name">ホットスポット名</string>
+    <string name="tv_set_password">パスワード設定</string>
+    <string-array name="ap_safe_type">
+        <item>なし</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">SIMカードを挿入してください</string>
+    <!--システム言語-->
+    <string name="activity_lg_title">システム言語</string>
+    <string name="skip">スキップ</string>
+    <!--工場出荷モードに戻す-->
+    <string name="reset">リセット</string>
+    <string name="master_clear_progress_title">クリア中</string>
+    <string name="master_clear_progress_text">お待ちください…</string>
+    <string name="master_clear_title">工場出荷モードに戻す</string>
+    <string name="master_clear_desc">この操作を行うと、翻訳機の<b>「内部ストレージデバイス」</b>中のすべてのデータ（システム、アプリケーションデータ、設定など）が削除されます。</string>
+    <!--バージョン情報-->
+    <string name="about">バージョン情報</string>
+    <string name="version_text">Smartbean翻訳機V%1$s</string>
+    <string name="company">HONGKONG TEKSUN Copyright</string>
+    <string name="copyright_description">2017 HONGKONG TEKSUN.All Rights Reserved</string>
+    <!--———————-->
+    <!--翻訳インターフェース-->
+    <!--———————-->
+    <string name="net_error_prompt_text">接続に失敗しました。ネットワークを確認してください</string>
+    <string name="initialization_failed">デバイス初期化失敗</string>
+    <string name="equipment_unauthorized">デバイスに権限が付与されていません</string>
+    <string name="retry">再試行</string>
+    <string name="speaking_prompt_text">リスニング（30秒以下が望ましい）</string>
+    <string name="not_support_language">非対応の言語</string>
+    <string name="init_ing">初期化中…</string>
+    <!--———————-->
+    <!--お気に入りのインターフェース-->
+    <!--———————-->
+    <string name="collection">お気に入り</string>
+    <string name="cancel">キャンセル</string>
+    <string name="no_collect">使用できるコンテンツがありません</string>
+    <string name="Collection_of_success">ブックマークしました！</string>
+    <string name="Collection_of_error">このエントリーは無効です！</string>
+    <string name="Collection_of_limit">お気に入りのフォルダーが20件の制限に到達しています！</string>
+    <string name="Collection_of_repeat">重複して追加することはできません！</string>
+
+    <!--———————-->
+    <!---トースト -->
+    <!--———————-->
+    <string name="submit">OK</string>
+    <string name="unrecognized">認識されない</string>
+    <string name="engine_missing">エンジンが見つかりません</string>
+    <string name="cancel_success">キャンセル成功</string>
+    <string name="unknown_exception">不明な例外</string>
+    <string name="system_is_not_ready">システム準備未完了</string>
+    <string name="reg_auto_stop">身分認証が自動で終了しました。手を離してください。</string>
+    <string name="cancel_collect">お気に入りから外す</string>
+    <string name="firmware_upgrade">ファームウェアアップグレード</string>
+    <string name="net_error_hint_before_ready">ネットワークの準備が完了していません。Wi-Fi設定を確認するか、SIMカードを挿入してください。</string>
+    <string name="net_error_check_or_insert_card">"初期化に失敗しました。ネットワークを確認するか、SIMカードを挿入してください"</string>
+    <string name="set_net">"ネットワークを設定する"</string>
+
+    <string name="clickable_check_hint">確認</string>
+    <string name="master_clear_final_desc">"個人情報とダウンロードしたアプリをすべて削除しますか？この操作は元に戻せません。"</string>
+    <string name="version">"バージョン番号: "</string>
+    <string name="clearhis">翻訳履歴をクリア</string>
+    <string name="master_clear_trslate_his">翻訳履歴を空にする？</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"シリアル番号: "</string>
+
+    <string name="translate" >"翻訳"</string>
+    <string name="record" >"録音"</string>
+    <string name="start_record">"ボタンをクリックして録音を開始する"</string>
+    <string name="confirm_to_save_record">"この録音を保存しますか？"</string>
+    <string name="record_history">"録音リスト"</string>
+    <string name="record_language_settings">"言語の選択"</string>
+    <string name="delete">"削除"</string>
+    <string name="delete_success">"正常に削除されました"</string>
+    <string name="no_file">"録音ファイルがありません"</string>
+    <string name="saving_record">"保存する..."</string>
+    <string name="recording_is_too_long">"録音が長すぎる、自動的に停止する"</string>
+    <string name="record_clear_final_desc">"この録音を削除しますか？"</string>
+    <string name="please_start_record">話を始めてください！</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">現在データトラフィックを使用中</string>
+    <string name="recording_saved">"録音済み"</string>
+    <string name="recording_saved_failure">"レコードの保存に失敗しました"</string>
+    <string name="password_minlength">パスワードは8文字以上</string>
+    <string name="recording_is_aborted">"録音ミス、自動停止"</string>
+
+    <string name="date_and_time" msgid="9062980487860757694">"日付と時刻"</string>
+    <string name="date_time_auto" msgid="7076906458515908345">"自動設定"</string>
+    <string name="date_time_set_date_title" msgid="6928286765325608604">"日付"</string>
+    <string name="date_time_set_date" msgid="7021491668550232105">"日付設定"</string>
+    <string name="date_time_set_time_title" msgid="6296795651349047016">"時刻"</string>
+    <string name="date_time_set_time" msgid="5716856602742530696">"時刻設定"</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"装置をより良く使用するために時間を手動で確認してください"</string>
+
+    <string name="apn_settings" msgid="3743170484827528406">"APN"</string>
+    <string name="apn_edit" msgid="1354715499708424718">"アクセスポイントの編集"</string>
+    <string name="apn_not_set" msgid="4974192007399968164">"未設定"</string>
+    <string name="apn_name" msgid="4115580098369824123">"名前"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"APN"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"プロキシ"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"ポート"</string>
+    <string name="apn_user" msgid="455637547356117761">"ユーザー名"</string>
+    <string name="apn_password" msgid="5412301994998250968">"パスワード"</string>
+    <string name="apn_server" msgid="2436185314756372858">"サーバー"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"MMSプロキシ"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"MMSポート"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"認証タイプ"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"なし"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"PAP"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"PAPまたはCHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"APNタイプ"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"APNプロトコル"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"APNローミングプロトコル"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"APNの有効/無効"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APNは有効です"</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"APNは無効です"</string>
+    <string name="bearer" msgid="594270280031923558">"ベアラー"</string>
+    <string name="mvno_type" msgid="2543253857818336421">"MVNOの種類"</string>
+    <string name="mvno_match_data" msgid="4560671695220540466">"MVNO値"</string>
+    <string name="menu_delete" msgid="6981294422841124659">"APNを削除"</string>
+    <string name="menu_new" msgid="3014205883303921729">"新しいAPN"</string>
+    <string name="menu_save" msgid="8109345640668285399">"保存"</string>
+    <string name="menu_cancel" msgid="2194502410474697474">"破棄"</string>
+    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_name_empty" msgid="5508155943840201232">"[名前]フィールドは必須です。"</string>
+    <string name="error_apn_empty" msgid="4932211013600863642">"APNは必ず指定してください。"</string>
+    <string name="error_mcc_not3" msgid="4560171714156251661">"MCC欄は3桁で指定してください。"</string>
+    <string name="error_mnc_not23" msgid="8418177072458379439">"MNC欄は2桁か3桁で指定してください。"</string>
+    <string name="restore_default_apn" msgid="8178010218751639581">"デフォルトのAPN設定を復元しています。"</string>
+    <string name="menu_restore" msgid="8260067415075573273">"初期設定にリセット"</string>
+    <string name="restore_default_apn_completed" msgid="2824775307377604897">"APN設定をリセットしました。"</string>
+
+    <!-- APN Settings start  -->
+    <string name="mvno_type_none">"なし"</string>
+    <string name="apn_predefine_change_dialog_notice">保存しますか？デフォルトAPNを変更すると接続に問題が発生する可能性があります。</string>
+    <string name="apn_port_warning">ポート値は1-65535の範囲に収めてください。</string>
+    <!-- APN Settings end -->
+
+    <string name="untitled_apn" msgid="1230060359198685513">"無題"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"スリープ"</string>
+    <string name="region">"地域"</string>
+    <string name="region_switching">"スイッチング"</string>
+    <string name="roaming" msgid="8871412572928323707">"データローミング"</string>
+    <string name="network_request_timeout">"ネットワーク要求のタイムアウト"</string>
+    <string name="network_access_error">"ネットワークアクセスが異常です"</string>
+    <string name="untranslated">翻訳できません</string>
+    <string name="unspoken">"音声合成できません"</string>
+    <string name="network_settings_title" msgid="4871233236744292831">"モバイルネットワーク"</string>
+    <string name="update_firmware">"ファームウェアを更新しますか？"</string>
+    <string name="switch_fail_and_restart_network">"失敗を切り替えて、ネットワークを再起動してください."</string>
+    <string name="network_do_not_work">"ネットワークが動作しない場合は、ネットワークを確認してください。"</string>
+
+    <!-- Conference @{ -->
+    <string name="chat">"会議"</string>
+    <string name="add_member">"メンバーを追加"</string>
+    <string name="member_administration">"会員管理"</string>
+    <string name="language_choice">"言語を選択する"</string>
+    <string name="automatically_broadcast">"自動再生"</string>
+    <string name="shielding_information">"シールドメッセージ"</string>
+    <string name="add_members">"メンバーを追加"</string>
+    <string name="members_management">"会員管理"</string>
+    <string name="advanced_settings">"高度な設定"</string>
+    <string name="add_message_success">"おめでとう、会議に参加しました、あなたの現在の言語は"</string>
+    <string name="create_message_success">"おめでとう、会議を作成しました。あなたの現在の言語は"</string>
+    <string name="add_message_success_tail">"右上のメニューの設定で言語を変更することができます。会議や蹴りのメンバーを離れる場合は、メンバー管理に行きます。"</string>
+    <string name="quitGroupMessage">"あなたは会議を離れたいですか？"</string>
+    <string name="kickGroupMessage">"このメンバーを削除しますか？"</string>
+    <string name="please_enter_your_id_number">"IDを入力してください"</string>
+    <string name="id_at_least_six_characters">"IDは6文字でなければなりません"</string>
+    <string name="id_does_not_exist">"IDは存在しません"</string>
+    <string name="has_joined">"このメンバーは別の会議に参加しました"</string>
+    <string name="can_not_add_yourself">"自分のIDを追加できません"</string>
+    <string name="id_is_already_in_list">このIDはすでにリストに入っています</string>
+    <string name="many_people_translate">会議</string>
+    <string name="please_Enter_The_ID">"IDを入力してください"</string>
+    <string name="member">"メンバー"</string>
+    <string name="been_added">"他の会議に追加されました。交換してください"</string>
+    <string name="system_message">"システム通知"</string>
+    <string name="intertranslation">"会議に参加しました"</string>
+    <string name="translation_out">"会議から蹴られた"</string>
+    <string name="my_id">"私のID"</string>
+    <string name="out_of_translation">"会議を離れました"</string>
+    <string name="check_net">"ネットワークを設定してください"</string>
+    <string name="loading">"読み込んでいます..."</string>
+    <string name="no_more_history_message">"これ以上の履歴メッセージはありません"</string>
+    <string name="add_member_fail">"メンバーの追加に失敗しました"</string>
+    <string name="self_kicked">"あなたは蹴られている！"</string>
+    <string name="wait_to_add_group">会議がまだ追加されていません【作成】をクリックして他のデバイスを接続します</string>
+    <string name="my_id_is">"私のID："</string>
+    <string name="establish">"作成する"</string>
+    <string name="quit_the_group">"会議を離れる"</string>
+    <string name="you_are_in_another_group">"あなたがもう一つの会議で"</string>
+    <string name="finish">OK</string>
+    <!-- @} -->
+    <string name="date_time_set_timezone_title" msgid="3047322337368233197">"タイムゾーン"</string>
+    <string name="date_time_set_timezone" msgid="5045627174274377814">"タイムゾーンの選択"</string>
+    <string name="zone_auto" msgid="334783869352026648">"タイムゾーンの自動設定"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"切断"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"切断中..."</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"接続中..."</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"接続"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"ペアとして設定中..."</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"接続済み（電話を除く）"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"接続済み（メディアを除く）"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"接続済み（メッセージへのアクセスなし）"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"接続済み（電話/メディアを除く）"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"メディアの音声"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"電話の音声"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"ファイル転送"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"入力デバイス"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"インターネットアクセス"</string>
+    <string name="bluetooth_profile_pbap" msgid="5372051906968576809">"連絡先の共有"</string>
+    <string name="bluetooth_profile_pbap_summary" msgid="6605229608108852198">"連絡先の共有に使用"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"インターネット接続の共有"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"メッセージへのアクセス"</string>
+    <string name="bluetooth_profile_sap" msgid="5764222021851283125">"SIMアクセス"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"メディアの音声に接続"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"携帯電話の音声に接続"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"ファイル転送サーバーに接続"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"地図に接続済み"</string>
+    <string name="bluetooth_sap_profile_summary_connected" msgid="8561765057453083838">"SAPに接続"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"ファイル転送サーバーに接続しない"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"入力デバイスに接続されています"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"インターネットアクセス用に接続"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"ローカルインターネット接続をデバイスと共有"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"インターネットアクセスに使用する"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"地図に使用"</string>
+    <string name="bluetooth_sap_profile_summary_use_for" msgid="7085362712786907993">"SIMアクセスに使用"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"メディアの音声に使用"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"携帯電話の音声に使用"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"ファイル転送に使用"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"入力に使用"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"ペア設定する"</string>
+    <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"ペア設定する"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"キャンセル"</string>
+    <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"ペア設定により、接続時に連絡先や通話履歴へのアクセスが許可されます。"</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>をペアに設定できません。"</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"PINまたはパスキーが正しくないため、<xliff:g id="DEVICE_NAME">%1$s</xliff:g>をペアに設定できませんでした。"</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>と通信できません。"</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"ペア設定が<xliff:g id="DEVICE_NAME">%1$s</xliff:g>に拒否されました。"</string>
+    <string name="bluetooth_search_for_devices" msgid="2754007356491461674">"更新"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"検索中..."</string>
+    <string name="forget" msgid="1400428660472591263">"切断"</string>
+    <string name="bluetooth_paired">"ペア"</string>
+    <string name="activity_bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_switch">Bluetooth</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">履歴をクリアする</string>
+    <string name="clear_history_confirm">あなたの履歴をクリアしますか？</string>
+    <string name="model">"モデル : "</string>
+    <string name="display_settings" msgid="7965901687241669598">"ディスプレイ"</string>
+    <string name="connect_network_for_authorization">許可のためにネットワークを接続してください.</string>
+    <string name="loading_offline_resource">オフラインリソースをロードする...</string>
+    <string name="offline_speech_synthesizer_not_supported">"オフライン音声の合成をサポートしていません"</string>
+    <string name="trans_net_error_prompt_text">接続に失敗しました。ネットワークを確認してください;中国語-英語は正常に翻訳することができます</string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"合計容量<xliff:g id="TOTAL">%2$s</xliff:g>のうち<xliff:g id="USED">%1$s</xliff:g>を使用中"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"ストレージ"</string>
+    <string name="select_memory">デフォルト書込みディスク設定する%s</string>
+    <string name="file_non_exists">"ファイルが存在しません"</string>
+    <string name="io_error">"書類読書き異常"</string>
+    <string name="wifi_ssid" msgid="5519636102673067319">"ネットワーク名"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"セキュリティ"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"パスワード"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"ネットワークを追加"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"なし"</string>
+
+    <string name="low_memory_warning">ストレージスペースが不足しています！ いくつかの録音や画像ファイルを削除してください。</string>
+    <string name="root_internal_storage" msgid="827844243068584127">"内部ストレージ"</string>
+    <string name="loading_offline_fail">"オフラインリソースに失敗した"</string>
+</resources>

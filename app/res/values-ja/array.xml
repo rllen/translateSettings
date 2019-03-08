@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- LocalePickerで使用 -->
+    <!--設定インターフェース-->
+    <string-array name="mode_entries">
+        <item>オート</item>
+        <item>マニュアル</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >男性</item>
+        <item >女性</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>高速</item>
+        <item>普通</item>
+        <item>やや低速</item>
+        <item>低速</item>
+    </string-array>
+
+    <string-array name="language_desc">
+        <item>四川方言</item>
+        <item>東北の言葉</item>
+        <item>河南方言</item>
+        <item>湖南方言</item>
+        <item>陝西方言</item>
+
+        <item>中国語</item>
+        <item>台湾語</item>
+        <item>広東語</item>
+        <item>英語（アメリカ合衆国）</item>
+        <item>英語（オーストラリア）</item>
+
+        <item>英語（カナダ）</item>
+        <item>英語（イギリス）</item>
+        <item>英語（ガーナ語）</item>
+        <item>英語（アイルランド）</item>
+        <item>英語（ケニア）</item>
+
+        <item>英語（ナイジェリア）</item>
+        <item>英語（フィリピン）</item>
+        <item>英語（南アフリカ）</item>
+        <item>英語（タンザニア）</item>
+        <item>英語（インド）</item>
+
+        <item>英語（ニュージーランド）</item>
+        <item>アラビア語（エジプト）</item>
+        <item>アラビア語（アラビア語）</item>
+        <item>アラビア語（イスラエル）</item>
+        <item>アラビア語（ヨルダン）</item>
+
+        <item>アラビア語（アラブ首長国連邦）</item>
+        <item>アラビア語（バーレーン）</item>
+        <item>アラビア語（アルジェリア語）</item>
+        <item>アラビア語（イラク）</item>
+        <item>アラビア語（クウェート）</item>
+
+        <item>アラビア語（モロッコ）</item>
+        <item>アラビア語（チュニジア）</item>
+        <item>アラビア語（オマーン）</item>
+        <item>アラビア語（パレスチナ国家）</item>
+        <item>アラビア語（カタール）</item>
+
+        <item>アラビア語（レバノン語）</item>
+        <item>デンマーク語</item>
+        <item>ドイツ語</item>
+        <item>カタロニア語</item>
+        <item>スペイン語（メキシコ）</item>
+
+        <item>スペイン語（アルゼンチン）</item>
+        <item>スペイン語（ボリビア）</item>
+        <item>スペイン語（チリ）</item>
+        <item>スペイン語（コロンビア）</item>
+        <item>スペイン語（コスタリカ）</item>
+
+        <item>スペイン語（エクアドル）</item>
+        <item>スペイン語（エルサルバドル）</item>
+        <item>スペイン語（米国）</item>
+        <item>スペイン語（グアテマラ）</item>
+        <item>スペイン語（ホンジュラス）</item>
+
+        <item>スペイン語（ニカラグア語）</item>
+        <item>スペイン語（パラグアイ）</item>
+        <item>スペイン語（ペルー語）</item>
+        <item>スペイン語（プエルトリコ）</item>
+        <item>スペイン語（ドミニカ共和国）</item>
+
+        <item>スペイン語（ウルグアイ）</item>
+        <item>スペイン語（ベネズエラ）</item>
+        <item>バスク語（バスク語）</item>
+        <item>フィリピン</item>
+        <item>ガリシア語（スペイン）</item>
+
+        <item>ポルトガル語（ブラジル）</item>
+        <item>ポルトガル</item>
+        <item>ロシア語</item>
+        <item>スウェーデン語</item>
+        <item>チェコ語</item>
+
+        <item>ハンガリー語</item>
+        <item>ルーマニア語</item>
+        <item>タイ語</item>
+        <item>ベトナム語</item>
+        <item>ギリシャ語</item>
+
+        <item>ブルガリア語</item>
+        <item>エストニア語</item>
+        <item>スロベニア語</item>
+        <item>スペイン語</item>
+        <item>ノルウェー語</item>
+
+        <item>ヒンディー語</item>
+        <item>スロバキア語</item>
+        <item>韓国語</item>
+        <item>日本語</item>
+        <item>ドイツ語（オーストリア）</item>
+
+        <item>ドイツ語（スイス）</item>
+        <item>フランス語</item>
+        <item>フランス語（スイス）</item>
+        <item>フランス語（カナダ）</item>
+        <item>ヘブライ（イスラエル）</item>
+
+        <item>インドネシア語</item>
+        <item>トルコ語</item>
+        <item>ウクライナ語</item>
+        <item>ベンガル語</item>
+        <item>ベンガル（インド）</item>
+
+        <item>マレー語</item>
+        <item>ペルシア語</item>
+        <item>セルビア語</item>
+        <item>ウルドゥー語</item>
+        <item>ウルドゥー語（インド）</item>
+
+        <item>アフリカーンス語</item>
+        <item>アムハラ語</item>
+        <item>アルメニア人</item>
+        <item>アゼルバイジャン</item>
+        <item>ジョージア語</item>
+
+        <item>グジャラート（インド）</item>
+        <item>クロアチア語（クロアチア語）</item>
+        <item>南アフリカ共和国ズールー（南アフリカ）</item>
+        <item>アイスランド語（アイスランド語）</item>
+        <item>イタリア語</item>
+
+        <item>ジャワネ（インドネシア）</item>
+        <item>カンナダ（インド）</item>
+        <item>クメール（カンボジア）</item>
+        <item>ラオス（ラオス）</item>
+        <item>ラトビア語（ラトビア語）</item>
+
+        <item>リトアニア（リトアニア）</item>
+        <item>マラヤラム（インド）</item>
+        <item>マラティ（インド）</item>
+        <item>オランダ語</item>
+        <item>ネパール</item>
+
+        <item>ポーランド語</item>
+        <item>シンハラ語（スリランカ）</item>
+        <item>巽言（インドネシア語）</item>
+        <item>スワヒリ（タンザニア）</item>
+        <item>スワヒリ（ケニア）</item>
+
+        <item>フィンランド語</item>
+        <item>タミル（インド）</item>
+        <item>タミル（シンガポール）</item>
+        <item>タミル（スリランカ）</item>
+        <item>タミル（マレーシア）</item>
+
+        <item>テルグ（インド）</item>
+        <item>ビルマ</item>
+        <item>ラオス人</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"なし"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAPまたはCHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"指定なし"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"None"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30秒"</item>
+        <item msgid="7589406073232279088">"1分"</item>
+        <item msgid="7001195990902244174">"3分"</item>
+        <!--<item msgid="7489864775127957179">"5分"</item>-->
+        <!--<item msgid="2314124409517439288">"10分"</item>-->
+        <!--<item msgid="6864027152847611413">"30分"</item>-->
+        <item msgid="6864027152847611413">"なし"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>中国</item>
+        <item>その他(google)</item>
+    </string-array>
+</resources>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Для выбора языка и региона -->
+    <!--Интерфейс настроек-->
+    <string-array name="mode_entries">
+        <item>Автоматически</item>
+        <item>Вручную</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >Мужской</item>
+        <item >Женский</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>Быстро</item>
+        <item>Нормально</item>
+        <item>Чуть медленнее</item>
+        <item>Медленно</item>
+    </string-array>
+    <string-array name="language_desc">
+        <item>四川话</item>
+        <item>东北话</item>
+        <item>河南话</item>
+        <item>湖南话</item>
+        <item>陕西话</item>
+
+        <item>Китайские слова</item>
+        <item>Тайваньские слова</item>
+        <item>В кантонском</item>
+        <item>Английский (США)</item>
+        <item>Английский (Австралия)</item>
+
+        <item>Английский (Канада)</item>
+        <item>Английский (Великобритания)</item>
+        <item>Английский (Гана)</item>
+        <item>Английский (Ирландия)</item>
+        <item>Английский (Кения)</item>
+
+        <item>Английский (Нигерия)</item>
+        <item>Английский (Филиппины)</item>
+        <item>Английский (Южная Африка)</item>
+        <item>Английский (Танзания)</item>
+        <item>Английский (Индия)</item>
+
+        <item>Английский (Новая Зеландия)</item>
+        <item>Арабский (Египет)</item>
+        <item>Арабский (арабский)</item>
+        <item>Арабский (Израиль)</item>
+        <item>Арабский (Иордания)</item>
+
+        <item>Арабский (Объединенные Арабские Эмираты)</item>
+        <item>Арабский (Бахрейн)</item>
+        <item>Арабский (Алжир)</item>
+        <item>Арабский (Ирак)</item>
+        <item>Арабский (Кувейт)</item>
+
+        <item>Арабский (Марокко)</item>
+        <item>Арабский (Тунис)</item>
+        <item>Арабский (Оман)</item>
+        <item>Арабский (палестинское государство)</item>
+        <item>Арабский (Катар)</item>
+
+        <item>Арабский (Ливан)</item>
+        <item>датский</item>
+        <item>немецкий</item>
+        <item>Каталонский</item>
+        <item>Испанский (Мексика)</item>
+
+        <item>Испанский (Аргентина)</item>
+        <item>Испанский (Боливия)</item>
+        <item>Испанский (Чили)</item>
+        <item>Испанский (Колумбия)</item>
+        <item>Испанский (Коста-Рика)</item>
+
+        <item>Испанский (Эквадор)</item>
+        <item>Испанский (Сальвадор)</item>
+        <item>Испанский (США)</item>
+        <item>Испанский (Гватемала)</item>
+        <item>Испанский (Гондурас)</item>
+
+        <item>Испанский (Никарагуа)</item>
+        <item>Испанский (Парагвай)</item>
+        <item>Испанский (Перу)</item>
+        <item>Испанский (Пуэрто-Рико)</item>
+        <item>Испанский (Доминиканская Республика)</item>
+
+        <item>Испанский (Уругвай)</item>
+        <item>Испанский (Венесуэла)</item>
+        <item>Баскский (баскский)</item>
+        <item>Филиппины (Филиппины)</item>
+        <item>Галисийский (Испания)</item>
+
+        <item>Португальский (Бразилия)</item>
+        <item>португальский</item>
+        <item>русский</item>
+        <item>шведский</item>
+        <item>чешский</item>
+
+        <item>венгерский</item>
+        <item>румынский</item>
+        <item>тайский</item>
+        <item>Вьетнамский язык</item>
+        <item>греческий</item>
+
+        <item>болгарский</item>
+        <item>эстонский</item>
+        <item>словенский</item>
+        <item>испанский</item>
+        <item>Норвежский язык</item>
+
+        <item>хинди</item>
+        <item>Словацкий язык</item>
+        <item>корейский язык</item>
+        <item>японский</item>
+        <item>Немецкий (Австрия)</item>
+
+        <item>Немецкий (Швейцария)</item>
+        <item>французский</item>
+        <item>Французский (Швейцария)</item>
+        <item>Французский (Канада)</item>
+        <item>Иврит (Израиль)</item>
+
+        <item>индонезийский</item>
+        <item>Турецкий язык</item>
+        <item>украинский</item>
+        <item>Бенгальский язык</item>
+        <item>Бенгальский (Индия)</item>
+
+        <item>малайский</item>
+        <item>персидский</item>
+        <item>Сербский язык</item>
+        <item>урду язык</item>
+        <item>Урду (Индия)</item>
+
+        <item>африкаанс</item>
+        <item>Амхарский</item>
+        <item>армянин</item>
+        <item>азербайджанец</item>
+        <item>грузинский</item>
+
+        <item>Гуджарати (Индия)</item>
+        <item>Хорватский язык (Хорватия)</item>
+        <item>Южная Африка Зулу (Южная Африка)</item>
+        <item>Исландский (исландский)</item>
+        <item>итальянский язык</item>
+
+        <item>Яванский (Индонезия)</item>
+        <item>Каннада (Индия)</item>
+        <item>Кхмер (Камбоджа)</item>
+        <item>Лао (Лаос)</item>
+        <item>Латвийский (Латвия)</item>
+
+        <item>Литовский (Литва)</item>
+        <item>Малаялам (Индия)</item>
+        <item>Марати (Индия)</item>
+        <item>нидерландский</item>
+        <item>Непал</item>
+
+        <item>полировать</item>
+        <item>Сингальский (Шри-Ланка)</item>
+        <item>巽 язык (Индонезия)</item>
+        <item>Суахили (Танзания)</item>
+        <item>Суахили (Кения)</item>
+
+        <item>финский</item>
+        <item>Тамил (Индия)</item>
+        <item>Тамил (Сингапур)</item>
+        <item>Тамил (Шри-Ланка)</item>
+        <item>Тамил (Малайзия)</item>
+
+        <item>Телугу (Индия)</item>
+        <item>бирманский</item>
+        <item>лаосской язык</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"Нет"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAP или CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"Не указано"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"Нет"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30 сек."</item>
+        <item msgid="7589406073232279088">"1 мин."</item>
+        <item msgid="7001195990902244174">"3 мин."</item>
+        <!--<item msgid="7489864775127957179">"5 мин."</item>-->
+        <!--<item msgid="2314124409517439288">"10 мин."</item>-->
+        <!--<item msgid="6864027152847611413">"30 мин."</item>-->
+        <item msgid="6864027152847611413">"никогда"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>Китай</item>
+        <item>другое(google)</item>
+    </string-array>
+</resources>

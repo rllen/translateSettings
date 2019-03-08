@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/common_action_bar" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:id="@+id/booting_board"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:visibility="visible">
+
+            <LinearLayout
+                android:id="@+id/booting_error_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/tv_desc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textSize="25dp" />
+
+                <TextView
+                    android:id="@+id/tv_error_retry"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="26dp"
+                    android:background="@drawable/button_selector"
+                    android:gravity="center"
+                    android:minWidth="@dimen/button_min_width"
+                    android:text="@string/retry"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/net_error_container_before_ready"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/check_net"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/net_error_check_or_insert_card" />
+
+                <TextView
+                    android:id="@+id/tv_set_net"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_selector"
+                    android:gravity="center"
+                    android:text="@string/set_net" />
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/ssh_validate_error_container_before_ready"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:visibility="gone">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:layout_margin="5dp"
+                    android:gravity="center"
+                    android:text="@string/ssh_validate_error" />
+
+                <TextView
+                    android:id="@+id/tv_set_date_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentBottom="true"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="60dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:background="@drawable/button_selector"
+                    android:gravity="center"
+                    android:text="@string/setting" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:id="@+id/loading_container"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <link.zhidou.translator.ui.view.gifview.GifView
+                    android:id="@+id/loading"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    android:enabled="false"
+                    android:gravity="center" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/loading"
+                    android:layout_marginTop="17dp"
+                    android:gravity="center"
+                    android:text="@string/loading"
+                    android:textSize="25dp" />
+
+            </LinearLayout>
+
+        </FrameLayout>
+
+        <ListView
+            android:id="@+id/lv_members"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_width="match_parent">
+
+        </ListView>
+
+        <TextView
+            android:id="@+id/tv_exit"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="36dp"
+            android:layout_marginRight="36dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/splash_next"
+            android:gravity="center"
+            android:text="@string/quit_the_group"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+
+</LinearLayout>

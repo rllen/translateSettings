@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="60dp">
+
+    <TextView
+        android:id="@+id/tv_record_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/record_name_list_textsize"
+        android:layout_alignParentTop="true"
+        android:paddingTop="6dp"
+        android:layout_marginLeft="@dimen/list_item_background_inset_left"
+        android:layout_marginStart="@dimen/list_item_background_inset_left"
+        android:text="1802081206"/>
+
+    <TextView
+        android:id="@+id/tv_record_data"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:paddingBottom="7dp"
+        android:textSize="@dimen/margin_left_wifi_item"
+        android:layout_marginLeft="@dimen/list_item_background_inset_left"
+        android:layout_marginStart="@dimen/list_item_background_inset_left"
+        android:textColor="#666666"
+        android:text="1802081206"/>
+
+    <TextView
+        android:id="@+id/tv_record_time"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:text="02:57"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="@dimen/margin_right"
+        android:layout_marginEnd="@dimen/list_item_background_inset_left"
+        android:textColor="#666666"
+        android:textSize="@dimen/record_name_list_textsize"/>
+
+</RelativeLayout>

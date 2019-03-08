@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--添加成员、成员管理、语言选择、高级设置-->
+    <item android:id="@+id/add_member"
+        android:title="@string/add_member"/>
+    <item android:id="@+id/member_administration"
+        android:title="@string/member_administration"/>
+    <item android:id="@+id/language_choice"
+        android:title="@string/language_choice"/>
+    <item android:id="@+id/advanced_settings"
+        android:title="@string/advanced_settings"/>
+</menu>

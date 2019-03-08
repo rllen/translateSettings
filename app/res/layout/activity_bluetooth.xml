@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="link.zhidou.translator.ui.activity.WifiListActivity">
+
+    <include layout="@layout/common_action_bar" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/bluetooth_switch"
+        app:track="@drawable/track"
+        style="?attr/wifiSwitch"
+        android:text="@string/bluetooth_switch" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="24dp"
+        android:background="?attr/colorWifiDitch" />
+
+    <ListView
+        android:id="@+id/list_view"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:divider="@drawable/list_divider"
+        android:dividerHeight="@dimen/settings_list_item_divider_height" />
+
+
+</LinearLayout>

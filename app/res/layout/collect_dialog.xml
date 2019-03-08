@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:clickable="true"
+    android:orientation="vertical"
+    android:padding="20.0dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="fill_parent"
+            android:layout_height="40.0dip"
+            android:gravity="center"
+            android:textSize="18dp"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:visibility="gone">
+
+            <TextView
+                android:id="@+id/message"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:gravity="left|center"
+                android:lineSpacingMultiplier="1.5"
+                android:minHeight="120.0dip"
+                android:paddingBottom="15.0dip"
+                android:paddingEnd="20dp"
+                android:paddingLeft="20.0dip"
+                android:paddingRight="20.0dip"
+                android:paddingStart="20dp"
+                android:paddingTop="15.0dip"
+                android:textSize="16dp"
+                android:visibility="gone" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/bt_collect"
+                android:layout_width="200.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/collect_dialog_ok_select"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="?attr/textColorMain"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/v_v1"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/light_divider_color" />
+
+            <TextView
+                android:id="@+id/bt_clearhis"
+                android:layout_width="200.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/collect_dialog_clearhis_selector"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="?attr/textColorMain"
+                android:textStyle="normal" />
+
+            <View
+                android:id="@+id/v_v2"
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="@color/light_divider_color" />
+
+            <TextView
+                android:id="@+id/negativeButton"
+                android:layout_width="200.0dip"
+                android:layout_height="50.0dip"
+                android:background="@drawable/collect_dialog_cancel_select"
+                android:gravity="center"
+                android:textSize="16dp"
+                android:textColor="?attr/textColorMain"
+                android:textStyle="normal" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</FrameLayout>

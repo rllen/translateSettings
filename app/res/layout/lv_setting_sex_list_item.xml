@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <!--<RadioButton-->
+    <!--android:id="@+id/cb_sex"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="58dp"-->
+    <!--android:button="@null"-->
+    <!--android:paddingLeft="15dp"-->
+    <!--android:background="@drawable/radio_button_selectr"-->
+    <!--android:drawableRight="@drawable/radio_button_style"-->
+    <!--android:focusable="true"-->
+    <!--android:paddingRight="15dp"-->
+    <!--android:text="@null"-->
+    <!--android:textColor="@color/white"-->
+    <!--android:textSize="23dp" />-->
+
+    <RelativeLayout
+        android:id="@+id/rl_item_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:minHeight="60dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/tv_item_setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="?attr/layout_marginLeft"
+            android:layout_marginStart="?attr/layout_marginLeft"
+            android:text="@string/activity_lg_title"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/iv_item_tick"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginRight="?attr/layout_marginRight"
+            android:layout_marginEnd="?attr/layout_marginRight"
+            android:tint="?attr/imageview_color"
+            android:layout_centerInParent="true"
+            android:src="@drawable/tick" />
+
+    </RelativeLayout>
+</LinearLayout>

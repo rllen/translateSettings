@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!--<TextView-->
+    <!--android:id="@+id/wifi_name"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--android:gravity="center"-->
+    <!--android:layout_margin="10dp"-->
+    <!--android:ellipsize="marquee"-->
+    <!--android:focusable="true"-->
+    <!--android:background="?attr/setting_title_color"-->
+    <!--android:marqueeRepeatLimit="marquee_forever"-->
+    <!--android:singleLine="true"-->
+    <!--android:text="WiFi名字"-->
+    <!--android:textColor="?attr/textColorMain"-->
+    <!--android:textSize="22dp" />-->
+    <!---->
+    <include layout="@layout/common_action_bar" />
+
+
+    <TextView
+        android:id="@+id/btn_del_network"
+        android:layout_width="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginLeft="10dp"
+        android:gravity="center"
+        android:background="@drawable/button_selector"
+        android:padding="7dp"
+        android:text="@string/del_network"
+        android:textSize="20dp" />
+
+</RelativeLayout>

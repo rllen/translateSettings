@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">Settings</string>
+    <!--———————-->
+    <!--引导界面-->
+    <!--———————-->
+    <string name="help">Help</string>
+    <string name="string_help_text">The current application lacks the necessary permissions</string>
+    <string name="quit">Pull out</string>
+    <string name="init_error">Initialization error</string>
+    <string name="unauthorized">unauthorized</string>
+    <string name="rule_init_fail">fail to init rule</string>
+    <!--———————-->
+    <!--设置界面-->
+    <!--———————-->
+    <string name="setting">Settings</string>
+    <!--播报模式-->
+    <string name="mode">Mode</string>
+    <!--播报性别-->
+    <string name="sex">Sex</string>
+    <!--播报速度-->
+    <string name="activity_speed_title">Rate</string>
+    <string name="speed">Rate</string>
+    <!--WI-FI-->
+    <string name="wifi">WIFI</string>
+    <string name="activity_wifi_title">Please connect to Wi-Fi</string>
+    <string name="wifi_connected">Connected</string>
+    <string name="confirm">Confirm</string>
+    <string name="wifi_login_del">Del</string>
+    <string name="wifi_login_changeAa">Change</string>
+    <string name="wifi_switch">WIFI</string>
+    <string name="del_network">Forget network</string>
+    <string name="error_password">Password error</string>
+    <string name="last">Last</string>
+    <string name="next">Next</string>
+    <string name="empty">Empty</string>
+    <string name="wifi_connecting">Connecting</string>
+    <!--移动热点-->
+    <string name="share_name">"MIFI"</string>
+    <string name="wifi_share">"Mobile hotspot"</string>
+    <string name="wifi_share_name">Name</string>
+    <string name="tv_set_password">Password</string>
+    <string-array name="ap_safe_type">
+        <item>None</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">Please insert the SIM card</string>
+    <!--系统语言-->
+    <string name="activity_lg_title">Language</string>
+    <string name="skip">Skip</string>
+    <!--恢复出厂设置-->
+    <string name="reset">"Reset"</string>
+    <string name="master_clear_progress_title">"Erasing"</string>
+    <string name="master_clear_progress_text">"Please wait..."</string>
+    <string name="master_clear_title">"Reset"</string>
+    <string name="master_clear_desc">"This will erase all data from your translator\u2019s <b>internal storage</b>, e.g: System and app data and settings.</string>
+    <!--关于-->
+    <string name="about">About us</string>
+    <string name="version_text">智豆翻译机V%1$s</string>
+    <string name="company">香港腾瑞丰公司 版权所有</string>
+    <string name="copyright_description">2017 HONGKONG TEKSUN.All Rights Reserved</string>
+    <!--———————-->
+    <!--翻译界面-->
+    <!--———————-->
+    <string name="net_error_prompt_text">Network connection failed</string>
+    <string name="initialization_failed">Device failed initialization</string>
+    <string name="equipment_unauthorized">Unauthorized</string>
+    <string name="retry">Retry</string>
+    <string name="speaking_prompt_text">Listen for the best in 30 seconds</string>
+    <string name="not_support_language">Language that is not supported</string>
+    <string name="init_ing">Init...</string>
+    <!--———————-->
+    <!--收藏界面-->
+    <!--———————-->
+    <string name="collection">Favorites</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_collect">No favorite</string>
+    <string name="Collection_of_success">Successful to add favorite!</string>
+    <string name="Collection_of_error">Failed to add favorite!</string>
+    <string name="Collection_of_limit">Only 20 favorites you can add!</string>
+    <string name="Collection_of_repeat">Do not add repeated favorite!</string>
+
+    <!--———————-->
+    <!---Toast -->
+    <!--———————-->
+    <string name="submit">Determine</string>
+    <string name="unrecognized">Unrecognized</string>
+    <string name="engine_missing">Engine is missing</string>
+    <string name="cancel_success">Cancel successful!</string>
+    <string name="unknown_exception">Unknown exception</string>
+    <string name="system_is_not_ready">System is not ready</string>
+    <string name="reg_auto_stop">Recognition auto stopped, please release</string>
+    <string name="cancel_collect">Delete favorite</string>
+    <string name="firmware_upgrade">Firmware upgrade</string>
+    <string name="net_error_hint_before_ready">"Network is not ready，please check wifi configure or insert SIM card."</string>
+    <string name="net_error_check_or_insert_card">"Initialization failed, please check the network or insert SIM card"</string>
+    <string name="set_net">"Set up the network"</string>
+
+    <string name="clickable_check_hint">"check"</string>
+    <string name="master_clear_final_desc">"Erase all your personal information and downloaded apps? You can\'t undo this action!"</string>
+    <string name="version">"Version: "</string>
+    <string name="clearhis">Clear translation history</string>
+    <string name="master_clear_trslate_his">Empty your translation history?</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"Serial number: "</string>
+    <string name="translate" >Translate</string>
+    <string name="record" >Recording</string>
+
+    <string name="start_record">"Click button to start recording"</string>
+    <string name="confirm_to_save_record">"Do you want to save this recording?"</string>
+    <string name="record_history">"Recording list"</string>
+    <string name="record_language_settings">"Select language"</string>
+    <string name="delete">"Delete"</string>
+    <string name="delete_success">"Deleted"</string>
+    <string name="no_file">"No recording files."</string>
+    <string name="saving_record">"Saving..."</string>
+    <string name="recording_is_too_long">"Too long recording to stop."</string>
+    <string name="record_clear_final_desc">"Sure to delete this recording?"</string>
+    <string name="please_start_record">Please start talking!</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">Currently using data traffic</string>
+    <string name="recording_saved">"Saved"</string>
+    <string name="recording_saved_failure">"Record save failed"</string>
+    <string name="password_minlength">Password at least 8 characters</string>
+    <string name="recording_is_aborted">"Recording auto stop due to error."</string>
+
+    <string name="date_and_time">Date &amp; time</string>
+    <string name="date_time_auto">Automatic</string>
+    <string name="date_time_set_date_title">Date</string>
+    <string name="date_time_set_date">Set date</string>
+    <string name="date_time_set_time_title">Time</string>
+    <string name="date_time_set_time">Set time</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"Please check the time manually for better use of the equipment"</string>
+
+    <!-- APN Settings -->
+    <!-- APN settings screen title -->
+    <string name="apn_settings">APNs</string>
+    <!-- Screen title after user selects APNs setting option -->
+    <string name="apn_edit">Edit access point</string>
+    <!-- Edit access point label summary text when no value has been set -->
+    <string name="apn_not_set">Not set</string>
+    <!-- Edit access point labels: A label the user can give to the APN to allow him to differentiate it from the others -->
+    <string name="apn_name">Name</string>
+    <!-- Edit access point labels: The actual access point name-->
+    <string name="apn_apn">APN</string>
+    <!-- Edit access point labels: The addess of the proxy to use for this APN -->
+    <string name="apn_http_proxy">Proxy</string>
+    <!-- Edit access point labels: The port number of the proxy to use for this APN -->
+    <string name="apn_http_port">Port</string>
+    <!-- Edit access point labels: The username that will be used when conencting to this APN-->
+    <string name="apn_user">Username</string>
+    <!-- Edit access point labels: The password that will be used when connecting to this APN -->
+    <string name="apn_password">Password</string>
+    <!-- Edit access point labels: The server address to conenct to for this APN -->
+    <string name="apn_server">Server</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mmsc">MMSC</string>
+    <!-- Edit access point labels: The proxy to use for MMS (multimedia messages)-->
+    <string name="apn_mms_proxy">MMS proxy</string>
+    <!-- Edit access point labels: The port on the proxy used for MMS-->
+    <string name="apn_mms_port">MMS port</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mcc">MCC</string>
+    <!-- Edit access point labels: -->
+    <string name="apn_mnc">MNC</string>
+    <!-- Edit acces  point labels: Authenticaton type-->
+    <string name="apn_auth_type">Authentication type</string>
+    <!-- Authentication Typs: None -->
+    <string name="apn_auth_type_none">None</string>
+    <!-- Authentication Typs: PAP -->
+    <string name="apn_auth_type_pap">PAP</string>
+    <!-- Authentication Typs: CHAP -->
+    <string name="apn_auth_type_chap">CHAP</string>
+    <!-- Authentication Typs: PAP or CHAP -->
+    <string name="apn_auth_type_pap_chap">PAP or CHAP</string>
+    <!-- Edit access point labels: The type of APN -->
+    <string name="apn_type">APN type</string>
+    <!-- Edit access point labels: The protocol of the APN, e.g., "IPv4", "IPv6", or "IPv4/IPv6". -->
+    <string name="apn_protocol">APN protocol</string>
+    <!-- Edit access point labels: The protocol of the APN when roaming, e.g., "IPv4", "IPv6", or "IPv4/IPv6". -->
+    <string name="apn_roaming_protocol">APN roaming protocol</string>
+    <!-- Edit enable/disable of APN -->
+    <string name="carrier_enabled">APN enable/disable</string>
+    <string name="carrier_enabled_summaryOn">APN enabled</string>
+    <string name="carrier_enabled_summaryOff">APN disabled</string>
+    <!-- Edit Beaerer Info of APN -->
+    <string name="bearer">Bearer</string>
+    <!-- Edit Mvno Type Info of APN -->
+    <string name="mvno_type">MVNO type</string>
+    <!-- Edit Mvno Match Data Info of APN -->
+    <string name="mvno_match_data">MVNO value</string>
+    <!-- Edit access point screen menu option to delete this APN -->
+    <string name="menu_delete">Delete APN</string>
+    <!-- APNs screen menu option to create a brand spanking new APN -->
+    <string name="menu_new">New APN</string>
+    <!-- Edit access point screen menu option to save the user's changes for this APN to the persistent storage -->
+    <string name="menu_save">Save</string>
+    <!-- Edit access point screen menu option to discard the user's changes for this APN -->
+    <string name="menu_cancel">Discard</string>
+    <!-- APN error dialog title -->
+    <string name="error_title"></string>
+    <!-- APN error dialog messages: -->
+    <string name="error_name_empty">The Name field can\u2019t be empty.</string>
+    <!-- APN error dialog messages: -->
+    <string name="error_apn_empty">The APN can\u2019t be empty.</string>
+    <!-- APN error dialog messages: -->
+    <string name="error_mcc_not3">MCC field must be 3 digits.</string>
+    <!-- APN error dialog messages: -->
+    <string name="error_mnc_not23">MNC field must be 2 or 3 digits.</string>
+    <!-- The message of dialog indicated restoring default APN settings in progress -->
+    <string name="restore_default_apn">Restoring default APN settings.</string>
+    <!-- APNs screen menu option to reset default APN settings -->
+    <string name="menu_restore">Reset to default</string>
+    <!-- APNs screen toast message to inform reset default APN settings is completed -->
+    <string name="restore_default_apn_completed">Reset default APN settings completed.</string>
+
+
+    <!-- APN Settings start  -->
+    <string name ="mvno_type_none">None</string>
+    <string name="apn_predefine_change_dialog_notice">Are you sure to save? Modifications to default APNs may cause connection problems!"</string>
+    <string name="apn_port_warning">The port value must be 1-65535!</string>
+    <!-- APN Settings end -->
+    <string name="screen_timeout">Sleep</string>
+    <string name="region">Region</string>
+    <string name="region_switching">"Switching"</string>
+    <string name="roaming">Data roaming</string>
+    <string name="network_request_timeout">Network request timeout</string>
+    <string name="network_access_error">Network access is abnormal</string>
+    <string name="untranslated">Unable to translate</string>
+    <string name="unspoken">Unable to speech synthesis</string>
+
+    <!-- Wireless controls, item title to go into the network settings -->
+    <string name="network_settings_title">Cellular networks</string>
+    <string name="update_firmware">"Update firmware?"</string>
+    <string name="switch_fail_and_restart_network">"Switch failed, please restart the network."</string>
+    <string name="network_do_not_work">The network does not work, please check the network.</string>
+
+    <!-- Conference @{ -->
+    <string name="chat">Conference</string>
+    <string name="add_member">Add members</string>
+    <string name="member_administration">Member management</string>
+    <string name="language_choice">Select language</string>
+    <string name="automatically_broadcast">Auto play</string>
+    <string name="shielding_information">Shield message</string>
+    <string name="add_members">Add member</string>
+    <string name="members_management">Member management</string>
+    <string name="advanced_settings">Advanced settings</string>
+    <string name="add_message_success">Congratulations, you have joined in conference, your current language is</string>
+    <string name="create_message_success">Congratulations, you have created conference, your current language is</string>
+    <string name="add_message_success_tail">, you can change the language through the settings in the upper right menu, for leaving conference or kicking member, please go to member management.</string>
+    <string name="quitGroupMessage">Do you want to leave the conference?</string>
+    <string name="kickGroupMessage">Do you want to remove this member?</string>
+    <string name="please_enter_your_id_number">Please enter ID</string>
+    <string name="id_at_least_six_characters">ID must be 6 characters</string>
+    <string name="id_does_not_exist">ID does not exist</string>
+    <string name="has_joined">This member has joined another conference</string>
+    <string name="can_not_add_yourself">"Can't add your own ID"</string>
+    <string name="id_is_already_in_list">This ID is already in the list</string>
+    <string name="many_people_translate">Conference</string>
+    <string name="please_Enter_The_ID">Please enter ID</string>
+    <string name="member">Member</string>
+    <string name="been_added">Added to other conferences, please replace or remove</string>
+    <string name="system_message">System notification</string>
+    <string name="intertranslation">joined a conference</string>
+    <string name="translation_out">was kicked from conference</string>
+    <string name="my_id">My ID</string>
+    <string name="out_of_translation">left the conference</string>
+    <string name="check_net">Please set up a network</string>
+    <string name="loading">Loading...</string>
+    <string name="no_more_history_message">"No more history messages"</string>
+    <string name="add_member_fail">"Failed to add member"</string>
+    <string name="self_kicked">"You are kicked!"</string>
+    <string name="wait_to_add_group">No conference have been added yet. Click [Create] to connect other devices</string>
+    <string name="my_id_is">My ID:</string>
+    <string name="establish">Create</string>
+    <string name="quit_the_group">Leave conference</string>
+    <string name="you_are_in_another_group">"You are in another conference"</string>
+    <string name="finish">OK</string>
+    <!-- @} -->
+    <!-- Date & time setting screen setting option title [CHAR LIMIT=30] -->
+    <string name="date_time_set_timezone_title">Time zone</string>
+    <!-- Date & time setting screen setting option title -->
+    <string name="date_time_set_timezone">Select time zone</string>
+    <string name="zone_auto">Automatic time zone</string>
+    <!-- Bluetooth settings -->
+    <!-- Bluetooth settings.  Message when a device is disconnected -->
+    <string name="bluetooth_disconnected">Disconnected</string>
+    <!-- Bluetooth settings.  Message when disconnecting from a device -->
+    <string name="bluetooth_disconnecting">Disconnecting\u2026</string>
+    <!-- Bluetooth settings.  Message when connecting to a device -->
+    <string name="bluetooth_connecting">Connecting\u2026</string>
+    <!-- Bluetooth settings.  Message when connected to a device. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected">Connected</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_pairing">Pairing\u2026</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset">Connected (no phone)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_a2dp">Connected (no media)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for map. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_map">Connected (no message access)</string>
+    <!-- Bluetooth settings.  Message when connected to a device, except for phone/media audio. [CHAR LIMIT=40] -->
+    <string name="bluetooth_connected_no_headset_no_a2dp">Connected (no phone or media)</string>
+
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the A2DP profile. -->
+    <string name="bluetooth_profile_a2dp">Media audio</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the headset or handsfree profile. -->
+    <string name="bluetooth_profile_headset">Phone audio</string>
+    <!-- Bluetooth settings.  The user-visible string that is used whenever referring to the OPP profile. -->
+    <string name="bluetooth_profile_opp">File transfer</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the HID profile. -->
+    <string name="bluetooth_profile_hid">Input device</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (accessing Internet through remote device). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan">Internet access</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PBAP profile. [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pbap">Contact sharing</string>
+    <!-- Bluetooth settings. The user-visible summary string that is used whenever referring to the PBAP profile (sharing contacts). [CHAR LIMIT=60] -->
+    <string name="bluetooth_profile_pbap_summary">Use for contact sharing</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the PAN profile (sharing this device's Internet connection). [CHAR LIMIT=40] -->
+    <string name="bluetooth_profile_pan_nap">Internet connection sharing</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the map profile. -->
+    <string name="bluetooth_profile_map">Message Access</string>
+    <!-- Bluetooth settings. The user-visible string that is used whenever referring to the SAP profile (sharing SIM card). -->
+    <string name="bluetooth_profile_sap">SIM Access</string>
+
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference when A2DP is connected. -->
+    <string name="bluetooth_a2dp_profile_summary_connected">Connected to media audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference when headset is connected. -->
+    <string name="bluetooth_headset_profile_summary_connected">Connected to phone audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is connected. -->
+    <string name="bluetooth_opp_profile_summary_connected">Connected to file transfer server</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the map checkbox preference when map is connected. -->
+    <string name="bluetooth_map_profile_summary_connected">Connected to map</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference when SAP is connected. -->
+    <string name="bluetooth_sap_profile_summary_connected">Connected to SAP</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference when OPP is not connected. -->
+    <string name="bluetooth_opp_profile_summary_not_connected">Not connected to file transfer server</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the HID checkbox preference when HID is connected. -->
+    <string name="bluetooth_hid_profile_summary_connected">Connected to input device</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (user role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_user_profile_summary_connected">Connected to device for Internet access</string>
+    <!-- Bluetooth settings. Connection options screen. The summary for the checkbox preference when PAN is connected (NAP role). [CHAR LIMIT=25]-->
+    <string name="bluetooth_pan_nap_profile_summary_connected">Sharing local Internet connection with device</string>
+
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the PAN checkbox preference that describes how checking it
+         will set the PAN profile as preferred. -->
+    <string name="bluetooth_pan_profile_summary_use_for">Use for Internet access</string>
+    <!-- Bluetooth settings. Connection options screen.  The summary for the map checkbox preference that describes how checking it will set the map profile as preferred. -->
+    <string name="bluetooth_map_profile_summary_use_for">Use for map</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the sap checkbox preference that describes how checking it will set the sap profile as preferred. -->
+    <string name="bluetooth_sap_profile_summary_use_for">Use for SIM access</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the A2DP checkbox preference that describes how checking it will set the A2DP profile as preferred. -->
+    <string name="bluetooth_a2dp_profile_summary_use_for">Use for media audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the headset checkbox preference that describes how checking it will set the headset profile as preferred. -->
+    <string name="bluetooth_headset_profile_summary_use_for">Use for phone audio</string>
+    <!-- Bluetooth settings.  Connection options screen.  The summary for the OPP checkbox preference that describes how checking it will set the OPP profile as preferred. -->
+    <string name="bluetooth_opp_profile_summary_use_for">Use for file transfer</string>
+    <!-- Bluetooth settings. Connection options screen. The summary
+         for the HID checkbox preference that describes how checking it
+         will set the HID profile as preferred. -->
+    <string name="bluetooth_hid_profile_summary_use_for">Use for input</string>
+
+    <!-- Button text for accepting an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept">Pair</string>
+    <!-- Button text for accepting an incoming pairing request in all caps. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_accept_all_caps">PAIR</string>
+    <!-- Button text for declining an incoming pairing request. [CHAR LIMIT=20] -->
+    <string name="bluetooth_pairing_decline">Cancel</string>
+
+    <!-- Message in pairing dialogs.  [CHAR LIMIT=NONE] -->
+    <string name="bluetooth_pairing_will_share_phonebook">Pairing grants access to your contacts and call history when connected.</string>
+    <!-- Message for the error dialog when BT pairing fails generically. -->
+    <string name="bluetooth_pairing_error_message">Couldn\'t pair with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+
+    <!-- Message for the error dialog when BT pairing fails because the PIN /
+    Passkey entered is incorrect. -->
+    <string name="bluetooth_pairing_pin_error_message">Couldn\'t pair with <xliff:g id="device_name">%1$s</xliff:g> because of an incorrect PIN or passkey.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device is down. -->
+    <string name="bluetooth_pairing_device_down_error_message">Can\'t communicate with <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <!-- Message for the error dialog when BT pairing fails because the other device rejected the pairing. -->
+    <string name="bluetooth_pairing_rejected_error_message">Pairing rejected by <xliff:g id="device_name">%1$s</xliff:g>.</string>
+    <string name="bluetooth_search_for_devices">Refresh</string>
+    <!-- Bluetooth settings: The title of the action button while a search for nearby devices is in progress [CHAR LIMIT=20] -->
+    <string name="bluetooth_searching_for_devices">Searching\u2026</string>
+    <!-- Button label for generic forget action [CHAR LIMIT=20] -->
+    <string name="forget">Forget</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_paired">Paired</string>
+    <string name="activity_bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_switch">Bluetooth</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">Clear history records</string>
+    <string name="clear_history_confirm">Do you want to empty your history?</string>
+    <string name="model">"Model : "</string>
+    <string name="display_settings">Display</string>
+    <string name="connect_network_for_authorization">Please connect network for authorization.</string>
+    <string name="loading_offline_resource">Loading offline resources...</string>
+    <string name="offline_speech_synthesizer_not_supported">"This language does not support off-line speech synthesis"</string>
+    <string name="trans_net_error_prompt_text">Network connection failed;Chinese-English is available</string>
+    <string name="storage_volume_summary"><xliff:g id="used" example="1.2GB">%1$s</xliff:g> used of <xliff:g id="total" example="32GB">%2$s</xliff:g></string>
+    <string name="storage_settings" >Storage</string>
+    <string name="select_memory">Default write disk set to %1$s</string>
+    <string name="file_non_exists">"File doesn't exist"</string>
+    <string name="io_error">"I/O error"</string>
+    <!-- Label for the SSID of the network -->
+    <string name="wifi_ssid">Network name</string>
+    <!-- Label for the security of the connection -->
+    <string name="wifi_security">Security</string>
+    <!-- Label for the password of the secured network -->
+    <string name="wifi_password">Password</string>
+    <string name="wifi_add_network">Add network</string>
+    <!-- Used in Wi-Fi settings dialogs when Wi-Fi does not have any security. -->
+    <string name="wifi_security_none">None</string>
+
+    <string name="low_memory_warning">Storage space is running out! Please delete some recordings or picture files.</string>
+    <string name="root_internal_storage">Internal storage</string>
+    <string name="loading_offline_fail">Failed to load offline resources</string>
+</resources>

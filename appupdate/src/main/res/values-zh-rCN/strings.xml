@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">应用更新</string>
+    <string name="version_found">发现新版本</string>
+
+    <string name="confirm">确定</string>
+    <string name="cancel">取消</string>
+    <string name="sorry">抱歉！</string>
+    <string name="tip">提示</string>
+    <string name="update">更新</string>
+    <string name="ready_to_download">准备下载</string>
+    <string name="insufficient_space_content">空间不足，请释放至少 %1$s 空间继续此安装。</string>
+    <string name="sdcard_not_usable">存储空间不可用，请重启后再试</string>
+    <string name="download_fail_check_net">下载失败，请检查网络状态是否良好</string>
+    <string name="installing">正在执行安装</string>
+    <string name="download_progress">正在下载升级包：\n %1$d %%</string>
+    <string name="install_success">安装完成</string>
+    <string name="install_fail">安装失败</string>
+    <string name="need_more_space">存储空间不足！</string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+</resources>

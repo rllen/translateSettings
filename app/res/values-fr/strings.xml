@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">Machine de traduction</string>
+    <!--———————-->
+    <!--Interface de démarrage-->
+    <!--———————-->
+    <string name="help">Aide</string>
+    <string name="string_help_text">"L’application actuelle ne possède pas les autorisations requises"</string>
+    <string name="quit">Quitter</string>
+    <string name="init_error">"Erreur d’initialisation"</string>
+    <string name="unauthorized">Non autorisé</string>
+    <string name="rule_init_fail">"L’initialisation des règles a échoué"</string>
+    <!--———————-->
+    <!--Interface de paramètres-->
+    <!--———————-->
+    <string name="setting">Paramètres</string>
+    <!--Mode de diffusion-->
+    <string name="mode">Mode de diffusion</string>
+    <!--Genre de diffusion-->
+    <string name="sex">Genre de diffusion</string>
+    <!--Vitesse de diffusion-->
+    <string name="activity_speed_title">Vitesse de diffusion</string>
+    <string name="speed">Vitesse de diffusion</string>
+    <!--WI-FI-->
+    <string name="wifi">WIFI</string>
+    <string name="activity_wifi_title">Veuillez vous connecter au Wi-Fi</string>
+    <string name="wifi_connected">Connecté</string>
+    <string name="confirm">Confirmer</string>
+    <string name="wifi_login_del">Retour</string>
+    <string name="wifi_login_changeAa">Lettre majuscule et minuscule</string>
+    <string name="wifi_switch">WIFI</string>
+    <string name="del_network">Ne pas enregistrer</string>
+    <string name="error_password">Erreur de mot de passe</string>
+    <string name="last">Précédent</string>
+    <string name="next">Suivant</string>
+    <string name="empty">Aucun</string>
+    <string name="wifi_connecting">En cours de connexion</string>
+    <!--Point d’accès mobile-->
+    <string name="share_name">MIFI</string>
+    <string name="wifi_share">"Point d’accès mobile"</string>
+    <string name="wifi_share_name">"Nom de point d’accès"</string>
+    <string name="tv_set_password">Définir un mot de passe</string>
+    <string-array name="ap_safe_type">
+        <item>Aucun</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">Veuillez insérer une carte Sim</string>
+    <!--Langue du système-->
+    <string name="activity_lg_title">Langue du système</string>
+    <string name="skip">Ignorer</string>
+    <!--Restaurer aux paramètres d’usine-->
+    <string name="reset">"Réinitialiser"</string>
+    <string name="master_clear_progress_title">"Effacement"</string>
+    <string name="master_clear_progress_text">"Veuillez patienter… "</string>
+    <string name="master_clear_title">"Restaurer aux paramètres d’usine"</string>
+    <string name="master_clear_desc">"Cette opération effacera toutes les données dans <b>"Appareil de stockage interne"</b> de la machine de traduction, tel que le système et les données et paramètres d’application.</string>
+    <!--À propos de-->
+    <string name="about">À propos de</string>
+    <string name="version_text">Machine de traduction Smartbean Machine V%1$s</string>
+    <string name="company">HONGKONG TEKSUN Copyright</string>
+    <string name="copyright_description">2017 HONGKONG TEKSUN. Tous droits réservés</string>
+    <!--———————-->
+    <!--Interface de traduction-->
+    <!--———————-->
+    <string name="net_error_prompt_text">La connexion a échoué, veuillez vérifier le réseau</string>
+    <string name="initialization_failed">"L’initialisation de l’appareil a échoué"</string>
+    <string name="equipment_unauthorized">"L’appareil n’est pas autorisé"</string>
+    <string name="retry">Veuillez réessayer</string>
+    <string name="speaking_prompt_text">"En cours d’écoute, de préférence 30 secondes ou moins"</string>
+    <string name="not_support_language">Langue non prise en charge</string>
+    <string name="init_ing">"En cours d’initialisation..."</string>
+    <!--———————-->
+    <!--Interface des favoris-->
+    <!--———————-->
+    <string name="collection">Favoris</string>
+    <string name="cancel">Annuler</string>
+    <string name="no_collect">Aucun contenu disponible</string>
+    <string name="Collection_of_success">Mis en signet !</string>
+    <string name="Collection_of_error">Cette entrée est invalide !</string>
+    <string name="Collection_of_limit">Le dossier favori a atteint la limite de 20 entrées !</string>
+    <string name="Collection_of_repeat">Ne pas ajouter de façon répétée !</string>
+
+    <!--———————-->
+    <!---Toast -->
+    <!--———————-->
+    <string name="submit">OK</string>
+    <string name="unrecognized">L’identification a échoué</string>
+    <string name="engine_missing">Moteur manquant</string>
+    <string name="cancel_success">Annulé avec succès</string>
+    <string name="unknown_exception">Exception inconnue</string>
+    <string name="system_is_not_ready">"Le système n’est pas prêt"</string>
+    <string name="reg_auto_stop">"L’identification a été automatiquement fermée, veuillez déplacer votre main."</string>
+    <string name="cancel_collect">Non favori</string>
+    <string name="firmware_upgrade">Mise à jour du firmware</string>
+    <string name="net_error_hint_before_ready">"Le réseau n’est pas prêt, veuillez vérifier la configuration Wi-Fi ou insérer la carte SIM."</string>
+    <string name="net_error_check_or_insert_card">"L'initialisation a échoué, veuillez vérifier le réseau ou insérer la carte SIM"</string>
+    <string name="set_net">"Configurer le réseau"</string>
+
+    <string name="clickable_check_hint">vérifier</string>
+    <string name="master_clear_final_desc">"Effacer toutes vos informations personnelles et les applications téléchargées ? Cette action est irréversible."</string>
+    <string name="version">"Numéro de version: "</string>
+    <string name="clearhis">"Effacer l'historique de traduction"</string>
+    <string name="master_clear_trslate_his">Vider votre historique de traduction?</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"Numéro de série: "</string>
+    <string name="translate" >"Traduction"</string>
+    <string name="record" >"Enregist"</string>
+
+    <string name="start_record">"Cliquez sur le bouton pour commencer l'enregistrement"</string>
+    <string name="confirm_to_save_record">"Voulez-vous enregistrer cet enregistrement?"</string>
+    <string name="record_history">"Liste d'enregistrement"</string>
+    <string name="record_language_settings">"Choix de la langue"</string>
+    <string name="delete">"Supprimer"</string>
+    <string name="delete_success">"Supprimé avec succès"</string>
+    <string name="no_file">"Pas de fichiers d'enregistrement"</string>
+    <string name="saving_record">"Sauver..."</string>
+    <string name="recording_is_too_long">"Enregistrement trop long, arrête automatiquement"</string>
+    <string name="record_clear_final_desc">"Voulez-vous supprimer cet enregistrement?"</string>
+    <string name="please_start_record">"S'il vous plaît commencez à parler!"</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">Actuellement en utilisant le trafic de données</string>
+    <string name="recording_saved">"Enregistrement enregistré"</string>
+    <string name="recording_saved_failure">"L'enregistrement a échoué"</string>
+    <string name="password_minlength">Mot de passe au moins 8 caractères</string>
+    <string name="recording_is_aborted">"Une erreur d'enregistrement s'arrête automatiquement"</string>
+
+    <string name="date_and_time" msgid="9062980487860757694">"Date et heure"</string>
+    <string name="date_time_auto" msgid="7076906458515908345">"Paramètres automatiques"</string>
+    <string name="date_time_set_date_title" msgid="6928286765325608604">"Date"</string>
+    <string name="date_time_set_date" msgid="7021491668550232105">"Régler la date"</string>
+    <string name="date_time_set_time_title" msgid="6296795651349047016">"Heure"</string>
+    <string name="date_time_set_time" msgid="5716856602742530696">"Régler l’heure"</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"S'il vous plaît vérifier l'heure manuellement pour une meilleure utilisation de l'équipement"</string>
+    <string name="apn_settings" msgid="3743170484827528406">"APN"</string>
+    <string name="apn_edit" msgid="1354715499708424718">"Modifier le point d\'accès"</string>
+    <string name="apn_not_set" msgid="4974192007399968164">"Non défini"</string>
+    <string name="apn_name" msgid="4115580098369824123">"Nom"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"APN"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"Proxy"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"Port"</string>
+    <string name="apn_user" msgid="455637547356117761">"Nom d\'utilisateur"</string>
+    <string name="apn_password" msgid="5412301994998250968">"Mot de passe"</string>
+    <string name="apn_server" msgid="2436185314756372858">"Serveur"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"Proxy MMS"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"Port MMS"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"Type d\'authentification"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"Aucune"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"PAP"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"PAP ou CHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"Type d\'APN"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"Protocole APN"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"Protocole APN en itinérance"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"Activer/Désactiver l\'APN"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APN activé"</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"APN désactivé"</string>
+    <string name="bearer" msgid="594270280031923558">"Réseau"</string>
+    <string name="mvno_type" msgid="2543253857818336421">"Type MVNO"</string>
+    <string name="mvno_match_data" msgid="4560671695220540466">"Valeur MVNO"</string>
+    <string name="menu_delete" msgid="6981294422841124659">"Supprimer l\'APN"</string>
+    <string name="menu_new" msgid="3014205883303921729">"Nouvel APN"</string>
+    <string name="menu_save" msgid="8109345640668285399">"Enregistrer"</string>
+    <string name="menu_cancel" msgid="2194502410474697474">"Annuler"</string>
+    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_name_empty" msgid="5508155943840201232">"Le champ \"Nom\" est obligatoire."</string>
+    <string name="error_apn_empty" msgid="4932211013600863642">"L\'APN est obligatoire."</string>
+    <string name="error_mcc_not3" msgid="4560171714156251661">"Le champ MCC doit contenir 3 chiffres."</string>
+    <string name="error_mnc_not23" msgid="8418177072458379439">"Le champ MNC doit contenir 2 ou 3 chiffres."</string>
+    <string name="restore_default_apn" msgid="8178010218751639581">"Restauration des paramètres APN par défaut en cours..."</string>
+    <string name="menu_restore" msgid="8260067415075573273">"Rétablir param. par défaut"</string>
+    <string name="restore_default_apn_completed" msgid="2824775307377604897">"La réinitialisation des paramètres APN par défaut est terminée."</string>
+
+    <!-- APN Settings start  -->
+    <string name="mvno_type_none">"Aucun"</string>
+    <string name="apn_predefine_change_dialog_notice">Confirmer la sauvegarde? Toute modification aux APN par défaut peut entraîner des problèmes de connexion!</string>
+    <string name="apn_port_warning">La valeur du port doit être comprise entre 1 et 65535!</string>
+    <!-- APN Settings end -->
+
+    <string name="untitled_apn" msgid="1230060359198685513">"Sans nom"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"Veille"</string>
+    <string name="region">"Région"</string>
+    <string name="region_switching">"Commutation"</string>
+    <string name="roaming" msgid="8871412572928323707">"Itinérance des données"</string>
+    <string name="network_request_timeout">"Délai d'expiration de la requête réseau"</string>
+    <string name="network_access_error">"L'accès au réseau est anormal"</string>
+    <string name="untranslated">Incapable de traduire</string>
+    <string name="unspoken">"Impossible de faire de la synthèse vocale"</string>
+    <string name="network_settings_title" msgid="4871233236744292831">"Réseaux mobiles"</string>
+    <string name="update_firmware">"Mettre à jour le firmware?"</string>
+    <string name="switch_fail_and_restart_network">"Un échec de transfert, redémarrer le réseau."</string>
+    <string name="network_do_not_work">"Le réseau ne fonctionne pas, veuillez vérifier le réseau."</string>
+
+    <!-- Conference @{ -->
+    <string name="chat">Conférence</string>
+    <string name="add_member">"Ajouter des membres"</string>
+    <string name="member_administration">"Gestion des membres"</string>
+    <string name="language_choice">"Choisir la langue"</string>
+    <string name="automatically_broadcast">"Lecture automatique"</string>
+    <string name="shielding_information">"Message de bouclier"</string>
+    <string name="add_members">"Ajouter un membre"</string>
+    <string name="members_management">"Gestion des membres"</string>
+    <string name="advanced_settings">"Réglages avancés"</string>
+    <string name="add_message_success">"Félicitations, vous avez participé à une conférence, votre langue actuelle est"</string>
+    <string name="create_message_success">"Félicitations, vous avez créé une conférence, votre langue actuelle est"</string>
+    <string name="add_message_success_tail">", vous pouvez changer la langue à travers les paramètres dans le menu en haut à droite, pour quitter la conférence ou le membre de botté, s'il vous plaît aller à la gestion des membres."</string>
+    <string name="quitGroupMessage">"Voulez-vous quitter la conférence?"</string>
+    <string name="kickGroupMessage">"Voulez-vous supprimer ce membre?"</string>
+    <string name="please_enter_your_id_number">"Veuillez entrer votre ID"</string>
+    <string name="id_at_least_six_characters">"L'identifiant doit comporter 6 caractères"</string>
+    <string name="id_does_not_exist">"L'ID n'existe pas"</string>
+    <string name="has_joined">"Ce membre a rejoint une autre conférence"</string>
+    <string name="can_not_add_yourself">"Impossible d'ajouter votre propre ID"</string>
+    <string name="id_is_already_in_list">"Cet identifiant est déjà dans la liste"</string>
+    <string name="many_people_translate">Conférence</string>
+    <string name="please_Enter_The_ID">"Veuillez entrer votre ID"</string>
+    <string name="member">Membre</string>
+    <string name="been_added">"Ajouté à d'autres conférences, veuillez remplacer ou supprimer"</string>
+    <string name="system_message">"Notification système"</string>
+    <string name="intertranslation">"rejoint une conférence"</string>
+    <string name="translation_out">"a été expulsé de la conférence"</string>
+    <string name="my_id">"Ma pièce d'identité"</string>
+    <string name="out_of_translation">"quitté la conférence"</string>
+    <string name="check_net">"Veuillez configurer un réseau"</string>
+    <string name="loading">"Chargement..."</string>
+    <string name="no_more_history_message">"Plus de messages d'historique"</string>
+    <string name="add_member_fail">"Impossible d'ajouter un membre"</string>
+    <string name="self_kicked">"Vous êtes kické!"</string>
+    <string name="wait_to_add_group">"Aucune conférence n'a encore été ajoutée. Cliquez sur [Créer] pour connecter d'autres appareils"</string>
+    <string name="my_id_is">"Ma pièce d'identité:"</string>
+    <string name="establish">Créer</string>
+    <string name="quit_the_group">"Quitter la conférence"</string>
+    <string name="you_are_in_another_group">"Vous êtes dans une autre conférence "</string>
+    <string name="finish">OK</string>
+    <!-- @} -->
+    <string name="date_time_set_timezone_title" msgid="3047322337368233197">"Fuseau horaire"</string>
+    <string name="date_time_set_timezone" msgid="5045627174274377814">"Définir le fuseau horaire"</string>
+    <string name="zone_auto" msgid="334783869352026648">"Fuseau horaire automatique"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"Déconnecté"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"Déconnexion…"</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"Connexion…"</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"Connecté"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"Association…"</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"Connecté (sans audio pour appels tél.)"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"Connecté (sans audio contenu mutimédia)"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"Connecté (sans accès aux messages)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"Connecté (sans audio tel./multimédia)"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"Multimédia"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"Appels et notifications"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"Transfert de fichier"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"Périphérique d\'entrée"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"Accès Internet"</string>
+    <string name="bluetooth_profile_pbap" msgid="5372051906968576809">"Partage de contacts"</string>
+    <string name="bluetooth_profile_pbap_summary" msgid="6605229608108852198">"Utiliser pour le partage de contacts"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"Partage de connexion Internet"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"Accès aux messages"</string>
+    <string name="bluetooth_profile_sap" msgid="5764222021851283125">"Accès à la carte SIM"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"Connecté aux paramètres audio du média"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"Connecté aux paramètres audio du téléphone"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"Connexion au serveur de transfert de fichiers"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"Connecté à la carte"</string>
+    <string name="bluetooth_sap_profile_summary_connected" msgid="8561765057453083838">"Connecté au point d\'accès au service"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"Connexion au serveur de transfert de fichiers non établie"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"Connecté au périphérique d\'entrée"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"Connecté à l\'appareil pour accès Internet"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"Connexion Internet locale partagée"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"Utiliser pour l\'accès à Internet"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"Utiliser pour la carte"</string>
+    <string name="bluetooth_sap_profile_summary_use_for" msgid="7085362712786907993">"Utiliser pour l\'accès à la carte SIM"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"Utiliser pour les paramètres audio du média"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"Utiliser pour les paramètres audio du téléphone"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"Utiliser pour le transfert de fichiers"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"Utiliser comme entrée"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"Associer"</string>
+    <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"ASSOCIER"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"Annuler"</string>
+    <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"L\'association vous permet d\'accéder à vos contacts et à l\'historique des appels lorsque vous êtes connecté."</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"Impossible d\'associer à <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"Impossible d\'établir l\'association avec <xliff:g id="DEVICE_NAME">%1$s</xliff:g> en raison d\'un code PIN ou d\'une clé d\'accès incorrects."</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"Impossible d\'établir la communication avec <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"Association refusée par <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
+    <string name="bluetooth_search_for_devices" msgid="2754007356491461674">"Actualiser"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"Recherche..."</string>
+    <string name="forget" msgid="1400428660472591263">"Supprimer"</string>
+    <string name="bluetooth_paired">"Jumelé"</string>
+    <string name="activity_bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_switch">Bluetooth</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">"Effacer l'historique"</string>
+    <string name="clear_history_confirm">"Voulez-vous effacer votre historique?"</string>
+    <string name="model">"Model : "</string>
+    <string name="display_settings" msgid="7965901687241669598">"Affichage"</string>
+    <string name="connect_network_for_authorization">"veuillez vous connecter réseau d'autorisation"</string>
+    <string name="loading_offline_resource">Des ressources de chargement hors ligne...</string>
+    <string name="offline_speech_synthesizer_not_supported">"Cette langue n 'appuie pas la synthèse vocale centrifuge"</string>
+    <string name="trans_net_error_prompt_text">La connexion a échoué, veuillez vérifier le réseau;Traduction chinois - anglais normal</string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"<xliff:g id="USED">%1$s</xliff:g> utilisé(s) sur <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"Stockage"</string>
+    <string name="select_memory">"Disque d'écriture par défaut fixé à %s"</string>
+    <string name="file_non_exists">"Le fichier n 'existe pas."</string>
+    <string name="io_error">"Le fichier de lecture et écriture anormale"</string>
+    <string name="wifi_ssid" msgid="5519636102673067319">"Nom du réseau"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"Sécurité"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"Mot de passe"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"Ajouter un réseau"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"Aucune"</string>
+
+    <string name="low_memory_warning">"L'espace de stockage s'épuise! Veuillez supprimer certains enregistrements ou fichiers d'images."</string>
+    <string name="root_internal_storage" msgid="827844243068584127">"Mémoire de stockage interne"</string>
+    <string name="loading_offline_fail">"Les ressources de l'échec du chargement hors ligne"</string>
+</resources>

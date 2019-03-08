@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">设置</string>
+    <!--———————-->
+    <!--引导界面-->
+    <!--———————-->
+    <string name="help">帮助</string>
+    <string name="string_help_text">当前应用缺少必要权限</string>
+    <string name="quit">退出</string>
+    <string name="init_error">初始化错误</string>
+    <string name="unauthorized">未授权的</string>
+    <string name="rule_init_fail">规则初始化失败</string>
+    <!--———————-->
+    <!--设置界面-->
+    <!--———————-->
+    <string name="setting">设置</string>
+    <!--播报模式-->
+    <string name="mode">播报模式</string>
+    <!--播报性别-->
+    <string name="sex">播报性别</string>
+    <!--播报速度-->
+    <string name="activity_speed_title">播报速度</string>
+    <string name="speed">播报速度</string>
+    <!--WI-FI-->
+    <string name="wifi">WIFI</string>
+    <string name="activity_wifi_title">请连接Wi-Fi</string>
+    <string name="wifi_connected">已连接</string>
+    <string name="confirm">确认</string>
+    <string name="wifi_login_del">删除</string>
+    <string name="wifi_login_changeAa">大小写</string>
+    <string name="wifi_switch">WIFI</string>
+    <string name="del_network">不保存网络</string>
+    <string name="error_password">密码错误</string>
+    <string name="last">上一步</string>
+    <string name="next">下一步</string>
+    <string name="empty">无</string>
+    <string name="wifi_connecting">连接中</string>
+    <!--移动热点-->
+    <string name="share_name">MIFI</string>
+    <string name="wifi_share">移动热点</string>
+    <string name="wifi_share_name">热点名称</string>
+    <string name="tv_set_password">设置密码</string>
+    <string-array name="ap_safe_type">
+        <item>无</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">请插入sim卡</string>
+    <!--系统语言-->
+    <string name="activity_lg_title">系统语言</string>
+    <string name="skip">跳过</string>
+    <!--恢复出厂设置-->
+    <string name="reset">"重置"</string>
+    <string name="master_clear_progress_title">"正在清除"</string>
+    <string name="master_clear_progress_text">"请稍候…"</string>
+    <string name="master_clear_title">"恢复出厂设置"</string>
+    <string name="master_clear_desc">"此操作会清除您翻译机"<b>"内部存储设备"</b>"中的所有数据，如：系统和应用的数据和设置.</string>
+    <!--关于-->
+    <string name="about">关于</string>
+    <string name="version_text">智豆翻译机V%1$s</string>
+    <string name="company">香港腾瑞丰公司 版权所有</string>
+    <string name="copyright_description">2017 HONGKONG TEKSUN.All Rights Reserved</string>
+    <!--———————-->
+    <!--翻译界面-->
+    <!--———————-->
+    <string name="net_error_prompt_text">连接失败，请检查网络</string>
+    <string name="initialization_failed">设备初始化失败</string>
+    <string name="equipment_unauthorized">设备未授权</string>
+    <string name="retry">重试</string>
+    <string name="speaking_prompt_text">倾听中，30秒以内为佳</string>
+    <string name="not_support_language">不支持的语言</string>
+    <string name="init_ing">正在初始化...</string>
+    <!--———————-->
+    <!--收藏界面-->
+    <!--———————-->
+    <string name="collection">收藏</string>
+    <string name="cancel">取消</string>
+    <string name="no_collect">暂无收藏内容</string>
+    <string name="Collection_of_success">收藏成功！</string>
+    <string name="Collection_of_error">此条收藏失效！</string>
+    <string name="Collection_of_limit">收藏夹已满20条！</string>
+    <string name="Collection_of_repeat">请勿重复添加！</string>
+
+    <!--———————-->
+    <!---Toast -->
+    <!--———————-->
+    <string name="submit">确定</string>
+    <string name="unrecognized">无法识别</string>
+    <string name="engine_missing">引擎缺失</string>
+    <string name="cancel_success">取消成功</string>
+    <string name="unknown_exception">未知异常</string>
+    <string name="system_is_not_ready">系统未就绪</string>
+    <string name="reg_auto_stop">识别已自动结束,请松手</string>
+    <string name="cancel_collect">取消收藏</string>
+    <string name="firmware_upgrade">固件升级</string>
+    <string name="net_error_hint_before_ready">"网络未就绪，请 检查 wifi配置或插入SIM卡."</string>
+    <string name="net_error_check_or_insert_card">"初始化失败，请检查网络或插入SIM卡"</string>
+    <string name="set_net">"设置网络"</string>
+
+    <string name="clickable_check_hint">"检查"</string>
+    <string name="master_clear_final_desc">"要清空您的所有个人信息和下载的应用吗？此操作无法撤消！"</string>
+    <string name="version">"版本号: "</string>
+    <string name="clearhis">清空翻译历史</string>
+    <string name="master_clear_trslate_his">要清空您的翻译历史记录吗?</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"序列号: "</string>
+    <string name="translate" >"翻译"</string>
+    <string name="record" >"录音"</string>
+    <string name="start_record">"点击按钮开始录音"</string>
+    <string name="confirm_to_save_record">"要保存此录音吗？"</string>
+    <string name="record_history">"录音列表"</string>
+    <string name="record_language_settings">"语言选择"</string>
+    <string name="delete">"删除"</string>
+    <string name="delete_success">"删除成功"</string>
+    <string name="no_file">"暂无录音文件"</string>
+    <string name="saving_record">"正在保存..."</string>
+    <string name="recording_is_too_long">"录音太长,自动停止"</string>
+    <string name="record_clear_final_desc">"要删除该录音吗？"</string>
+    <string name="please_start_record">"请开始说话！"</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">当前正在使用数据流量</string>
+    <string name="recording_saved">"录音已保存"</string>
+    <string name="recording_saved_failure">"录音保存失败"</string>
+    <string name="password_minlength">密码至少8个字符</string>
+    <string name="recording_is_aborted">"录音出错，自动停止"</string>
+
+    <string name="date_and_time" msgid="9062980487860757694">"日期和时间"</string>
+    <string name="date_time_auto" msgid="7076906458515908345">"自动设置"</string>
+    <string name="date_time_set_date_title" msgid="6928286765325608604">"日期"</string>
+    <string name="date_time_set_date" msgid="7021491668550232105">"设置日期"</string>
+    <string name="date_time_set_time_title" msgid="6296795651349047016">"时间"</string>
+    <string name="date_time_set_time" msgid="5716856602742530696">"设置时间"</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"请手动校对时间，以便更好使用设备"</string>
+    <!-- APN -->
+    <string name="apn_settings" msgid="3743170484827528406">"APN"</string>
+    <string name="apn_edit" msgid="1354715499708424718">"修改接入点"</string>
+    <string name="apn_not_set" msgid="4974192007399968164">"未设置"</string>
+    <string name="apn_name" msgid="4115580098369824123">"名称"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"APN"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"代理"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"端口"</string>
+    <string name="apn_user" msgid="455637547356117761">"用户名"</string>
+    <string name="apn_password" msgid="5412301994998250968">"密码"</string>
+    <string name="apn_server" msgid="2436185314756372858">"服务器"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"彩信代理"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"彩信端口"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"身份验证类型"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"无"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"PAP"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"PAP 或 CHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"APN 类型"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"APN 协议"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"APN 漫游协议"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"APN 启用/停用"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APN 已启用"</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"未启用 APN"</string>
+    <string name="bearer" msgid="594270280031923558">"承载系统"</string>
+    <string name="mvno_type" msgid="2543253857818336421">"MVNO 类型"</string>
+    <string name="mvno_match_data" msgid="4560671695220540466">"MVNO 值"</string>
+    <string name="menu_delete" msgid="6981294422841124659">"删除 APN"</string>
+    <string name="menu_new" msgid="3014205883303921729">"新建 APN"</string>
+    <string name="menu_save" msgid="8109345640668285399">"保存"</string>
+    <string name="menu_cancel" msgid="2194502410474697474">"放弃"</string>
+    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_name_empty" msgid="5508155943840201232">"“名称”字段不能为空。"</string>
+    <string name="error_apn_empty" msgid="4932211013600863642">"APN 不能为空。"</string>
+    <string name="error_mcc_not3" msgid="4560171714156251661">"MCC 字段必须为 3 位数。"</string>
+    <string name="error_mnc_not23" msgid="8418177072458379439">"MNC 字段必须为 2 位数或 3 位数。"</string>
+    <string name="restore_default_apn" msgid="8178010218751639581">"正在恢复默认 APN 设置。"</string>
+    <string name="menu_restore" msgid="8260067415075573273">"重置为默认设置"</string>
+    <string name="restore_default_apn_completed" msgid="2824775307377604897">"已重置默认APN设置。"</string>
+
+    <!-- APN Settings start  -->
+    <string name="mvno_type_none">无</string>
+    <string name="apn_predefine_change_dialog_notice">确定要保存？修改默认的 APN 可能会影响数据连接！</string>
+    <string name="apn_port_warning">端口值必须是1-65535！</string>
+    <!-- APN Settings end -->
+
+    <!-- Name to assign to a Network Access Point that was saved without a name -->
+    <string name="untitled_apn" msgid="1230060359198685513">"未命名"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"休眠"</string>
+    <string name="region">"地区"</string>
+    <string name="region_switching">"正在切换"</string>
+    <string name="roaming" msgid="8871412572928323707">"数据漫游"</string>
+    <string name="network_request_timeout">网络请求超时</string>
+    <string name="network_access_error">网络访问异常</string>
+    <string name="untranslated">无法翻译</string>
+    <string name="unspoken">无法播报</string>
+    <string name="network_settings_title" msgid="4871233236744292831">"移动网络"</string>
+    <string name="update_firmware">"更新固件?"</string>
+    <string name="switch_fail_and_restart_network">"切换失败,请重启网络."</string>
+    <string name="network_do_not_work">"网络不通,请检查网络."</string>
+
+
+
+    <!-- Conference @{ -->
+    <string name="chat">互译</string>
+    <string name="add_member">添加成员</string>
+    <string name="member_administration">成员管理</string>
+    <string name="language_choice">语言选择</string>
+    <string name="automatically_broadcast">自动播报</string>
+    <string name="shielding_information">屏蔽信息</string>
+    <string name="add_members">添加成员</string>
+    <string name="members_management">成员管理</string>
+    <string name="advanced_settings">高级设置</string>
+    <string name="add_message_success">恭喜您成功加入互译, 当前使用的语言是</string>
+    <string name="create_message_success">恭喜您成功创建互译, 当前使用的语言是</string>
+    <string name="add_message_success_tail">，可通过 右上角语言设置更改, 退出互译或移除成员 请使用成员管理</string>
+    <string name="quitGroupMessage">要退出互译吗？</string>
+    <string name="kickGroupMessage">要移除该成员吗？</string>
+    <string name="please_enter_your_id_number">请输入ID</string>
+    <string name="id_at_least_six_characters">ID必须为6个字符</string>
+    <string name="id_does_not_exist">ID不存在</string>
+    <string name="has_joined">该成员已加入其他互译</string>
+    <string name="can_not_add_yourself">不能添加自己的ID</string>
+    <string name="id_is_already_in_list">该ID已在列表中</string>
+    <string name="many_people_translate">互译</string>
+    <string name="please_Enter_The_ID">请输入ID</string>
+    <string name="member">成员</string>
+    <string name="been_added">已加入其他互译，请更换设备或移除</string>
+    <string name="system_message">系统通知</string>
+    <string name="intertranslation">加入了互译</string>
+    <string name="translation_out">被请出了互译</string>
+    <string name="my_id">我的ID</string>
+    <string name="out_of_translation">退出了互译</string>
+    <string name="check_net">请设置网络</string>
+    <string name="loading">正在加载...</string>
+    <string name="no_more_history_message">没有更多历史消息了</string>
+    <string name="self_kicked">"您被请出互译!"</string>
+    <string name="wait_to_add_group">当前未加入任何互译\n点击【创建】连通其他设备</string>
+    <string name="my_id_is">我的ID：</string>
+    <string name="establish">创建</string>
+    <string name="quit_the_group">退出互译</string>
+    <string name="you_are_in_another_group">"您已加入其他互译"</string>
+    <string name="finish">"完成"</string>
+    <string name="add_member_fail">"添加成员失败"</string>
+    <!-- @} -->
+    <string name="date_time_set_timezone_title" msgid="3047322337368233197">"时区"</string>
+    <string name="date_time_set_timezone" msgid="5045627174274377814">"选择时区"</string>
+    <string name="zone_auto" msgid="334783869352026648">"自动确定时区"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"已断开连接"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"正在断开连接..."</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"正在连接..."</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"已连接"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"正在配对..."</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"已连接（无手机）"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"已连接（无媒体）"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"已连接（无消息权限）"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"已连接（没有手机或媒体信号）"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"媒体音频"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"手机音频"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"文件传输"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"输入设备"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"互联网连接"</string>
+    <string name="bluetooth_profile_pbap" msgid="5372051906968576809">"共享联系人"</string>
+    <string name="bluetooth_profile_pbap_summary" msgid="6605229608108852198">"用于共享联系人"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"共享互联网连接"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"消息权限"</string>
+    <string name="bluetooth_profile_sap" msgid="5764222021851283125">"SIM 卡存取权限"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"已连接到媒体音频"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"已连接到手机音频"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"已连接到文件传输服务器"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"已连接到地图"</string>
+    <string name="bluetooth_sap_profile_summary_connected" msgid="8561765057453083838">"已连接到 SAP"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"未连接到文件传输服务器"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"已连接到输入设备"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"经由其他设备连接到互联网"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"与其他设备共享该设备的互联网连接"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"用于连接互联网"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"用于地图"</string>
+    <string name="bluetooth_sap_profile_summary_use_for" msgid="7085362712786907993">"用于存取 SIM 卡"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"用于媒体音频"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"用于手机音频"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"用于文件传输"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"用于输入"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"配对"</string>
+    <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"配对"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"取消"</string>
+    <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"配对之后，所配对的设备将可以在建立连接后访问您的通讯录和通话记录。"</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"无法与“<xliff:g id="DEVICE_NAME">%1$s</xliff:g>”进行配对。"</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"PIN码或配对密钥不正确，无法与<xliff:g id="DEVICE_NAME">%1$s</xliff:g>配对。"</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"无法与“<xliff:g id="DEVICE_NAME">%1$s</xliff:g>”进行通信。"</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> 已拒绝配对。"</string>
+    <string name="bluetooth_search_for_devices" msgid="2754007356491461674">"刷新"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"正在搜索..."</string>
+    <string name="forget" msgid="1400428660472591263">"取消保存"</string>
+    <string name="bluetooth_paired">"已配对"</string>
+    <string name="activity_bluetooth_title">蓝牙</string>
+    <string name="bluetooth_switch">蓝牙</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">清空历史记录</string>
+    <string name="clear_history_confirm">要清空您的历史记录么？</string>
+    <string name="model">"型号 : "</string>
+    <string name="display_settings" msgid="7965901687241669598">"显示"</string>
+    <string name="connect_network_for_authorization">请连接网络进行授权.</string>
+    <string name="loading_offline_resource">加载离线资源中...</string>
+    <string name="offline_speech_synthesizer_not_supported">该语言不支持离线语音合成</string>
+    <string name="trans_net_error_prompt_text">连接失败，请检查网络;中-英可正常使用</string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"已使用 <xliff:g id="USED">%1$s</xliff:g>（共 <xliff:g id="TOTAL">%2$s</xliff:g>）"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"存储空间"</string>
+    <string name="select_memory">默认存储器设置为%s</string>
+    <string name="file_non_exists">"文件不存在"</string>
+    <string name="io_error">"文件读写异常"</string>
+    <string name="wifi_ssid" msgid="5519636102673067319">"网络名称"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"安全性"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"密码"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"添加网络"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"无"</string>
+
+    <string name="low_memory_warning">存储空间即将耗尽！请删除一些录音或图片文件。</string>
+    <string name="root_internal_storage" msgid="827844243068584127">"内部存储空间"</string>
+    <string name="loading_offline_fail">"加载离线资源失败"</string>
+</resources>
+
+

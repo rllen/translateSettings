@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- In LocalePicker verwendet -->
+    <!--Einstellungen der Schnittstelle-->
+    <string-array name="mode_entries">
+        <item>Automatisch</item>
+        <item>Manuell</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item >Männlich</item>
+        <item >Weiblich</item>
+    </string-array>
+
+    <string-array name="speed_entries">
+        <item>Schnell</item>
+        <item>Normal</item>
+        <item>Etwas langsamer</item>
+        <item>Langsam</item>
+    </string-array>
+    <string-array name="language_desc">
+        <item>Sichuan-Dialekt</item>
+        <item>Nordöstliche Wörter</item>
+        <item>Henan Dialekt</item>
+        <item>Hunan Dialekt</item>
+        <item>Shaanxi Dialekt</item>
+
+        <item>Chinesische Wörter</item>
+        <item>Taiwanesische Wörter</item>
+        <item>Kantonesisch</item>
+        <item>Englisch (USA)</item>
+        <item>Englisch (Australien)</item>
+
+        <item>Englisch (Kanada)</item>
+        <item>Englisch (UK)</item>
+        <item>Englisch (Ghana)</item>
+        <item>Englisch (Irland)</item>
+        <item>Englisch (Kenia)</item>
+
+        <item>Englisch (Nigeria)</item>
+        <item>Englisch (Philippinen)</item>
+        <item>Englisch (Südafrika)</item>
+        <item>Englisch (Tansania)</item>
+        <item>Englisch (Indien)</item>
+
+        <item>Englisch (Neuseeland)</item>
+        <item>Arabisch (Ägypten)</item>
+        <item>Arabisch (Arabisch)</item>
+        <item>Arabisch (Israel)</item>
+        <item>Arabisch (Jordanien)</item>
+
+        <item>Arabisch (Vereinigte Arabische Emirate)</item>
+        <item>Arabisch (Bahrein)</item>
+        <item>Arabisch (Algerien)</item>
+        <item>Arabisch (Irak)</item>
+        <item>Arabisch (Kuwait)</item>
+
+        <item>Arabisch (Marokko)</item>
+        <item>Arabisch (Tunesien)</item>
+        <item>Arabisch (Oman)</item>
+        <item>Arabisch (Palästinensischer Staat)</item>
+        <item>Arabisch (Katar)</item>
+
+        <item>Arabisch (Libanon)</item>
+        <item>Dänisch</item>
+        <item>Deutsch</item>
+        <item>Katalanisch</item>
+        <item>Spanisch (Mexiko)</item>
+
+        <item>Spanisch (Argentinien)</item>
+        <item>Spanisch (Bolivien)</item>
+        <item>Spanisch (Chile)</item>
+        <item>Spanisch (Kolumbien)</item>
+        <item>Spanisch (Costa Rica)</item>
+
+        <item>Spanisch (Ecuador)</item>
+        <item>Spanisch (El Salvador)</item>
+        <item>Spanisch (US)</item>
+        <item>Spanisch (Guatemala)</item>
+        <item>Spanisch (Honduras)</item>
+
+        <item>Spanisch (Nicaragua)</item>
+        <item>Spanisch (Paraguay)</item>
+        <item>Spanisch (Peru)</item>
+        <item>Spanisch (Puerto Rico)</item>
+        <item>Spanisch (Dominikanische Republik)</item>
+
+        <item>Spanisch (Uruguay)</item>
+        <item>Spanisch (Venezuela)</item>
+        <item>Baskisch (Baskisch)</item>
+        <item>Filipino (Philippinen)</item>
+        <item>Galizisch (Spanien)</item>
+
+        <item>Portugiesisch (Brasilien)</item>
+        <item>Portugiesisch</item>
+        <item>Russisch</item>
+        <item>Schwedisch</item>
+        <item>Tschechisch</item>
+
+        <item>Ungarisch</item>
+        <item>Rumänisch</item>
+        <item>Thai</item>
+        <item>Vietnamesisch</item>
+        <item>Griechisch</item>
+
+        <item>Bulgarisch</item>
+        <item>Estnisch</item>
+        <item>Slowenisch</item>
+        <item>Spanisch</item>
+        <item>Norwegisch</item>
+
+        <item>Hindi</item>
+        <item>Slowakisch</item>
+        <item>Koreanisch</item>
+        <item>Japanisch</item>
+        <item>Deutsch (Österreich)</item>
+
+        <item>Deutsch (Schweiz)</item>
+        <item>Französisch</item>
+        <item>Französisch (Schweiz)</item>
+        <item>Französisch (Kanada)</item>
+        <item>Hebräisch (Israel)</item>
+
+        <item>Indonesisch</item>
+        <item>Türkisch</item>
+        <item>Ukrainisch</item>
+        <item>Bengalisch</item>
+        <item>Bengalisch (Indien)</item>
+
+        <item>Malaiisch</item>
+        <item>Persisch</item>
+        <item>Serbisch</item>
+        <item>Urdu</item>
+        <item>Urdu (Indien)</item>
+
+        <item>Afrikaans</item>
+        <item>Amharisch</item>
+        <item>Armenisch</item>
+        <item>Aserbaidschanisch</item>
+        <item>Georgisch</item>
+
+        <item>Gujarati (Indien)</item>
+        <item>Kroatische Sprache (Kroatien)</item>
+        <item>Südafrika Zulu (Südafrika)</item>
+        <item>Isländisch (Isländisch)</item>
+        <item>Italienisch</item>
+
+        <item>Javanisch (Indonesien)</item>
+        <item>Kannada (Indien)</item>
+        <item>Khmer (Kambodscha)</item>
+        <item>Lao (Laos)</item>
+        <item>Lettisch (Lettland)</item>
+
+        <item>Litauisch</item>
+        <item>Malayalam (Indien)</item>
+        <item>Marathi (Indien)</item>
+        <item>Niederländisch</item>
+        <item>Nepal</item>
+
+        <item>Polnisch</item>
+        <item>Singhalesisch (Sri Lanka)</item>
+        <item>巽 Sprache (Indonesien)</item>
+        <item>Suaheli (Tansania)</item>
+        <item>Suaheli (Kenia)</item>
+
+        <item>Finnisch</item>
+        <item>Tamilisch (Indien)</item>
+        <item>Tamilisch (Singapur)</item>
+        <item>Tamilisch (Sri Lanka)</item>
+        <item>Tamilisch (Malaysia)</item>
+
+        <item>Telugu (Indien)</item>
+        <item>Birmanisch</item>
+        <item>Laotisch</item>
+        <item>""</item>
+    </string-array>
+
+    <string-array name="apn_auth_entries">
+        <item msgid="3856896061242872146">"Keiner"</item>
+        <item msgid="5756844015743664882">"PAP"</item>
+        <item msgid="535934025797984365">"CHAP"</item>
+        <item msgid="8383098660619805783">"PAP oder CHAP"</item>
+    </string-array>
+    <string-array name="apn_protocol_entries">
+        <item msgid="4852355456199302715">"IPv4"</item>
+        <item msgid="4394161344888484571">"IPv6"</item>
+        <item msgid="8084938354605535381">"IPv4/IPv6"</item>
+    </string-array>
+    <string-array name="bearer_entries">
+        <item msgid="1697455674244601285">"Keine Angabe"</item>
+        <item msgid="1317061551798123908">"LTE"</item>
+        <item msgid="5005435684511894770">"HSPAP"</item>
+        <item msgid="7700603056475539235">"HSPA"</item>
+        <item msgid="245973007602397887">"HSUPA"</item>
+        <item msgid="6291566767651194016">"HSDPA"</item>
+        <item msgid="2005841400859926251">"UMTS"</item>
+        <item msgid="3757385691174882861">"EDGE"</item>
+        <item msgid="2979115073474306864">"GPRS"</item>
+        <item msgid="2271750502778879106">"eHRPD"</item>
+        <item msgid="4173379084783381337">"EVDO_B"</item>
+        <item msgid="2033682802005776093">"EVDO_A"</item>
+        <item msgid="5753917125831466719">"EVDO_0"</item>
+        <item msgid="4713807936577071142">"1xRTT"</item>
+        <item msgid="1142355797022021906">"IS95B"</item>
+        <item msgid="7471182818083460781">"IS95A"</item>
+    </string-array>
+    <string-array name="mvno_type_entries">
+        <item msgid="4367119357633573465">"Keiner"</item>
+        <item msgid="6062567900587138000">"SPN"</item>
+        <item msgid="2454085083342423481">"IMSI"</item>
+        <item msgid="2681427309183221543">"GID"</item>
+    </string-array>
+
+    <string-array name="screen_timeout_entries">
+        <item msgid="8881760709354815449">"30 Sekunden"</item>
+        <item msgid="7589406073232279088">"1 Minute"</item>
+        <item msgid="7001195990902244174">"3 Minuten"</item>
+        <!--<item msgid="7489864775127957179">"5 Minuten"</item>-->
+        <!--<item msgid="2314124409517439288">"10 Minuten"</item>-->
+        <!--<item msgid="6864027152847611413">"30 Minuten"</item>-->
+        <item msgid="6864027152847611413">"Niemals"</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>China</item>
+        <item>Andere(google)</item>
+    </string-array>
+</resources>

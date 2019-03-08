@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="match_parent">
+    <include layout="@layout/common_action_bar" />
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/automatically_broadcast"
+        app:track="@drawable/track"
+        style="?attr/wifiSwitch"
+        android:text="@string/automatically_broadcast"/>
+
+    <android.support.v7.widget.SwitchCompat
+        app:track="@drawable/track"
+        android:id="@+id/shielding_information"
+        style="?attr/wifiSwitch"
+        android:text="@string/shielding_information"/>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+<string name = "app_name">アプリケーションの更新</string>
+<string name = "version_found">​​新しいバージョンが見つかりました</string>
+
+<string name = "confirm"> OK </string>
+<string name = "cancel">キャンセル</string>
+<string name = "sorry">申し訳ありません！ </string>
+<string name = "tip"> tip </string>
+<string name = "update">更新</string>
+<string name = "ready_to_download">ダウンロード準備完了</string>
+<string name = "insufficient_space_content">スペースが足りません。このインストールを続行するには、少なくとも %1$s スペースを解放してください。 </string>
+<string name = "sdcard_not_usable">ストレージスペースが利用できません。再起動後に再試行してください。</string>
+<string name = "download_fail_check_net">ダウンロードに失敗しました。ネットワークステータスが良好かどうかを確認してください</string>
+<string name = "installing">インストール中です</string>
+<string name = "download_progress">アップグレードパッケージのダウンロード：\n %1$d %%</string>
+<string name = "install_success">インストール完了</string>
+<string name = "install_fail">インストールに失敗しました</string>
+<string name = "need_more_space">ストレージ容量が不足しています！ </string>
+
+<string name = "size_M" translatable = "false">（%1$.2f MB）</string>
+<string name = "size_K" translatable = "false">（%1$.2f KB）</string>
+<string name = "size_B" translatable = "false">（%1$.2f Bytes）</string>
+</resources>

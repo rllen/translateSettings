@@ -1,0 +1,13 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ll_keybordbutton"
+    style="@style/NineKeybordButton"
+    android:background="@drawable/textview_selector">
+
+    <link.zhidou.translator.ui.view.AutoFitHeightTextView
+        android:id="@+id/tv_up"
+        style="@style/NineKeybordButtonText" />
+
+    <link.zhidou.translator.ui.view.AutoFitHeightTextView
+        android:id="@+id/tv_down"
+        style="@style/NineKeybordButtonText" />
+</LinearLayout>

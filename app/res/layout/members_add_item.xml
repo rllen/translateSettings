@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/content"
+        android:gravity="center_vertical"
+        android:paddingStart="15dp"
+        android:layout_width="0dip"
+        android:layout_height="54dp"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <!--重要: 添加textAlignment针对阿拉伯语适配 -->
+        <TextView
+            android:id="@+id/tv_order"
+            android:textAlignment="viewStart"
+            android:layout_marginEnd="15dp"
+            android:gravity="start"
+            android:maxWidth="80dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:visibility="gone"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <!--重要: 添加textAlignment针对阿拉伯语适配 -->
+        <TextView
+            android:id="@+id/tv_id"
+            android:textAlignment="viewStart"
+            android:gravity="start"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="4"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/rl_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:id="@+id/iv_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/chat_user_delete_selector" />
+
+    </FrameLayout>
+
+</LinearLayout>

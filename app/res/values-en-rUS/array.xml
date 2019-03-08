@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Used in LocalePicker -->
+    <!--设置界面-->
+    <string-array name="speed_entries">
+        <item>Fast</item>
+        <item>Normal</item>
+        <item>A bit slow</item>
+        <item>Slow</item>
+    </string-array>
+
+    <string-array name="mode_entries">
+        <item>Automatic</item>
+        <item>Operation</item>
+    </string-array>
+
+    <string-array name="sex_entries">
+        <item>Male</item>
+        <item>Female</item>
+    </string-array>
+
+    <string-array name="language_desc">
+        <item>四川话</item>
+        <item>东北话</item>
+        <item>河南话</item>
+        <item>湖南话</item>
+        <item>陕西话</item>
+
+        <item>Chinese</item>
+        <item>Taiwanese</item>
+        <item>Cantonese</item>
+        <item>English (United States)</item>
+        <item>English (Australia)</item>
+
+        <item>English (Canada)</item>
+        <item>English (UK)</item>
+        <item>English (Ghana)</item>
+        <item>English (Ireland)</item>
+        <item>English (Kenya)</item>
+
+        <item>English (Nigeria)</item>
+        <item>English (Philippines)</item>
+        <item>English (South Africa)</item>
+        <item>English (Tanzania)</item>
+        <item>English (India)</item>
+
+        <item>English (New Zealand)</item>
+        <item>Arabic (Egypt)</item>
+        <item>Arabic (Arabic)</item>
+        <item>Arabic (Israel)</item>
+        <item>Arabic (Jordan)</item>
+
+        <item>Arabic (United Arab Emirates)</item>
+        <item>Arabic (Bahrain)</item>
+        <item>Arabic (Algeria)</item>
+        <item>Arabic (Iraq)</item>
+        <item>Arabic (Kuwait)</item>
+
+        <item>Arabic (Morocco)</item>
+        <item>Arabic (Tunisia)</item>
+        <item>Arabic (Oman)</item>
+        <item>Arabic (Palestinian State)</item>
+        <item>Arabic (Qatar)</item>
+
+        <item>Arabic (Lebanon)</item>
+        <item>Danish</item>
+        <item>German</item>
+        <item>Catalan</item>
+        <item>Spanish (Mexico)</item>
+
+        <item>Spanish (Argentina)</item>
+        <item>Spanish (Bolivia)</item>
+        <item>Spanish (Chile)</item>
+        <item>Spanish (Colombia)</item>
+        <item>Spanish (Costa Rica)</item>
+
+        <item>Spanish (Ecuador)</item>
+        <item>Spanish (El Salvador)</item>
+        <item>Spanish (US)</item>
+        <item>Spanish (Guatemala)</item>
+        <item>Spanish (Honduras)</item>
+
+        <item>Spanish (Nicaragua)</item>
+        <item>Spanish (Paraguay)</item>
+        <item>Spanish (Peru)</item>
+        <item>Spanish (Puerto Rico)</item>
+        <item>Spanish (Dominican Republic)</item>
+
+        <item>Spanish (Uruguay)</item>
+        <item>Spanish (Venezuela)</item>
+        <item>Basque (Basque)</item>
+        <item>Filipino (Philippines)</item>
+        <item>Galician (Spain)</item>
+
+        <item>Portuguese (Brazil)</item>
+        <item>Portuguese</item>
+        <item>Russian</item>
+        <item>Swedish</item>
+        <item>Czech</item>
+
+        <item>Hungarian</item>
+        <item>Romanian</item>
+        <item>Thai</item>
+        <item>Vietnamese</item>
+        <item>Greek</item>
+
+        <item>Bulgarian</item>
+        <item>Estonian</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Norwegian</item>
+
+        <item>Hindi</item>
+        <item>Slovak</item>
+        <item>Korean</item>
+        <item>Japanese</item>
+        <item>German (Austria)</item>
+
+        <item>German (Switzerland)</item>
+        <item>French</item>
+        <item>French (Switzerland)</item>
+        <item>French (Canada)</item>
+        <item>Hebrew (Israel)</item>
+
+        <item>Indonesian</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Bengali</item>
+        <item>Bengali (India)</item>
+
+        <item>Malay</item>
+        <item>Persian</item>
+        <item>Serbian</item>
+        <item>Urdu</item>
+        <item>Urdu (India)</item>
+
+        <item>Afrikaans</item>
+        <item>Amharic</item>
+        <item>Armenian</item>
+        <item>Azerbaijani</item>
+        <item>Georgian</item>
+
+        <item>Gujarati (India)</item>
+        <item>Croatian language (Croatia)</item>
+        <item>South Africa Zulu (South Africa)</item>
+        <item>Icelandic (Icelandic)</item>
+        <item>Italian</item>
+
+        <item>Javanese (Indonesia)</item>
+        <item>Kannada (India)</item>
+        <item>Khmer (Cambodia)</item>
+        <item>Lao (Laos)</item>
+        <item>Latvian (Latvia)</item>
+
+        <item>Lithuanian (Lithuania)</item>
+        <item>Malayalam (India)</item>
+        <item>Marathi (India)</item>
+        <item>Dutch</item>
+        <item>Nepal</item>
+
+        <item>Polish</item>
+        <item>Sinhalese (Sri Lanka)</item>
+        <item>巽 language (Indonesia)</item>
+        <item>Swahili (Tanzania)</item>
+        <item>Swahili (Kenya)</item>
+
+        <item>Finnish</item>
+        <item>Tamil (India)</item>
+        <item>Tamil (Singapore)</item>
+        <item>Tamil (Sri Lanka)</item>
+        <item>Tamil (Malaysia)</item>
+
+        <item>Telugu (India)</item>
+        <item>Burma</item>
+        <item>Laotian</item>
+        <item>""</item>
+    </string-array>
+
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_auth_entries">
+        <item>None</item>
+        <item>PAP</item>
+        <item>CHAP</item>
+        <item>PAP or CHAP</item>
+    </string-array>
+
+    <!-- Authentication Types used in APN editor -->
+    <string-array name="apn_protocol_entries">
+        <item>IPv4</item>
+        <item>IPv6</item>
+        <item>IPv4/IPv6</item>
+    </string-array>
+
+    <!-- Bearer Info used in APN editor -->
+    <string-array name="bearer_entries">
+        <item>Unspecified</item>
+        <item>LTE</item>
+        <item>HSPAP</item>
+        <item>HSPA</item>
+        <item>HSUPA</item>
+        <item>HSDPA</item>
+        <item>UMTS</item>
+        <item>EDGE</item>
+        <item>GPRS</item>
+        <item>eHRPD</item>
+        <item>EVDO_B</item>
+        <item>EVDO_A</item>
+        <item>EVDO_0</item>
+        <item>1xRTT</item>
+        <item>IS95B</item>
+        <item>IS95A</item>
+    </string-array>
+
+    <!-- MVNO Info used in APN editor -->
+    <string-array name="mvno_type_entries">
+        <item>None</item>
+        <!-- Do not translate. -->
+        <item>SPN</item>
+        <!-- Do not translate. -->
+        <item>IMSI</item>
+        <!-- Do not translate. -->
+        <item>GID</item>
+    </string-array>
+
+    <!-- Display settings.  The delay in inactivity before the screen is turned off. These are shown in a list dialog. -->
+    <string-array name="screen_timeout_entries">
+        <item>30 seconds</item>
+        <item>1 minute</item>
+        <item>3 minutes</item>
+        <!--<item>5 minutes</item>-->
+        <!--<item>10 minutes</item>-->
+        <!--<item>30 minutes</item>-->
+        <item>Never</item>
+    </string-array>
+    <string-array name="region_entries">
+        <item>China</item>
+        <item>Others(google)</item>
+    </string-array>
+</resources>

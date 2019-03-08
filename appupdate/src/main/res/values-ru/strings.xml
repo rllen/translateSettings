@@ -1,0 +1,23 @@
+<resources>
+    <string name = "app_name"> Обновления приложений </string>
+    <string name = "version_found"> Найдена новая версия </string>
+
+    <string name = "confirm"> OK </string>
+    <string name = "cancel"> Отменить </string>
+    <string name = "sorry"> Извините! </string>
+    <string name = "tip"> tip </string>
+    <string name = "update"> update </string>
+    <string name = "ready_to_download"> готов к загрузке </string>
+    <string name = "insufficient_space_content"> Недостаточно места, пожалуйста, отпустите как минимум %1$s пробел, чтобы продолжить эту установку. </string>
+    <string name = "sdcard_not_usable"> Место для хранения недоступно, повторите попытку после перезапуска </string>
+    <string name = "download_fail_check_net"> Ошибка загрузки, проверьте правильность состояния сети </string>
+    <string name = "installing"> Выполняется установка </string>
+    <string name = "download_progress"> Загрузка пакета обновления: \n %1$d %%</string>
+    <string name = "install_success"> Завершена установка </string>
+    <string name = "install_fail"> Ошибка установки </string>
+    <string name = "need_more_space"> Недостаточно места для хранения! </string>
+
+    <string name="size_M" translatable="false">(%1$.2f MB)</string>
+    <string name="size_K" translatable="false">(%1$.2f KB)</string>
+    <string name="size_B" translatable="false">(%1$.2f Bytes)</string>
+</resources>

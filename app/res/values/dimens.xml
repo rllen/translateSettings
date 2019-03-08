@@ -1,0 +1,66 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="clickable_check_net_size">25sp</dimen>
+    <dimen name="normal_check_net_size">18sp</dimen>
+    <dimen name="wifi_item">22dp</dimen>
+    <dimen name="wifi_item_desc">16dp</dimen>
+
+    <dimen name="wifi_share">20dp</dimen>
+
+    <dimen name="list_item_background_corner_width">6dp</dimen>
+    <dimen name="list_item_background_stroke_width">1px</dimen>
+
+    <dimen name="list_item_background_inset_left">10dp</dimen>
+    <dimen name="list_item_background_inset_right">10dp</dimen>
+    <dimen name="list_item_background_inset_top">0dp</dimen>
+    <dimen name="list_item_background_inset_bottom">0dp</dimen>
+
+    <dimen name="list_item_background_record_language_inset_left">0dp</dimen>
+    <dimen name="list_item_background_record_language_inset_right">0dp</dimen>
+    <dimen name="list_item_background_record_language_inset_top">0dp</dimen>
+    <dimen name="list_item_background_record_language_inset_bottom">0dp</dimen>
+
+    <dimen name="list_view_divider_height">10dp</dimen>
+    <dimen name="list_view_margin_top">10dp</dimen>
+    <dimen name="list_item_min_height">48dp</dimen>
+
+    <dimen name="arrow_right_or_end_margin">8dp</dimen>
+    <dimen name="settings_list_item_title">20sp</dimen>
+    <dimen name="settings_list_item_title_height">40dp</dimen>
+    <dimen name="settings_icon_size">28dp</dimen>
+    <dimen name="flag_width">40dp</dimen>
+    <dimen name="flag_height">30dp</dimen>
+    <dimen name="language_height">62dp</dimen>
+
+    <dimen name="margin_left">20dp</dimen>
+    <dimen name="margin_right">10dp</dimen>
+    <dimen name="margin_left_wifi_item">16dp</dimen>
+    <dimen name="margin_right_wifi_item">10dp</dimen>
+    <dimen name="settings_list_item_divider_height">0.5dp</dimen>
+    <dimen name="button_min_width">80dp</dimen>
+    <dimen name="positive_negative">15dp</dimen>
+
+    <dimen name="margin_top">60dp</dimen>
+    <dimen name="flage_height_choise">44dp</dimen>
+    <dimen name="from_top">5dp</dimen>
+    <dimen name="margin_end">26dp</dimen>
+    <dimen name="mic_marginbutton">20dp</dimen>
+    <dimen name="form_launguage_textsize">22dp</dimen>
+    <dimen name="record_name_list_textsize">20dp</dimen>
+    <dimen name="language_item_title">22sp</dimen>
+    <dimen name="language_item_desc">18sp</dimen>
+    <dimen name="action_bar_height">56dp</dimen>
+    <dimen name="action_bar_item_max_width">18dp</dimen>
+    <dimen name="action_bar_item_max_height">26dp</dimen>
+    <dimen name="record_detail_time_hint">16sp</dimen>
+    <dimen name="chat_textsize_myID">20dp</dimen>
+    <dimen name="message_date_time_begin_margin">9dp</dimen>
+
+    <dimen name="space_22">22px</dimen>
+    <dimen name="space_20">20px</dimen>
+    <dimen name="space_18">18px</dimen>
+    <dimen name="space_16">16px</dimen>
+</resources>

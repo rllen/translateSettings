@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFFFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="darkPreferenceOption">#808080</color>
+    <color name="darkWifiDitch">#E5E5E5</color>
+    <color name="darkWifiConnected">#999999</color>
+    <color name="no_net_bg">#ca4242</color>
+    <color name="pw_bg">#b3b3b3</color>
+    <color name="dark_divider_color">#393e40</color>
+    <color name="language_desc">#808080</color>
+    <color name="light_divider_color">#E5E5E5</color>
+    <color name="arrow_tint">#7F7F7F</color>
+    <color name="common_text_color">#020202</color>
+
+    <color name="light_list_item_background_normal">#F5F5F5</color>
+    <color name="light_list_item_background_pressed">#D9D9D9</color>
+    <color name="light_list_item_background_activated">#BAD5F7</color>
+
+    <color name="light_list_item_record_background_normal">#FFFFFF</color>
+    <color name="light_list_item_record_background_pressed">#D9D9D9</color>
+    <color name="light_list_item_record_background_activated">#BAD5F7</color>
+
+    <color name="divider_between_header_and_content">#E6E6E6</color>
+
+    <color name="title_color">#FFFFFFFF</color>
+
+    <color name="dialog_press">#e0e0e0</color>
+    <color name="blue">#1885f2</color>
+    <color name="positive">#1885f2</color>
+    <color name="negative">#666666</color>
+    <color name="record_detail_time_hint">#7a7a7a</color>
+    <color name="seek_bar_progress">#B3B3B3</color>
+    <color name="seek_bar_thumb">#1885f2</color>
+    <color name="color_user_choice">#666666</color>
+    <color name="please_enter_your_id_number">#999999</color>
+    <color name="chat_nogroup_message1">#666666</color>
+
+    <color name="grey">#f0f0f0</color>
+
+</resources>

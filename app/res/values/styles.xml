@@ -1,0 +1,194 @@
+<resources>
+
+    <style name="DarkDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <style name="LightDialog" parent="@android:style/Theme.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <declare-styleable name="GifView">
+        <attr name="gif" format="reference" />
+        <attr name="paused" format="boolean" />
+    </declare-styleable>
+    <declare-styleable name="CustomTheme">
+        <attr name="gifViewStyle" format="reference" />
+    </declare-styleable>
+
+    <style name="Widget_GifView"></style>
+
+    <style name="NineKeybordButton">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:orientation">vertical</item>
+        <item name="android:layout_centerInParent">true</item>
+        <item name="android:background">@drawable/button_pd_selector</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+
+    </style>
+
+    <style name="NineKeybordButtonText">
+        <item name="android:layout_weight">1</item>
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">52dp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="NineKeybordImageItemStyleChannelOf_TEKSUN_PIXEL">
+        <item name="android:height">150dp</item>
+        <item name="android:layout_width">150dp</item>
+    </style>
+
+    <style name="NineKeybordImageItemStyle">
+        <item name="android:height">200dp</item>
+        <item name="android:layout_width">200dp</item>
+    </style>
+
+    <style name="DarkWifiSwitch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+        <item name="android:textSize">@dimen/wifi_item</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:track">@drawable/track</item>
+    </style>
+
+    <style name="LightWifiSwitch">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">50dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textOff"></item>
+        <item name="android:textOn"></item>
+        <item name="android:textSize">@dimen/wifi_item</item>
+        <item name="android:paddingLeft">10dp</item>
+        <item name="android:paddingRight">5dp</item>
+        <item name="android:thumb">@drawable/thumb</item>
+        <item name="android:track">@drawable/track</item>
+    </style>
+
+    <style name="DarkAlertDialog" parent="Theme.AppCompat.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="LightAlertDialog" parent="Theme.AppCompat.Light.Dialog.Alert">
+        <item name="android:textColorPrimary">@color/black</item>
+    </style>
+
+    <!-- 自定义两个主题Light和Dark -->
+    <style name="Dark" parent="Theme.AppCompat.NoActionBar">
+        <!-- 箭头: 返回,左,右,下 -->
+
+        <!-- 菜单图标 -->
+        <!-- 消息项目列表背景: 左右,收藏 -->
+        <!-- 开关 -->
+        <!-- 语言切换箭头 -->
+        <!-- 收藏弹框 -->
+        <!-- 输入选择盘 -->
+        <!-- wifi信号 -->
+        <!-- 信息图标 -->
+        <!-- 按钮背景 -->
+        <!-- 选中勾 -->
+        <!-- 未选中 -->
+        <!-- 正在播放gif -->
+        <!--语音选择框右侧箭头-->
+        <item name="imageview_color">@color/white</item>
+
+        <item name="colorWifiDitch">@color/darkWifiDitch</item>
+        <item name="colorWifiConnected">@color/darkWifiConnected</item>
+        <item name="colorPreferenceOption">@color/darkPreferenceOption</item>
+        <item name="textColorMain">@color/white</item>
+        <item name="textColorMainInverse">@color/black</item>
+        <item name="android:colorBackground">@color/black</item>
+        <item name="android:colorForeground">@color/white</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:dialogTheme">@style/DarkDialog</item>
+        <item name="android:alertDialogTheme">@style/LightAlertDialog</item>
+        <item name="colorDialogBackgroundNormal">@color/white</item>
+        <!--<item name="android:statusBarColor">@color/black</item>-->
+        <item name="wifiSwitch">@style/DarkWifiSwitch</item>
+        <item name="colorDivider">@color/dark_divider_color</item>
+        <!--<item name="android:windowLightStatusBar">true</item>-->
+    </style>
+
+    <style name="Light" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- 箭头: 返回,左,右,下 -->
+
+        <!-- 菜单图标 -->
+        <!-- 消息项目列表背景: 左右,收藏 -->
+        <!-- 开关 -->
+        <!-- 语言切换箭头 -->
+        <!-- 收藏弹框 -->
+        <!-- 输入选择盘 -->
+        <!-- wifi信号 -->
+        <!-- 信息图标 -->
+        <!-- 按钮背景 -->
+        <!-- 选中勾 -->
+        <!-- 未选中 -->
+        <!-- 正在播放gif -->
+        <!--语音选择框右侧箭头-->
+        <item name="imageview_color">@color/black</item>
+        <item name="colorWifiDitch">@color/darkWifiDitch</item>
+        <item name="colorWifiConnected">@color/darkWifiConnected</item>
+        <item name="colorPreferenceOption">@color/darkPreferenceOption</item>
+        <item name="textColorMain">@color/black</item>
+        <item name="textColorMainInverse">@color/white</item>
+        <item name="android:colorBackground">@color/white</item>
+        <item name="android:colorForeground">@color/black</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:dialogTheme">@style/LightDialog</item>
+        <item name="colorDialogBackgroundNormal">@color/white</item>
+        <item name="colorDialogDivider">@color/light_divider_color</item>
+        <item name="wifiSwitch">@style/LightWifiSwitch</item>
+        <item name="android:alertDialogTheme">@style/DarkAlertDialog</item>
+        <item name="colorDivider">@color/light_divider_color</item>
+        <!-- 列表项目样式定制 -->
+        <item name="colorListItemBackgroundNormal">@color/light_list_item_background_normal</item>
+        <item name="colorListItemBackgroundPressed">@color/light_list_item_background_pressed</item>
+        <item name="datePickerStyle">@style/DatePicker</item>
+        <item name="timePickerStyle">@style/TimePicker</item>
+        <item name="numberPickerStyle">@style/NumberPicker</item>
+    </style>
+
+    <style name="CustomProgressBar_Small">
+        <item name="android:indeterminateDrawable">@drawable/progress_small_holo</item>
+        <item name="android:minWidth">27dip</item>
+        <item name="android:maxWidth">27dip</item>
+        <item name="android:minHeight">27dip</item>
+        <item name="android:maxHeight">27dip</item>
+    </style>
+
+    <color name="gray">#E5E5E5</color>
+
+    <style name="TimePicker">
+        <item name="timePickerMode">spinner</item>
+        <item name="legacyLayout">@layout/time_picker_legacy</item>
+    </style>
+
+    <style name="DatePicker">
+        <item name="spinnersShown">true</item>
+        <item name="datePickerMode">spinner</item>
+        <item name="legacyLayout">@layout/date_picker_legacy</item>
+        <item name="calendarViewShown">false</item>
+    </style>
+
+    <style name="NumberPicker">
+        <item name="internalLayout">@layout/number_picker</item>
+    </style>
+
+</resources>

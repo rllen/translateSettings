@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">Машина перевода</string>
+    <!--———————-->
+    <!--Интерфейс загрузки-->
+    <!--———————-->
+    <string name="help">Справка</string>
+    <string name="string_help_text">У текущего приложения нет необходимых разрешений</string>
+    <string name="quit">Выйти</string>
+    <string name="init_error">Ошибка инициализации</string>
+    <string name="unauthorized">Нет авторизации</string>
+    <string name="rule_init_fail">Не удалось инициализировать правило</string>
+    <!--———————-->
+    <!--Интерфейс настроек-->
+    <!--———————-->
+    <string name="setting">Настройки</string>
+    <!--Режим трансляции-->
+    <string name="mode">Режим трансляции</string>
+    <!--Пол трансляции-->
+    <string name="sex">Пол трансляции</string>
+    <!--Скорость трансляции-->
+    <string name="activity_speed_title">Скорость трансляции</string>
+    <string name="speed">Скорость трансляции</string>
+    <!--WI-FI-->
+    <string name="wifi">WIFI</string>
+    <string name="activity_wifi_title">Подключите Wi-Fi</string>
+    <string name="wifi_connected">Есть подключение</string>
+    <string name="confirm">Подтвердить</string>
+    <string name="wifi_login_del">Назад</string>
+    <string name="wifi_login_changeAa">Прописные и строчные буквы</string>
+    <string name="wifi_switch">WIFI</string>
+    <string name="del_network">Не сохранять сеть</string>
+    <string name="error_password">Ошибка пароля</string>
+    <string name="last">Назад</string>
+    <string name="next">Далее</string>
+    <string name="empty">Нет</string>
+    <string name="wifi_connecting">Идет подключение</string>
+    <!--Мобильный хот-спот-->
+    <string name="share_name">MIFI</string>
+    <string name="wifi_share">Мобильный хот-спот</string>
+    <string name="wifi_share_name">Имя хот-спота</string>
+    <string name="tv_set_password">Задать пароль</string>
+    <string-array name="ap_safe_type">
+        <item>Нет</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">Вставьте SIM-карту</string>
+    <!--Язык системы-->
+    <string name="activity_lg_title">Язык системы</string>
+    <string name="skip">Пропустить</string>
+    <!--Сброс до заводских настроек-->
+    <string name="reset">Сбросить</string>
+    <string name="master_clear_progress_title">Идет очистка</string>
+    <string name="master_clear_progress_text">Подождите…</string>
+    <string name="master_clear_title">Сброс до заводских настроек</string>
+    <string name="master_clear_desc">Эта операция очистит все данные во <b>внутренней памяти</b> машины перевода, включая данные и параметры системы и приложений.</string>
+    <!--Сведения-->
+    <string name="about">Сведения</string>
+    <string name="version_text">Машина перевода Smartbean, версия %1$s</string>
+    <string name="company">HONGKONG TEKSUN (c)</string>
+    <string name="copyright_description">2017 HONGKONG TEKSUN. Все права защищены</string>
+    <!--———————-->
+    <!--Интерфейс перевода-->
+    <!--———————-->
+    <string name="net_error_prompt_text">Не удалось подключиться, проверьте сеть</string>
+    <string name="initialization_failed">Не удалось инициализировать устройство</string>
+    <string name="equipment_unauthorized">Устройство не авторизовано</string>
+    <string name="retry">Повторить</string>
+    <string name="speaking_prompt_text">Слушаю, желательно не больше 30 с</string>
+    <string name="not_support_language">Неподдерживаемый язык</string>
+    <string name="init_ing">Идет инициализация...</string>
+    <!--———————-->
+    <!--Интерфейс избранного-->
+    <!--———————-->
+    <string name="collection">Избранное</string>
+    <string name="cancel">Отмена</string>
+    <string name="no_collect">Контент недоступен</string>
+    <string name="Collection_of_success">Добавлено в закладки.</string>
+    <string name="Collection_of_error">Запись недопустима.</string>
+    <string name="Collection_of_limit">Папка избранного полна — уже есть 20 записей.</string>
+    <string name="Collection_of_repeat">Не повторяйте добавление.</string>
+
+    <!--———————-->
+    <!--— Уведомление -->
+    <!--———————-->
+    <string name="submit">OK</string>
+    <string name="unrecognized">Сбой идентификации</string>
+    <string name="engine_missing">Нет обработчика</string>
+    <string name="cancel_success">Успешная отмена</string>
+    <string name="unknown_exception">Неизвестное исключение</string>
+    <string name="system_is_not_ready">Система не готова</string>
+    <string name="reg_auto_stop">Идентификация завершена автоматически, можно убрать руку.</string>
+    <string name="cancel_collect">Удалить из избранного</string>
+    <string name="firmware_upgrade">Обновление прошивки</string>
+    <string name="net_error_hint_before_ready">Сеть не готова; проверьте подключение к Wi-Fi или вставьте SIM-карту.</string>
+    <string name="net_error_check_or_insert_card">"Не удалось инициализировать, проверьте сеть или вставьте SIM-карту"</string>
+    <string name="set_net">"Настройка сети"</string>
+
+    <string name="clickable_check_hint">проверьте</string>
+    <string name="master_clear_final_desc">"Удалить всю личную информацию и скачанные приложения? Это действие нельзя отменить."</string>
+    <string name="version">"Номер версии: "</string>
+    <string name="clearhis">Очистить историю переводов</string>
+    <string name="master_clear_trslate_his">Очистить историю переводов?</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"Серийный номер: "</string>
+    <string name="translate" >"перевод"</string>
+    <string name="record" >"запись"</string>
+    <string name="start_record">"Нажмите кнопку, чтобы начать запись."</string>
+    <string name="confirm_to_save_record">"Вы хотите сохранить эту запись?"</string>
+    <string name="record_history">"Список записи"</string>
+    <string name="record_language_settings">"Выбор языка"</string>
+    <string name="delete">"удалять"</string>
+    <string name="delete_success">"Удалено успешно"</string>
+    <string name="no_file">"Нет файлов для записи"</string>
+    <string name="saving_record">"экономия..."</string>
+    <string name="recording_is_too_long">"Слишком длинная запись, остановка автоматически"</string>
+    <string name="record_clear_final_desc">"Вы хотите удалить эту запись?"</string>
+    <string name="please_start_record">Пожалуйста, начните говорить!</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">В настоящее время используется трафик данных</string>
+    <string name="recording_saved">"Запись сохранена"</string>
+    <string name="recording_saved_failure">"Не удалось сохранить запись"</string>
+    <string name="password_minlength">Пароль не менее 8 символов</string>
+    <string name="recording_is_aborted">"Ошибка записи, автоматически прекратить"</string>
+
+    <string name="date_and_time" msgid="9062980487860757694">"Дата и время"</string>
+    <string name="date_time_auto" msgid="7076906458515908345">"Дата и время сети"</string>
+    <string name="date_time_set_date_title" msgid="6928286765325608604">"Дата"</string>
+    <string name="date_time_set_date" msgid="7021491668550232105">"Дата"</string>
+    <string name="date_time_set_time_title" msgid="6296795651349047016">"Время"</string>
+    <string name="date_time_set_time" msgid="5716856602742530696">"Время"</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"Пожалуйста, проверьте время вручную, чтобы лучше использовать оборудование"</string>
+    <string name="apn_settings" msgid="3743170484827528406">"Точки доступа (APN)"</string>
+    <string name="apn_edit" msgid="1354715499708424718">"Изменить точку доступа"</string>
+    <string name="apn_not_set" msgid="4974192007399968164">"Не задано"</string>
+    <string name="apn_name" msgid="4115580098369824123">"Имя"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"APN"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"Прокси"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"Порт"</string>
+    <string name="apn_user" msgid="455637547356117761">"Имя пользователя"</string>
+    <string name="apn_password" msgid="5412301994998250968">"Пароль"</string>
+    <string name="apn_server" msgid="2436185314756372858">"Сервер"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"Прокси-сервер MMS"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"Порт MMS"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"Тип аутентификации"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"Нет"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"PAP"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"PAP или CHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"Тип APN"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"Протокол APN"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"Протокол APN в роуминге"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"Включить/выключить APN"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"APN вкл."</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"APN выкл."</string>
+    <string name="bearer" msgid="594270280031923558">"Канал"</string>
+    <string name="mvno_type" msgid="2543253857818336421">"Тип MVNO"</string>
+    <string name="mvno_match_data" msgid="4560671695220540466">"Значение MVNO"</string>
+    <string name="menu_delete" msgid="6981294422841124659">"Удалить APN"</string>
+    <string name="menu_new" msgid="3014205883303921729">"Новая точка доступа"</string>
+    <string name="menu_save" msgid="8109345640668285399">"Сохранить"</string>
+    <string name="menu_cancel" msgid="2194502410474697474">"Отменить"</string>
+    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_name_empty" msgid="5508155943840201232">"Необходимо указать имя."</string>
+    <string name="error_apn_empty" msgid="4932211013600863642">"Необходимо указать APN."</string>
+    <string name="error_mcc_not3" msgid="4560171714156251661">"Поле MCC должно содержать 3 цифры."</string>
+    <string name="error_mnc_not23" msgid="8418177072458379439">"Поле MNC должно содержать 2 или 3 цифры."</string>
+    <string name="restore_default_apn" msgid="8178010218751639581">"Восстановление настроек APN по умолчанию..."</string>
+    <string name="menu_restore" msgid="8260067415075573273">"Сбросить настройки"</string>
+    <string name="restore_default_apn_completed" msgid="2824775307377604897">"Настройки по умолчанию восстановлены"</string>
+
+    <!-- APN Settings start  -->
+    <string name="mvno_type_none">"Нет"</string>
+    <string name="apn_predefine_change_dialog_notice">Действительно сохранить? Изменения имен точек доступа, заданных по умолчанию, может привести к проблемам с подключением!"</string>
+    <string name="apn_port_warning">Для порта необходимо ввести значение 1-65535!</string>
+    <!-- APN Settings end -->
+    <string name="untitled_apn" msgid="1230060359198685513">"Без названия"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"Спящий режим"</string>
+    <string name="region">"область"</string>
+    <string name="region_switching">"Переключение"</string>
+    <string name="roaming" msgid="8871412572928323707">"Интернет-роуминг"</string>
+    <string name="network_request_timeout">"Тайм-аут сетевого запроса"</string>
+    <string name="network_access_error">"Доступ к сети ненормален"</string>
+    <string name="untranslated">Не удалось перевести</string>
+    <string name="unspoken">"Невозможность синтеза речи"</string>
+    <string name="network_settings_title" msgid="4871233236744292831">"Мобильные сети"</string>
+    <string name="update_firmware">"Обновление прошивки?"</string>
+    <string name="switch_fail_and_restart_network">"передача не, Перезагрузите сети."</string>
+    <string name="network_do_not_work">"Сеть не работает, проверьте сеть."</string>
+
+    <!-- Conference @{ -->
+    <string name="chat">Конференция</string>
+    <string name="add_member">"Добавить участников"</string>
+    <string name="member_administration">"Управление членами"</string>
+    <string name="language_choice">"Выберите язык"</string>
+    <string name="automatically_broadcast">"Автовоспроизведение"</string>
+    <string name="shielding_information">"Сообщение щита"</string>
+    <string name="add_members">"Добавить участников"</string>
+    <string name="members_management">"Управление членами"</string>
+    <string name="advanced_settings">"Расширенные настройки"</string>
+    <string name="add_message_success">"Поздравляем, вы присоединились к конференции, ваш текущий язык"</string>
+    <string name="create_message_success">"Поздравляем, вы создали конференцию, ваш текущий язык"</string>
+    <string name="add_message_success_tail">, вы можете изменить язык с помощью настроек в верхнем правом меню, для того, чтобы покинуть конференцию или нокаутировать участника, перейдите к управлению членами.</string>
+    <string name="quitGroupMessage">"Вы хотите покинуть конференцию?"</string>
+    <string name="kickGroupMessage">"Вы хотите удалить этого пользователя?"</string>
+    <string name="please_enter_your_id_number">"Введите идентификатор"</string>
+    <string name="id_at_least_six_characters">"Идентификатор должен быть 6 символов"</string>
+    <string name="id_does_not_exist">"ID не существует"</string>
+    <string name="has_joined">"Этот член присоединился к другой конференции"</string>
+    <string name="can_not_add_yourself">"Невозможно добавить свой собственный идентификатор"</string>
+    <string name="id_is_already_in_list">"Этот идентификатор уже включен в список"</string>
+    <string name="many_people_translate">"Конференция"</string>
+    <string name="please_Enter_The_ID">"Введите идентификатор"</string>
+    <string name="member">член</string>
+    <string name="been_added">"В дополнение к другим конференциям, пожалуйста, замените или удалите"</string>
+    <string name="system_message">"Системное уведомление"</string>
+    <string name="intertranslation">"Присоединился к конференции"</string>
+    <string name="translation_out">"Был избит с конференции"</string>
+    <string name="my_id">"Мой ID"</string>
+    <string name="out_of_translation">"oставленный конференции"</string>
+    <string name="check_net">"Пожалуйста, настройте сеть"</string>
+    <string name="loading">"Loading..."</string>
+    <string name="no_more_history_message">"Больше сообщений об истории"</string>
+    <string name="add_member_fail">"Не удалось добавить участника"</string>
+    <string name="self_kicked">"Вас пнули!"</string>
+    <string name="wait_to_add_group">"Конференция еще не добавлена. Нажмите [Создать], чтобы подключить другие устройства."</string>
+    <string name="my_id_is">"Мой ID:"</string>
+    <string name="establish">"Создайте"</string>
+    <string name="quit_the_group">"Оставить конференцию"</string>
+    <string name="you_are_in_another_group">"ты в другой конференции "</string>
+    <string name="finish">"хорошо"</string>
+    <!-- @} -->
+    <string name="date_time_set_timezone_title" msgid="3047322337368233197">"Часовой пояс"</string>
+    <string name="date_time_set_timezone" msgid="5045627174274377814">"Часовой пояс"</string>
+    <string name="zone_auto" msgid="334783869352026648">"Часовой пояс сети"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"Отключено"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"Отключение..."</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"Подключение..."</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"Подключено"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"Сопряжение..."</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"Подключено (кроме HSP/HFP)"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"Подключено (кроме A2DP)"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"Подключено (нет доступа к сообщениям)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"Подключено (кроме HSP/HFP/A2DP)"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"Профиль A2DP"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"Профиль HSP/HFP"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"Профиль OPP"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"Профиль HID"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"Интернет-доступ"</string>
+    <string name="bluetooth_profile_pbap" msgid="5372051906968576809">"Обмен контактами"</string>
+    <string name="bluetooth_profile_pbap_summary" msgid="6605229608108852198">"Использовать для обмена контактами"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"Профиль PAN"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"Доступ к сообщениям"</string>
+    <string name="bluetooth_profile_sap" msgid="5764222021851283125">"Доступ к SIM-карте"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"Подключено к мультимедийному аудиоустройству"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"Подключено к аудиоустройству телефона"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"Установлено подключение к серверу передачи файлов"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"Доступ к сообщениям"</string>
+    <string name="bluetooth_sap_profile_summary_connected" msgid="8561765057453083838">"Подключено к точке доступа"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"Нет подключения к серверу передачи файлов"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"Подключено к устройству ввода"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"Используется интернет-подключение другого устройства"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"Устройство работает в режиме модема"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"Использовать для доступа к Интернету"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"Использовать для доступа к сообщениям"</string>
+    <string name="bluetooth_sap_profile_summary_use_for" msgid="7085362712786907993">"Использовать для доступа к SIM-карте"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"Использовать для мультимедийного аудиоустройства"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"Использовать для аудиоустройства телефона"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"Используется для передачи файлов"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"Использовать для ввода"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"Подключить"</string>
+    <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"ПОДКЛЮЧИТЬ"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"Отмена"</string>
+    <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"Сопряжение обеспечивает доступ к вашим контактам и журналу звонков при подключении."</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"Не удалось подключиться к устройству \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"Не удалось подключиться к устройству \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\", так как введен неверный PIN-код или пароль."</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"Не удается установить соединение с устройством \"<xliff:g id="DEVICE_NAME">%1$s</xliff:g>\"."</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"<xliff:g id="DEVICE_NAME">%1$s</xliff:g> не разрешает сопряжение."</string>
+    <string name="bluetooth_search_for_devices" msgid="2754007356491461674">"Обновить"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"Поиск..."</string>
+    <string name="forget" msgid="1400428660472591263">"Удалить"</string>
+    <string name="bluetooth_paired">"Соединенный"</string>
+    <string name="activity_bluetooth_title">Bluetooth</string>
+    <string name="bluetooth_switch">Bluetooth</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">рекорд по истории</string>
+    <string name="clear_history_confirm">есть ли ваш исторический рекорд?</string>
+    <string name="model">"тип : "</string>
+    <string name="display_settings" msgid="7965901687241669598">"Экран"</string>
+    <string name="connect_network_for_authorization">"подсоедините сети для разрешения"</string>
+    <string name="loading_offline_resource">Загружайте из проволочных ресурсов...</string>
+    <string name="offline_speech_synthesizer_not_supported">"язык не поддерживает синтаксический синтаксик"</string>
+    <string name="trans_net_error_prompt_text">Не удалось подключиться, проверьте сеть;китайский - обычный перевод на английский язык</string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"Использовано <xliff:g id="USED">%1$s</xliff:g> из <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"Хранилище"</string>
+    <string name="select_memory">Диск для записи по умолчанию набор %s</string>
+    <string name="file_non_exists">"файл не существует"</string>
+    <string name="io_error">"аномалия записи в файл"</string>
+    <string name="wifi_ssid" msgid="5519636102673067319">"Имя сети"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"Защита"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"Пароль"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"Добавить сеть"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"Нет"</string>
+
+    <string name="low_memory_warning">Объем хранилища заканчивается! Удалите некоторые записи или файлы изображений.</string>
+    <string name="root_internal_storage" msgid="827844243068584127">"Внутренний накопитель"</string>
+    <string name="loading_offline_fail">"Загрузка провалившихся ресурсов провалилась"</string>
+</resources>

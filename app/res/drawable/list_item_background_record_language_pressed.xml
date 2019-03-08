@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners android:radius="0dp"/>
+    <!--<stroke android:width="@dimen/list_item_background_stroke_width"-->
+        <!--android:color="?attr/colorListItemBackgroundStroke" />-->
+    <solid android:color="?attr/colorListItemRecordBackgroundPressed" />
+</shape>

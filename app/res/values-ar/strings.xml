@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2" tools:ignore="TypographyDashes">
+    <string name="app_name">للترجمة الآلية</string>
+    <!--———————-->
+    <!--واجهة التمهيد-->
+    <!--———————-->
+    <string name="help">‏‏تعليمات</string>
+    <string name="string_help_text">يفقد التطبيق الحالي الأذونات المطلوبة</string>
+    <string name="quit">إنهاء</string>
+    <string name="init_error">خطأ في التهيئة</string>
+    <string name="unauthorized">غير مصرح به</string>
+    <string name="rule_init_fail">فشل في تهيئة القاعدة</string>
+    <!--———————-->
+    <!--واجهة الإعدادات-->
+    <!--———————-->
+    <string name="setting">الإعدادات</string>
+    <!--وضع البث-->
+    <string name="mode">وضع البث</string>
+    <!--نوع البث-->
+    <string name="sex">نوع البث</string>
+    <!--سرعة البث-->
+    <string name="activity_speed_title">سرعة البث</string>
+    <string name="speed">سرعة البث</string>
+    <!--واي فاي-->
+    <string name="wifi">واي فاي</string>
+    <string name="activity_wifi_title">يرجى الاتصال بالواي فاي</string>
+    <string name="wifi_connected">متصل</string>
+    <string name="confirm">تأكيد</string>
+    <string name="wifi_login_del">الخلف</string>
+    <string name="wifi_login_changeAa">الحروف الكبيرة والصغيرة</string>
+    <string name="wifi_switch">واي فاي</string>
+    <string name="del_network">لا تقم بحفظ الشبكة</string>
+    <string name="error_password">خطأ في كلمة المرور</string>
+    <string name="last">السابق</string>
+    <string name="next">التالي</string>
+    <string name="empty">بلا</string>
+    <string name="wifi_connecting">يتم الاتصال</string>
+    <!--نقطة اتصال الجوال-->
+    <string name="share_name">ماي فاي</string>
+    <string name="wifi_share">نقطة اتصال الجوال</string>
+    <string name="wifi_share_name">اسم نقطة الاتصال</string>
+    <string name="tv_set_password">تعيين كلمة مرور</string>
+    <string-array name="ap_safe_type">
+        <item>بلا</item>
+        <item>WPA2 PSK</item>
+    </string-array>
+    <string name="error_no_sim">يرجى إدراج شريحة Sim</string>
+    <!--لغة النظام-->
+    <string name="activity_lg_title">لغة النظام</string>
+    <string name="skip">تخطي</string>
+    <!--‏‏استعادة إعدادات المصنع-->
+    <string name="reset">إعادة تعيين</string>
+    <string name="master_clear_progress_title">مسح</string>
+    <string name="master_clear_progress_text">الرجاء الانتظار...</string>
+    <string name="master_clear_title">‏استعادة إعدادات المصنع</string>
+    <string name="master_clear_desc">سوف تمسح هذه العملية جميع البيانات الموجودة في <b>جهاز التخزين الداخلي”</b> الخاصة بالترجمة الآلية، مثل بيانات النظام والتطبيق والإعدادات.</string>
+    <!--حول-->
+    <string name="about">حول</string>
+    <string name="version_text">Smartbean للترجمة الآلية V%1$s</string>
+    <string name="company">حقوق النشر خاصة بشركة هونج كونج تكسون</string>
+    <string name="copyright_description">2017 هونج كونج تكسون كافة الحقوق محفوظة</string>
+    <!--———————-->
+    <!--واجهة الترجمة-->
+    <!--———————-->
+    <string name="net_error_prompt_text">فشل الاتصال بالشبكة يرجى التحقق من اتصال الشبكة</string>
+    <string name="initialization_failed">فشل تهيئة الجهاز</string>
+    <string name="equipment_unauthorized">جهاز غير مصرح به</string>
+    <string name="retry">حاول مرة أخرى</string>
+    <string name="speaking_prompt_text">الاستماع، يفضل أن يكون 30 ثانية أو أقل</string>
+    <string name="not_support_language">لغة غير مدعومة</string>
+    <string name="init_ing">جاري التهيئة...</string>
+    <!--———————-->
+    <!--الواجهة المفضلة-->
+    <!--———————-->
+    <string name="collection">المفضلة</string>
+    <string name="cancel">إلغاء</string>
+    <string name="no_collect">لا توجد محتويات متاحة</string>
+    <string name="Collection_of_success">تم وضع إشارة مرجعية!</string>
+    <string name="Collection_of_error">هذا الإدخال غير صالح!</string>
+    <string name="Collection_of_limit">وصلت إدخالات المجلد المفضل إلى حدود 20 إدخال!</string>
+    <string name="Collection_of_repeat">لا تقم بالإضافة بشكل متكرر!</string>
+
+    <!--———————-->
+    <!---إعلام منبثق -->
+    <!--———————-->
+    <string name="submit">موافق</string>
+    <string name="unrecognized">فشل في التعريف</string>
+    <string name="engine_missing">محرك مفقود</string>
+    <string name="cancel_success">نجاح الإلغاء</string>
+    <string name="unknown_exception">استثناء غير معروف</string>
+    <string name="system_is_not_ready">النظام غير جاهز</string>
+    <string name="reg_auto_stop">تم الانتهاء من التعريف تلقائيًا، يرجى إزاحة يدك.</string>
+    <string name="cancel_collect">إزالة من المفضلة</string>
+    <string name="firmware_upgrade">ترقية البرنامج الثابت</string>
+    <string name="net_error_hint_before_ready">الشبكة غير جاهزة، يرجى التحقق من تكوين الواي فاي أو إدراج شريحة SIM.</string>
+    <string name="net_error_check_or_insert_card">"أخفق التهيئة، يرجى التحقق من الشبكة أو إدخال بطاقة سيم"</string>
+    <string name="set_net">"إعداد الشبكة"</string>
+    <string name="clickable_check_hint">التحقق من</string>
+    <string name="master_clear_final_desc">"هل تريد محو كل معلوماتك الشخصية وتطبيقاتك التي تم تنزيلها؟ لا يمكنك التراجع عن هذا الإجراء!"</string>
+    <string name="version">"رقم الإصدار: "</string>
+    <string name="clearhis">محو سجل الترجمة</string>
+    <string name="master_clear_trslate_his">هل تريد إفراغ سجل الترجمة؟</string>
+    <string name="status_serial_number" msgid="2257111183374628137">"الرقم المسلسل: "</string>
+    <string name="translate" >" الترجمة "</string>
+    <string name="record" >"تسجيل"</string>
+
+    <string name="start_record">"انقر على الزر لبدء التسجيل"</string>
+    <string name="confirm_to_save_record">"هل تريد حفظ هذا التسجيل؟"</string>
+    <string name="record_history">"قائمة التسجيل"</string>
+    <string name="record_language_settings">"اختيار اللغة"</string>
+    <string name="delete">"حذف"</string>
+    <string name="delete_success">"تم الحذف بنجاح"</string>
+    <string name="no_file">"لا توجد ملفات تسجيل"</string>
+    <string name="saving_record">"إنقاذ..."</string>
+    <string name="recording_is_too_long">"تسجيل طويلة جدا، تتوقف تلقائيا"</string>  
+    <string name="record_clear_final_desc">"هل تريد حذف هذا التسجيل؟"</string>
+    <string name="please_start_record">"يرجى بدء الحديث!"</string>
+    <string name="DataTrafficIsCurrentlyBeingUsed">"يستخدم حاليا حركة البيانات"</string>
+    <string name="recording_saved">"تم حفظ التسجيل"</string>
+    <string name="recording_saved_failure">"أخفق حفظ السجل"</string>
+    <string name="password_minlength">كلمة المرور لا يقل عن 8 أحرف</string>
+    <string name="recording_is_aborted">"تسجيل  خطأ،  تتوقف تلقائيا "</string>
+
+    <string name="date_and_time">"التاريخ والوقت"</string>
+    <string name="date_time_auto">"الإعدادات التلقائية"</string>
+    <string name="date_time_set_date_title">"التاريخ"</string>
+    <string name="date_time_set_date">"تعيين التاريخ"</string>
+    <string name="date_time_set_time_title">"المدة"</string>
+    <string name="date_time_set_time">"تعيين الوقت"</string>
+    <string name="ssh_validate_error" msgid="5716856602742530696">"يرجى التحقق من الوقت يدويا لتحسين استخدام المعدات"</string>
+
+    <string name="apn_settings" msgid="3743170484827528406">"‏أسماء نقاط الوصول (APN)"</string>
+    <string name="apn_edit" msgid="1354715499708424718">"تعديل نقطة الدخول"</string>
+    <string name="apn_not_set" msgid="4974192007399968164">"لم يتم التعيين"</string>
+    <string name="apn_name" msgid="4115580098369824123">"الاسم"</string>
+    <string name="apn_apn" msgid="2479425126733513353">"APN"</string>
+    <string name="apn_http_proxy" msgid="1826885957243696354">"الخادم الوكيل"</string>
+    <string name="apn_http_port" msgid="3763259523984976226">"المنفذ"</string>
+    <string name="apn_user" msgid="455637547356117761">"اسم المستخدم"</string>
+    <string name="apn_password" msgid="5412301994998250968">"كلمة المرور"</string>
+    <string name="apn_server" msgid="2436185314756372858">"الخادم"</string>
+    <string name="apn_mmsc" msgid="3670124402105585737">"MMSC"</string>
+    <string name="apn_mms_proxy" msgid="5374082621073999275">"الخادم الوكيل لرسائل الوسائط المتعددة"</string>
+    <string name="apn_mms_port" msgid="4074188088199243040">"منفذ رسائل الوسائط المتعددة"</string>
+    <string name="apn_mcc" msgid="4258628382260674636">"MCC"</string>
+    <string name="apn_mnc" msgid="8629374076888809874">"MNC"</string>
+    <string name="apn_auth_type" msgid="6167205395676037015">"نوع المصادقة"</string>
+    <string name="apn_auth_type_none" msgid="5069592676845549926">"لا شيء"</string>
+    <string name="apn_auth_type_pap" msgid="1666934536996033383">"بروتوكول مصادقة كلمات المرور"</string>
+    <string name="apn_auth_type_chap" msgid="3369626283789068360">"‏بروتوكول CHAP"</string>
+    <string name="apn_auth_type_pap_chap" msgid="9102343063036134541">"‏بروتوكول مصادقة كلمات المرور أو بروتوكول CHAP"</string>
+    <string name="apn_type" msgid="469613123902220544">"‏نوع APN"</string>
+    <string name="apn_protocol" msgid="3272222921649348640">"‏بروتوكول APN"</string>
+    <string name="apn_roaming_protocol" msgid="3386954381510788422">"‏بروتوكول APN عند التجوال"</string>
+    <string name="carrier_enabled" msgid="407655861175280806">"‏تمكين/تعطيل APN"</string>
+    <string name="carrier_enabled_summaryOn" msgid="6338915271908057531">"‏تم تمكين APN"</string>
+    <string name="carrier_enabled_summaryOff" msgid="4300790190221203756">"‏تم تعطيل APN"</string>
+    <string name="bearer" msgid="594270280031923558">"الحامل"</string>
+    <string name="mvno_type" msgid="2543253857818336421">"‏نوع MVNO"</string>
+    <string name="mvno_match_data" msgid="4560671695220540466">"‏قيمة MVNO"</string>
+    <string name="menu_delete" msgid="6981294422841124659">"‏حذف APN"</string>
+    <string name="menu_new" msgid="3014205883303921729">"‏APN جديد"</string>
+    <string name="menu_save" msgid="8109345640668285399">"حفظ"</string>
+    <string name="menu_cancel" msgid="2194502410474697474">"إلغاء"</string>
+    <string name="error_title" msgid="7631322303341024692"></string>
+    <string name="error_name_empty" msgid="5508155943840201232">"لا يمكن أن يكون حقل الاسم فارغًا."</string>
+    <string name="error_apn_empty" msgid="4932211013600863642">"‏لا يمكن أن يكون APN فارغًا."</string>
+    <string name="error_mcc_not3" msgid="4560171714156251661">"‏يجب أن يكون حقل MCC من ثلاثة أرقام."</string>
+    <string name="error_mnc_not23" msgid="8418177072458379439">"‏يجب أن يتكون حقل MNC من رقمين أو ثلاثة أرقام."</string>
+    <string name="restore_default_apn" msgid="8178010218751639581">"‏جارٍ استعادة إعدادات APN الافتراضية."</string>
+    <string name="menu_restore" msgid="8260067415075573273">"إعادة تعيين إلى الإعداد الافتراضي"</string>
+    <string name="restore_default_apn_completed" msgid="2824775307377604897">"‏اكتملت إعادة تعيين إعدادات APN الافتراضية."</string>
+
+
+    <!-- APN Settings start  -->
+    <string name="mvno_type_none">لا شئ</string>
+    <string name="apn_predefine_change_dialog_notice">هل تريد الحفظ فعلاً؟ قد يتسبب إجراء تعديلات في نقاط الاتصال الافتراضية في حدوث مشاكل في الاتصال!</string>
+    <string name="apn_port_warning">يجب أن تكون قيمة المنفذ 1-65535!</string>
+    <!-- APN Settings end -->
+
+    <string name="untitled_apn" msgid="1230060359198685513">"بلا عنوان"</string>
+    <string name="screen_timeout" msgid="4351334843529712571">"السكون"</string>
+    <string name="region">منطقة</string>
+    <string name="region_switching">"التحول"</string>
+    <string name="roaming" msgid="8871412572928323707">"تجوال البيانات"</string>
+    <string name="network_request_timeout">"مهلة طلب الشبكة"</string>
+    <string name="network_access_error">"الوصول إلى الشبكة غير طبيعي"</string>
+    <string name="untranslated">"غير قادر على الترجمة"</string>
+    <string name="unspoken">"غير قادر على تخليق الكلام"</string>
+
+    <string name="network_settings_title">"الشبكات الخلوية"</string>
+    <string name="update_firmware">"تحديث البرامج الثابتة؟"</string>
+    <string name="switch_fail_and_restart_network">"فشل التبديل ،الرجاء إعادة تشغيل الشبكة."</string>
+    <string name="network_do_not_work">"لا تعمل الشبكة ، يرجى التحقق من الشبكة."</string>
+
+    <!-- Conference @{ -->
+    <string name="chat">"مؤتمر"</string>
+    <string name="add_member">"إضافة عضو"</string>
+    <string name="member_administration">"إدارة الأعضاء"</string>
+    <string name="language_choice">"اختر اللغة"</string>
+    <string name="automatically_broadcast">"البث التلقائي"</string>
+    <string name="shielding_information">"حظر الرسالة"</string>
+    <string name="add_members">"إضافة عضو"</string>
+    <string name="members_management">"إدارة الأعضاء"</string>
+    <string name="advanced_settings">"الإعدادات المتقدمة"</string>
+    <string name="add_message_success">"تهانينا ، لقد انضممت إلى المؤتمر ، لغتك الحالية هي"</string>
+    <string name="create_message_success">"تهانينا ، لقد قمت بإنشاء مؤتمر ، لغتك الحالية هي"</string>
+    <string name="add_message_success_tail">"، يمكنك تغيير اللغة من خلال الإعدادات في القائمة العلوية اليمنى ، لترك أعضاء المؤتمر أو الركل ، يرجى الذهاب إلى إدارة الأعضاء."</string>
+    <string name="quitGroupMessage">"هل تريد مغادرة المؤتمر؟"</string>
+    <string name="kickGroupMessage">"هل تريد إزالة هذا العضو؟"</string>
+    <string name="please_enter_your_id_number">"يرجى إدخال معرف"</string>
+    <string name="id_at_least_six_characters">"يجب أن يكون الرقم 6 أحرف"</string>
+    <string name="id_does_not_exist">"الهوية غير موجودة"</string>
+    <string name="has_joined">"انضم هذا العضو إلى مؤتمر آخر"</string>
+    <string name="can_not_add_yourself">"لا يمكن إضافة معرفك الخاص"</string>
+    <string name="id_is_already_in_list">"هذا المعرف موجود بالفعل في القائمة"</string>
+    <string name="many_people_translate">"مؤتمر"</string>
+    <string name="please_Enter_The_ID">"يرجى إدخال معرف"</string>
+    <string name="member">"عضو"</string>
+    <string name="been_added">"إضافة إلى مؤتمرات أخرى ، يرجى استبدالها أو إزالتها"</string>
+    <string name="system_message">"إخطار النظام"</string>
+    <string name="intertranslation">"انضم إلى مؤتمر"</string>
+    <string name="translation_out">"تم ركله من المؤتمر"</string>
+    <string name="my_id">"هويتي"</string>
+    <string name="out_of_translation">"غادر المؤتمر"</string>
+    <string name="check_net">"يرجى إعداد شبكة"</string>
+    <string name="loading">"جار التحميل..."</string>
+    <string name="no_more_history_message">"لا مزيد من رسائل التاريخ"</string>
+    <string name="add_member_fail">"فشل إضافة عضو"</string>
+    <string name="self_kicked">"كنت ركل!"</string>
+    <string name="wait_to_add_group">"لم يتم إضافة مؤتمر بعد انقر [إنشاء] لتوصيل الأجهزة الأخرى"</string>
+    <string name="my_id_is">"هويتي:"</string>
+    <string name="establish">"خلق"</string>
+    <string name="quit_the_group">"اترك المؤتمر"</string>
+    <string name="you_are_in_another_group">"كنت في مؤتمر آخر"</string>
+    <string name="finish">"حسناً"</string>
+    <!-- @} -->
+    <string name="date_time_set_timezone_title" msgid="3047322337368233197">"المنطقة الزمنية"</string>
+    <string name="date_time_set_timezone" msgid="5045627174274377814">"تحديد المنطقة الزمنية"</string>
+    <string name="zone_auto" msgid="334783869352026648">"المنطقة الزمنية التلقائية"</string>
+    <string name="bluetooth_disconnected" msgid="6557104142667339895">"غير متصل"</string>
+    <string name="bluetooth_disconnecting" msgid="8913264760027764974">"جارٍ قطع الاتصال..."</string>
+    <string name="bluetooth_connecting" msgid="8555009514614320497">"جارٍ الاتصال…"</string>
+    <string name="bluetooth_connected" msgid="6038755206916626419">"متصل"</string>
+    <string name="bluetooth_pairing" msgid="1426882272690346242">"جارٍ الاقتران..."</string>
+    <string name="bluetooth_connected_no_headset" msgid="2866994875046035609">"متصل (بجهاز غير الهاتف)"</string>
+    <string name="bluetooth_connected_no_a2dp" msgid="4576188601581440337">"متصل (بجهاز غير الوسائط)"</string>
+    <string name="bluetooth_connected_no_map" msgid="6504436917057479986">"تم الاتصال (يتعذر الدخول إلى الرسائل)"</string>
+    <string name="bluetooth_connected_no_headset_no_a2dp" msgid="9195757766755553810">"متصل (بجهاز غير الهاتف أو الوسائط)"</string>
+    <string name="bluetooth_profile_a2dp" msgid="2031475486179830674">"الإعدادات الصوتية للوسائط"</string>
+    <string name="bluetooth_profile_headset" msgid="8658779596261212609">"الإعدادات الصوتية للهاتف"</string>
+    <string name="bluetooth_profile_opp" msgid="9168139293654233697">"نقل الملف"</string>
+    <string name="bluetooth_profile_hid" msgid="3680729023366986480">"جهاز الإرسال"</string>
+    <string name="bluetooth_profile_pan" msgid="3391606497945147673">"الدخول إلى الإنترنت"</string>
+    <string name="bluetooth_profile_pbap" msgid="5372051906968576809">"مشاركة جهة الاتصال"</string>
+    <string name="bluetooth_profile_pbap_summary" msgid="6605229608108852198">"استخدام مع مشاركة جهة الاتصال"</string>
+    <string name="bluetooth_profile_pan_nap" msgid="8429049285027482959">"مشاركة اتصال الإنترنت"</string>
+    <string name="bluetooth_profile_map" msgid="5465271250454324383">"الدخول إلى الرسائل"</string>
+    <string name="bluetooth_profile_sap" msgid="5764222021851283125">"‏الوصول إلى شريحة SIM"</string>
+    <string name="bluetooth_a2dp_profile_summary_connected" msgid="963376081347721598">"متصل بالإعدادات الصوتية للوسائط"</string>
+    <string name="bluetooth_headset_profile_summary_connected" msgid="7661070206715520671">"متصل بالإعدادات الصوتية للهاتف"</string>
+    <string name="bluetooth_opp_profile_summary_connected" msgid="2611913495968309066">"متصل بخادم نقل الملف"</string>
+    <string name="bluetooth_map_profile_summary_connected" msgid="8191407438851351713">"تم الاتصال بملف تعريف الدخول إلى الرسائل"</string>
+    <string name="bluetooth_sap_profile_summary_connected" msgid="8561765057453083838">"‏تم الاتصال بـ SAP"</string>
+    <string name="bluetooth_opp_profile_summary_not_connected" msgid="1267091356089086285">"غير متصل بخادم نقل الملفات"</string>
+    <string name="bluetooth_hid_profile_summary_connected" msgid="3381760054215168689">"متصل بجهاز الإدخال"</string>
+    <string name="bluetooth_pan_user_profile_summary_connected" msgid="4602294638909590612">"متصل بالجهاز لدخول الإنترنت"</string>
+    <string name="bluetooth_pan_nap_profile_summary_connected" msgid="1561383706411975199">"مشاركة الاتصال المحلي بالإنترنت مع الجهاز"</string>
+    <string name="bluetooth_pan_profile_summary_use_for" msgid="5664884523822068653">"الاستخدام للدخول على الإنترنت"</string>
+    <string name="bluetooth_map_profile_summary_use_for" msgid="5154200119919927434">"استخدام لملف تعريف الدخول إلى الرسائل"</string>
+    <string name="bluetooth_sap_profile_summary_use_for" msgid="7085362712786907993">"‏الاستخدام للوصول إلى شريحة SIM"</string>
+    <string name="bluetooth_a2dp_profile_summary_use_for" msgid="4630849022250168427">"الاستخدام للإعدادات الصوتية للوسائط"</string>
+    <string name="bluetooth_headset_profile_summary_use_for" msgid="8705753622443862627">"الاستخدام لإعدادات الهاتف الصوتية"</string>
+    <string name="bluetooth_opp_profile_summary_use_for" msgid="1255674547144769756">"استخدامه لنقل الملفات"</string>
+    <string name="bluetooth_hid_profile_summary_use_for" msgid="232727040453645139">"استخدام للإدخال"</string>
+    <string name="bluetooth_pairing_accept" msgid="6163520056536604875">"اقتران"</string>
+    <string name="bluetooth_pairing_accept_all_caps" msgid="6061699265220789149">"إقران"</string>
+    <string name="bluetooth_pairing_decline" msgid="4185420413578948140">"إلغاء"</string>
+    <string name="bluetooth_pairing_will_share_phonebook" msgid="4982239145676394429">"يضمن لك الإقران إمكانية الدخول إلى جهات اتصالك وسجل المكالمات عند الاتصال."</string>
+    <string name="bluetooth_pairing_error_message" msgid="3748157733635947087">"تعذر الإقران مع <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+    <string name="bluetooth_pairing_pin_error_message" msgid="8337234855188925274">"تعذر الإقران مع <xliff:g id="DEVICE_NAME">%1$s</xliff:g> نظرًا لوجود رقم تعريف شخصي أو مفتاح مرور غير صحيح."</string>
+    <string name="bluetooth_pairing_device_down_error_message" msgid="7870998403045801381">"لا يمكن الاتصال بـ <xliff:g id="DEVICE_NAME">%1$s</xliff:g>."</string>
+    <string name="bluetooth_pairing_rejected_error_message" msgid="1648157108520832454">"تم رفض الاقتران بواسطة <xliff:g id="DEVICE_NAME">%1$s</xliff:g>"</string>
+    <string name="bluetooth_search_for_devices" msgid="2754007356491461674">"تحديث"</string>
+    <string name="bluetooth_searching_for_devices" msgid="9203739709307871727">"جارٍ البحث…"</string>
+    <string name="forget" msgid="1400428660472591263">"نسيان"</string>
+    <!--Bluetooth settings screen, summary text under individual Bluetooth devices when pairing -->
+    <string name="bluetooth_paired">"مزدوج"</string>
+    <string name="activity_bluetooth_title">"بلوتوث"</string>
+    <string name="bluetooth_switch">"بلوتوث"</string>
+
+    <!-- chat delete -->
+    <string name="clear_history">پاک کردن تاریخ</string>
+    <string name="clear_history_confirm">آیا می خواهید تاریخ خود را پاک کنید؟</string>
+    <string name="model">"نوع : "</string>
+    <string name="display_settings" msgid="7965901687241669598">"الشاشة"</string>
+    <string name="connect_network_for_authorization">"يرجى الاتصال على الشبكة للحصول على إذن"</string>
+    <string name="loading_offline_resource">حاليا  في  تحميل  الموارد ...</string>
+    <string name="offline_speech_synthesizer_not_supported">" هذه اللغة  لا تدعم  حاليا  تركيب الكلام "</string>
+    <string name="trans_net_error_prompt_text">فشل الاتصال  تحقق من شبكة  ؛  الانكليزية والصينية  يمكن أن تستخدم عادة </string>
+    <string name="storage_volume_summary" msgid="7023441974367853372">"تم استخدام <xliff:g id="USED">%1$s</xliff:g> من <xliff:g id="TOTAL">%2$s</xliff:g>"</string>
+    <string name="storage_settings" msgid="4211799979832404953">"التخزين"</string>
+    <string name="select_memory">"<xliff:g id="TIMEOUT_STRING">%1$s</xliff:g>" قرص الكتابة الافتراضي مجموعة</string>
+    <string name="file_non_exists">"الملف غير موجود "</string>
+    <string name="io_error">"ملف القراءة والكتابة  غير طبيعي"</string>
+    <string name="wifi_ssid" msgid="5519636102673067319">"اسم الشبكة"</string>
+    <string name="wifi_security" msgid="6603611185592956936">"الأمان"</string>
+    <string name="wifi_password" msgid="5948219759936151048">"كلمة المرور"</string>
+    <string name="wifi_add_network" msgid="6234851776910938957">"إضافة شبكة"</string>
+    <string name="wifi_security_none" msgid="7985461072596594400">"لا شيء"</string>
+
+    <string name="low_memory_warning">مساحة التخزين ينفد! يرجى حذف بعض التسجيلات أو ملفات الصور.</string>
+    <string name="imei">"يمي: "</string>
+    <string name="imei_1">"يمي: "</string>
+    <string name="imei_2">"يمي: "</string>
+    <string name="root_internal_storage" msgid="827844243068584127">"وحدة تخزين داخلية"</string>
+    <string name="loading_offline_fail">" تحميل  خط  فشل الموارد"</string>
+</resources>
